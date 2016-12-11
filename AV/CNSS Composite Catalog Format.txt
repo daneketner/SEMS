@@ -1,0 +1,691 @@
+==============================================================================
+			CNSS Composite Catalog Format
+
+                            CNSS Ver 1.0.1
+			    Updated 1997/12/16
+
+The full catalog format described here is an ascii-format, column-oriented,
+file.  For each event, a number of lines may be used to describe the event.
+Unfilled values in the catalog will be indicated by blank entries and a
+single blank will separate entries within a line.
+
+Each line begins with a field that tags its function.  Some fields are
+followed by secondary tags (c.f., $add, $com lines) that define the
+format of the information on that line. The following lines are allowed
+and defined in more detail below:
+
+$fmt  - format definition.
+$beg	- beginning of event group.
+$loc		- location information.
+$add$loc	- optional additional information for preceeding location.
+$mec		- focal mechanism.
+$add$mec	- optional additional information for preceeding mechanism.
+$mag		- magnitude information.
+$pic		- phase arrival time.
+$add$pic	- optional additional information for preceeding phase.
+$amp		- phase amplitude and coda data.
+$add$amp	- optional additional information for preceeding amplitude.
+$com$typ	- comment line  for $typ, where typ=net or rem
+$end	- end of event group
+
+Multiple entries of the various lines are allowed.  For example, multiple
+location, magnitude, and mechanism lines may be given for the same event.
+When multiple entries are given, the "preferred" entry must be designated
+with "P".  For events with a single location, magnitude, or mechanism line,
+the "P" flag is not required to be set.
+
+In general, the order of the lines does not matter, with the exception
+of the $add lines.  These lines must follow the data they modify.
+The required lines for an event are:
+	$beg
+	$loc
+	$end
+
+The $pic and $amp structures utilize the $add structures to separate
+the "raw" information from the derived parameters.  The derived
+parameters (such as distance, azimuth, travel time residual) will be
+stored on the $add line and must be defined with respect to the
+preferred location and/or appropriate magnitude.
+
+Required entries are indicated with "*".  Character strings are
+defined to be left-justified and numbers are defined to be right
+justified unless otherwise stated.
+
+------------------------------------------------------------------------------
+		CNSS Unified Single Line Catalog Format
+
+In order to form a reduced catalog (with a single entry per event), the
+preferred $loc, preferred $mag, and $add$loc lines are concatenated
+together with a single space between each original line. For the CNSS
+Unified catalog, only the preferred $loc and $mag lines will be used.
+This "reduced" catalog will be used for rapid event searches.
+
+==============================================================================
+		Detailed format of event files.
+
+------------------------------------------------------------------------------
+$fmt - format designator.
+
+The first line of a file will define the format of the file.
+This version shall be identified as "cnss-catalog-ver-1.0".
+
+columns  frmt	description
+------- -----   -------------
+  1-  4   4s    $fmt
+  5-  5   1s	blank field
+  6- 30  25s    cnss-catalog-ver-1.0
+
+------------------------------------------------------------------------------
+$beg - beginning of an event.
+
+The first line of an event will be identified by the tag $beg.
+
+columns  frmt	description
+------- -----   -------------
+  1-  4   4s    $beg
+
+------------------------------------------------------------------------------
+$loc - location line
+
+The location line describes the hypocenter of the earthquake.
+There may be multiple location lines for a single event, representing
+different solutions for the earthquake location.
+
+columns  frmt	description
+------- -----   -------------
+  1-  4   4s    $loc
+  5-  5    s    identification for preferred location ("P") when 
+			multiple entries present, otherwise blank
+  6-  9  *4d    year of origin time (all four digits required)
+ 10- 11  *2d    month of origin time (1-12)
+ 12- 13  *2d    day of origin time (1-31)
+ 14- 15  *2d    hour of origin time (0-23)
+ 16- 17  *2d    minutes of origin time (0-59)
+ 18- 24  *7.4f  seconds of origin time (0-59.9999)
+ 25- 33  *9.5f  latitude in decimal degrees (-90.00000 -  90.00000,  N = +)
+ 34- 43  *10.5f longitude in decimal degrees (-180.00000 -  180.00000, E = +)
+ 44- 51  *8.4f  depth in km (datum reference defined by method, + down)
+ 52- 53   2s    type of location (Table 1)
+ 54- 56  *3s    source code of location information (Table 2a)
+ 57- 60  *4d    number of non-null weighted travel times (P & S) 
+			used to compute this hypocenter
+ 61- 63   3d    azimuthal gap in degrees
+ 64- 73   10.4f distance to nearest station in km
+ 74- 80   7.4f  RMS residual of phases used in location
+ 81- 87   7.4f  origin time error (s)
+ 88- 94   7.4f  horizontal error (km)
+ 95-101   7.4f  depth error (km)
+102-103  *2s    auxillary event remarks (Table 3)
+104-111    8d   date solution created in the form YYYYMMDD (eg, 19960125)
+112-123  *12d   data center id # (right justified)
+------- -----   -------
+    123         Total columns
+
+
+------------------------------------------------------------------------------
+$add$loc - additional location information
+
+Each $loc entry may be followed immediately by an additional
+information line associated with the location.  An "additional
+information" line will be indicated by $add, followed by a 4 character
+identifier which identifies the type of information.
+
+columns  frmt	description
+------- -----   -------------
+  1-  4   4s    $add
+  5-  8   4s    $loc
+  9- 12   4d    number of valid P & S readings with non-null weights
+ 13- 16   4d    number of S readings with non-null weights
+ 17- 20   4d    number of P first motions
+ 21- 23   3d    azimuth of smallest principal error (deg E of N)
+ 24- 25   2d    dip of smallest principal error (deg)
+ 26- 35   10.4f magnitude of smallest principal error (km)
+ 36- 38   3d    azimuth of intermediate principal error (deg E of N)
+ 39- 40   2d    dip of intermediate principal error (deg)
+ 41- 50   10.4f magnitude of intermediate principal error (km)
+ 51- 53   3d    azimuth of largest principal error (deg E of N)
+ 54- 55   2d    dip of largest principal error (deg)
+ 56- 65   10.4f magnitude of largest principal error (km)
+ 66- 75   10.4f error in latitude    (km)
+ 76- 85   10.4f error in longitude   (km)
+ 86- 97   12d   local event id # (right justified)
+ 98-109  *12d   data center id # (right justified)
+------- -----   -------
+    109         Total columns
+
+Additional $loc and $add$loc lines may follow, with different solutions.
+
+------------------------------------------------------------------------------
+$mag - magnitude line
+
+The magnitude line describes a single magnitude estimate for the
+event.  There may be multiple magnitude lines for a single event.
+If there are multiple magnitudes, one (and only one) should be
+designated as the preferred magnitude.
+
+columns  frmt	description
+------- -----   -------------
+  1-  4   4s    $mag
+  5-  5    s    identification for preferred magnitude ("P") when 
+			multiple entries present, otherwise blank
+  6- 10  *5.2f  magnitude
+ 11- 12  *2s    magnitude type (Table 4)
+ 13- 15  *3s    source code of magnitude information (Table 2a)
+ 16- 19  *4d    number of observations for magnitude determination
+ 20- 24   5.2f  error in magnitude estimate 
+			(type of error depends on magnitude definition)
+ 25- 28   4.1f  total of magnitude weights.
+ 29- 36    8d   date solution created in the form YYYYMMDD (eg, 19960125)
+ 37- 48  *12d   data center id # (right justified)
+------- -----   -------
+     48         Total columns
+
+------------------------------------------------------------------------------
+$mec - mechanism line
+
+The mechanism line describes a single mechanism solution for the
+event.  There may be multiple mechanism lines for a single event.  If
+there are multiple mechanisms, one (and only one) should be designated
+as the preferred mechanism.
+
+columns  frmt	description
+------- -----   -------------
+  1-  4   4s    $mec
+  5-  5    s    identification for preferred mechanism ("P") when 
+			multiple entries present, otherwise blank
+  6-  7  *2s    mechanism/moment type (Table 5)
+  8- 12  *5.3f  scalar moment (dyne-cm)
+ 13- 14  *2d    exp of moment tensor elements (and scalar moment)
+ 15- 19  *5.3f  m_xx (dyne-cm)
+ 20- 24  *5.3f  m_yy (dyne-cm)
+ 25- 29  *5.3f  m_zz (dyne-cm)
+ 30- 34  *5.3f  m_xy (dyne-cm)
+ 35- 39  *5.3f  m_xz (dyne-cm)
+ 40- 44  *5.3f  m_yz (dyne-cm)
+ 45- 47  *3s    source code of mechanism/moment information (Table 2a)
+ 48- 50   3d    strike 1 of best double couple (deg)
+ 51- 52   2d    dip 1 of best double couple (deg)
+ 53- 56   4d    rake 1 of best double couple (deg)
+ 57- 59   3d    strike 2 of best double couple (deg)
+ 60- 61   2d    dip 2 of best double couple (deg)
+ 62- 65   4d    rake 2 of best double couple (deg)
+ 66- 69   4d    number of stations used in solution
+ 70- 72   3d    percent double couple
+ 73- 80   8d    date solution created in the form YYYYMMDD (eg, 19960125)
+ 81- 92  *12d   data center id # (right justified)
+------- -----   -------
+     92         Total columns
+
+------------------------------------------------------------------------------
+$add$mec - additional information line for moment tensor determinations
+
+Each mechanism line may optionally be followed by a single $add$mec line
+which provides additional information for the preceeding mechanism solution.
+
+columns  frmt	description
+------- -----   -------------
+  1-  4   4s    $add
+  5-  8   4s    $mec
+  9- 10   3s    mechanism/moment type
+
+Additional fields will contain type-specific error fields.
+See Table 5 for details and examples.
+
+------------------------------------------------------------------------------
+$pic - phase line
+
+The $pic line describes a single phase reading for a station and
+channel.  There may be multiple phase lines for each station and
+channel.
+
+columns  frmt	description
+------- -----   -------------
+  1-  4   4s    $pic
+  4-  8  *4d    year of pick time
+  9- 10  *2d    month of pick time
+ 11- 12  *2d    day of pick time
+ 13- 14  *2d    hour of pick time
+ 15- 16  *2d    minutes of pick time
+ 17- 23  *7.4f  seconds of pick time
+ 24- 28  *5s    5-letter station name
+ 29- 30  *2s    2-letter FDSN network code of the station owner (Table 2)
+ 31- 38  *8s    phase type (P,S, Pg, Pn, PKIKP, etc.)
+ 39- 41  *3s    source code of pick information (Table 2a)
+ 42- 44   3d    instrument identifier (Table 6)
+ 45- 47  *3s    SEED stream name (Table 7)
+ 48- 48    s    description of phase onset (Table 8)
+ 49- 49    s    description of first motion (Table 9)
+ 50- 50   1d    weight code assigned by analyst or automated picker (Table 10)
+ 51- 51    s    station remark. (Table 11)
+ 52- 63  *12d   data center id # (right justified)
+------- -----   -------
+     63         Total columns
+
+------------------------------------------------------------------------------
+$add$pic - additional phase information
+
+Additional information line for the preceeding pick, defined to be
+with respect to the preferred location.
+
+columns  frmt	description
+------- -----   -------------
+  1-  4   4s    $add
+  5-  8   4s    $pic
+  9- 18   10.4f epicentral distance (km).
+ 19- 21   3d    azimuth to station in degrees E of N.
+ 22- 24   3d    emergence angle at source (deg)
+ 25- 31   7.4f  travel time weight (including weight code, distance, 
+			residual, etc - method dependent)
+ 32- 38   7.4f  travel time residual with respect to preferred location
+ 39- 50   12d   data center id # (right justified)
+------- -----   -------
+     50         Total columns
+
+------------------------------------------------------------------------------
+$amp
+
+There may be multiple amplitude lines for each station.  If the time
+of the amplitude observation is unknown, the origin time of the $loc
+line will be used.
+
+columns  frmt	description
+------- -----   -------------
+  1-  4   4s    $amp
+  5-  8  *4d    year of amp time
+  9- 10  *2d    month of amp time
+ 11- 12  *2d    day of amp time
+ 13- 14  *2d    hour of amp time
+ 15- 16  *2d    minutes of amp time
+ 17- 23  *7.4f  seconds of amp time
+ 24- 28  *5s    5-letter station name
+ 29- 30  *2s    2-letter FDSN network code of the station owner (Table 2)
+ 31- 36  *6.2f  amplitude in appropriate units for type
+ 37- 39  *3s    source code of amp information (Table 2a)
+ 40- 42   3d    instrument identifier (Table 6)
+ 43- 45  *3s    SEED stream name (Table 7)
+ 46- 48  *3s    amplitude type (Table 12)
+ 49- 52  *4s    units of amplitude (Table 13) 
+ 53- 53  * s    amplitude measure (Table 14) 
+ 54- 58   5.3f  frequency at which the amplitude was measured (Hz)
+ 59- 59    s    Station remark. (Table 11)
+ 60- 71  *12d   data center id # (right justified)
+------- -----   -------
+     71         Total columns
+
+------------------------------------------------------------------------------
+$add$amp - additional amplitude information
+
+Additional information lines for amplitude, defined with respect
+to the preferred location and the magnitude information defined 
+by the magnitude type and the source code of amp data (eg, a coda
+value from NC would have its residual defined with respect to the
+"c" magnitude entry from NC.
+
+columns  frmt	description
+------- -----   -------------
+  1-  4   4s    $add
+  5-  8   4s    $amp
+  9- 18   10.4f epicentral distance (km).
+ 19- 21   3d    azimuth to station in degrees E of N.
+ 22- 22   1d    amplitude weight code (Table 10)
+ 23- 27   5.2f  magnitude for this station reading
+ 28- 32   5.2f  magnitude residual (magnitude units)
+ 33- 34   2s    magnitude type (Table 4)
+ 35- 40	  6.2f	Duration in seconds
+ 41- 43	  3s	Duration type (Table 15)
+ 44- 55   12d   data center id # (right justified)
+------- -----   -------
+     55         Total columns
+
+------------------------------------------------------------------------------
+$com - comment lines
+
+Network specific information.
+
+columns  frmt	description
+------- -----   -------------
+  1-  4   4s    $com
+  5-  8   4s    $net
+  9- 10   2s    2-letter FDSN network (Table 6)
+ 11- 90   80s   comment field defined by network
+ 91-102   12d   data center id # (right justified)
+------- -----   -------
+    102         Total columns
+
+    Candidates for this comment line include:
+	 12d   local network id # (right justified)
+	 3s    event location remark (Table 1a)
+	  s    most common data source code. (3able 2a)
+	 3s    location method (Table 3a)
+	 3s    location and delay model identification (Table 4a)
+	  s    crust model type code (H or T)
+    and the various shadow lines of hypoinverse.
+
+
+------------------------------------------------------------------------------
+$com$rem - remark line
+
+Event remark line.  Multiple remark lines may be used for an event.
+
+columns  frmt	description
+------- -----   -------------
+  1-  4   4s    $com
+  5-  8   4s    $rem
+  9- 88  80s    Remark/comment/etc
+ 89-100   12d   data center id # (right justified)
+------- -----   -------
+    100         Total columns
+
+------------------------------------------------------------------------------
+$end - event termination line
+
+columns  frmt	description
+------- -----   -------------
+  1-  4   4s    $end
+------- -----   -------
+      4         Total columns
+
+==============================================================================
+
+==============================================================================
+Tables for catalog.  Table entries are case-sensitive unless otherwise
+noted. These tables are examples and are not complete.
+
+------------------------------------------------------------------------------
+Table 1 - Type of location
+
+Fmt	Values
+----	----------------
+ 2s	H = hypocenter
+	C = centroid
+	A = amplitude
+
+------------------------------------------------------------------------------
+3s   Table 2 - Source ID of information
+
+FDSN Station code unless network code is undefined. 
+
+Fmt	Values
+----	----------------
+ 2s	AK  = Alaska Seismic Network
+	BK  = UC Berkeley
+	CI  = Caltech/USGS Regional Seismic Network
+	GO  = USGS Golden Network
+	HV  = Hawaii Volcano Observatory Network
+	LL  = Lawrence Livermore Lab NTS network
+	MB  = Montana Bureau of Mines and Geology
+	NC  = NCSN
+	NE  = Northeast Seismic Network
+	NN  = Nevada Seismic Network
+	PG  = Pacific Gas & Electric Diablo Canyon network
+	SN  = Southern Great Basin network - UNR
+	TS  = Terrascope Network
+	UG  = Unocal Geothermal network
+	US  = US NSN
+	UU  = University of Utah Regional Network
+	UW  = University of Washington Seismic Network
+	WR =  California Department of Water Resources
+	YL =  Yellowstone Seismic Network
+
+------------------------------------------------------------------------------
+2s   Table 2a - Source ID of information
+
+This field may contain either the 2 character FDSN code from Table 2,
+or a 3 character Source ID.
+
+Fmt	Values
+----	----------------
+ 3s	DMG = California Division of Mines & Geology
+	HVD = Harvard University
+	WCC = Woodward-Clyde
+
+------------------------------------------------------------------------------
+Table 3 - Auxillary event remarks
+
+Fmt	Values
+----  ----------------
+ 2s	B = seismic reflection/refraction blast
+	L = local earthquake
+	N = nuclear test
+	Q = quarry blast
+	T = teleseism
+	R = regional earthquake
+	F = felt
+	D = damage
+	C = casualties
+	H = (Harmonic) Tremor associated
+	V = Long Period event
+
+------------------------------------------------------------------------------
+Table 4 - Magnitude Type
+
+Fmt	Values
+----	----------------
+ 2s	a  = Primary amplitude magnitude (Jerry Eaton's XMAG)
+	b  = Body-wave magnitude
+	e  = Energy magnitude
+	l  = Local magnitude
+	l1 = Traditional UCB local magnitude
+	l2 = Network UCB local magnitude
+	lg = Lg magnitude
+	c  = Primary coda magnitude
+	s  = Ms - Surface-wave magnitude
+	w  = Moment magnitude
+	z  = Low gain (Z component) magnitude of Hirshorn and Lindh (1989)
+	B  = magnitude estimated from 14-kg Benioff's
+	un = unknown magnitude type
+	d = duration magnitude
+	h = helicorder magnitude (CIT, short-period Benioff)
+	n = no magnitude
+
+------------------------------------------------------------------------------
+Table 5 - Mechanism Type
+
+Fmt	Values
+----	----------------
+ 2s	C = Complete-waveform inversion
+		C0 = Dreger's waveform inversion
+	F = First Motion mechanism
+		F0 = fpfit
+	H = Half duration of S-wave
+	N = Near-field inversion
+	S = Surface-wave inversion
+		S0 = Romanowicz & Pasyanos surface-wave inversion
+
+Example:	For $add $mec C0
+	 4s    $add
+	 4s    $mec
+	 2s    C0
+	 4.2f  variance reduction
+	 5.3f  low frequency cutoff (Hz)
+	 5.3f  high frequency cutoff (Hz)
+	 3.0f  solution depth (km)
+	 4.1f  half-duration (sec)
+	 3d    error in m_xx
+	 3d    error in m_yy
+	 3d    error in m_zz
+	 3d    error in m_xy
+	 3d    error in m_xz
+	 3d    error in m_yz
+	 3d    error in strike 1 of best double couple
+	 2d    error in dip 1 of best double couple
+	 4d    error in rake 1 of best double couple
+	 3d    error in strike 2 of best double couple
+	 2d    error in dip 2 of best double couple
+	 4d    error in rake 2 of best double couple
+	 10d   data center id #
+
+	 4s    $add
+	 4s    $mec
+	 2s    $f0
+	 2d    max half width of 90% confidence of strike
+	 2d    max half width of 90% confidence of dip
+	 2d    max half width of 90% confidence of rake
+	 6.2f  solution misfit at 90% conf
+	 5.2f  station distribution
+	 5.2f  num mach pick/num hand pick (for first motions)
+	 1s    converge flag
+	 10d   data center id #
+
+------------------------------------------------------------------------------
+Table 6 - Instrument Identifier (something similar to the SUDS table)
+
+Fmt	Values
+----	----------------
+ 3d	0 = "STS-1/UVBB H"
+	1 = "STS-1/UVBB V"
+	2 = "STS-1/VBB H"
+	3 = "STS-1/VBB H"
+	4 = "STS-2"
+	5 = "FBA-23"
+	6 = "Wilcoxin"
+        7 = ....
+
+------------------------------------------------------------------------------
+Table 7 - SEED stream identifier
+
+Fmt	Values
+----	----------------
+ 1s	Band code
+	                             Sample rate (Hz)    Corner period (sec)
+	E = extremely short period      >= 80            <10 
+	S = short period                >= 10 to < 80    <10 
+	H = high broad band             >= 80            >=10
+	B = broad band                  >= 10 to < 80    >=10
+	M = mid period                  > 1 to < 10
+	L = long period                 ~ 1
+	V = very long period            ~ 0.1
+	U = ultra long period           ~ 0.01
+	R = extremely long period       ~ 0.001
+
+	Instrument code
+
+	A = tiltmeter
+	B = creepmeter
+	D = pressure
+	F = magnetometer
+	G = gravimeter/accelerometer
+	H = high gain seismometer
+	I = humidty
+	K = temperature
+	L = low gain seismometer
+	M = mass position seismometer
+	P = geophone
+	R = rainfall
+	S = linear strainmeter
+	V = volumetric strain
+	T = tide meter
+	W = wind
+	
+	Component code
+
+	Z = vertical
+	N = north-south
+	E = east-west
+	A,B,C = triaxial
+	T = transverse
+	R = radial
+	1,2,3 = orthogonal components but non-traditional orientations
+	U,V,W = optional components
+
+------------------------------------------------------------------------------
+Table 8 - Description of phase onset (ala SUDS)
+
+Fmt	Values
+----	----------------
+ 1s	E = emergent
+	I = impulsive
+	e = noisy emergent
+	i = noisy impulsive
+	n = noisy
+	
+------------------------------------------------------------------------------
+Table 9 - Description of first motion (ala SUDS)
+
+Fmt	Values
+----	----------------
+ 1s	+ = probable up
+	- = probable down
+	d,D = down
+	n,N = nodal
+	u,U = up
+
+------------------------------------------------------------------------------
+Table 10 - Weight code
+
+Fmt	Values
+----	----------------
+ 1d	0 = full wt
+	1 = 3/4 wt
+	2 = 1/2 wt
+	3 = 1/4 wt
+	4 = no wt., no information
+	5-8 = no wt., 5 added to the original reading by data orginator
+	9 = no wt., no information
+
+------------------------------------------------------------------------------
+Table 11 - Station remark  - taken from NCSN.phase Table 4
+ 
+Fmt	Values
+----	----------------
+ 1s	A = Calibration card 
+	B = Coda read to backgrd.
+	C = Clipped             
+	D = Dead trace         
+	E = Emergent          
+	F = duration uncertain 
+	G = Guessed time       
+	M = Max amplitude read 
+	N = Noisy trace        
+	P = Amplitude is of P wave
+	S = Spiky trace          
+	T = Cross-talk          
+	W = Weak signal        
+
+------------------------------------------------------------------------------
+Table 12 - Amplitude type
+
+Fmt	Values
+----  ----------------
+ 3s	C = coda
+	WA = Wood-Anderson photographic
+	WAS = Wood-Anderson synthetic
+	PGA = peak ground acceleration
+	PGV = peak ground velocity
+	PGD = peak ground displacement
+	
+------------------------------------------------------------------------------
+Table 13 - Units of amplitude
+
+Fmt	Values
+----  ----------------
+ 4s	c = counts
+	s = seconds
+	m = meters
+	cm = centimeters
+	mm = millimeters
+	nm = nanometers
+	mc = microns
+	ms = meters per second
+	mss = meters per second per second
+	cms = centimeters per second
+	cmss = centimeters per second per second
+	mms = millimeters per second
+	mmss = millimeters per second per second
+
+------------------------------------------------------------------------------
+Table 14 - Amplitude measurement
+
+Fmt	Values
+----  ----------------
+ 1s     0 = peak-to-peak
+        1 = zero-to-peak
+
+------------------------------------------------------------------------------
+Table 15 - Duration type
+
+Fmt	Values
+----  ----------------
+ 3s     "S" = S-Wave
+
+==============================================================================
