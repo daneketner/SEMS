@@ -1,17 +1,21 @@
 function [tt cc] = evoCorDet(erw,ds,varargin)
 
-%EVOCORDET: Evolving Correlation Detector - Detects repeating waveforms by 
-%   cross correlating continuous seismic data with a temporally-evolving 
-%   reference waveform (ERW). This technique has been used to identify 
-%   thousands of repeating seismic events during volcanic eruptions, even 
-%   when SNR and event spacing become small and traditional STA/LTA 
-%   detection becomes untenable. As new events are detected, they are 
-%   stacked with current reference waveform. Rate of Replacement (ROR) is 
-%   a scaling factor between 0 and 1 (default is .05) that determines how 
-%   rapidly ERW adapts according to the schema: ERW = ERW(1-ROR)+w(ROR) 
+%EVOCORDET: Evolving Correlation Detector - Detects repeating waveform 
+%   events by cross correlating continuous seismic data with a temporally
+%   evolving reference waveform (ERW). This technique has been used to 
+%   identify thousands of repeating seismic events during volcanic 
+%   eruptions, even when SNR and event spacing become small and traditional 
+%   STA/LTA detection becomes untenable. As new events are detected, they 
+%   are stacked with current reference waveform. Rate of Replacement (ROR) 
+%   is a scaling factor between 0 and 1 (default is .05) that determines 
+%   how rapidly ERW adapts according to the schema: ERW = ERW(1-ROR)+w(ROR)
 %   where 'w' is the newly detected waveform event. A higher ROR will be
 %   more adaptable, and a lower ROR will be more stable. evoCorDet will
-%   move forward through
+%   begin by detecting events within the continuous data backwards from the
+%   start time in order to find the beginning of the event swarm. evoCorDet
+%   will then search forward from the start time. evoCorDet depends on the
+%   function 'get_w' which draws waveform data from a Winston Waveform
+%   Server. This will need to be modified if using different data source.
 %
 %USAGE: [t cc] = evoCorDet(erw,ds,scnl)
 %       [t cc] = evoCorDet(erw,ds,scnl,prop_1,val_1,...)
