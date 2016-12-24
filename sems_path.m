@@ -10,14 +10,14 @@ function sems_path
 % Date: 12/10/2016
 % Revision: 201
 
-addpath(genpath('C:\Github\GISMO-1\core'));
-addpath(genpath('C:\Github\GISMO-1\contributed'));
+addpath(genpath('C:\Github\GISMO-1'));
 addpath(genpath('C:\Github\SEMS'));
+addpath(genpath('C:\Github\Matlab codes'));
 
 javaaddpath({
-    'C:\Github\Winston1.2\lib\colt.jar', ...
-    'C:\Github\Winston1.2\lib\mysql.jar', ...
-    'C:\Github\Winston1.2\lib\winston-bin.jar'});
+    'C:\Github\Winston1.2.12\lib\colt.jar', ...
+    'C:\Github\Winston1.2.12\lib\mysql.jar', ...
+    'C:\Github\Winston1.2.12\lib\winston-bin.jar'});
 
 format compact
 

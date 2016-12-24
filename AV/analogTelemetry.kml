@@ -1,0 +1,4032 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns='http://www.opengis.net/kml/2.2'>
+	<Document>
+		<name>Analog Telemetry</name>
+		<Placemark>
+			<name>BGL to CKL</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Frequency (MHz)'>
+					<value>164.846</value>
+				</Data>
+				<Data name='Polarity'>
+					<value></value>
+				</Data>
+				<Data name='Distance (miles)'>
+					<value>5.1615</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>160.6769</value>
+				</Data>
+				<Data name='Telemetry Diagram'>
+					<value>https://drive.google.com/open?id=0B4RrY7XEz449cG51ODFEcHhfYUk</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-152.3913,61.2663,0.0 -152.34,61.1958,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>CGL to ANC_Rx</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Frequency (MHz)'>
+					<value>167.809</value>
+				</Data>
+				<Data name='Polarity'>
+					<value></value>
+				</Data>
+				<Data name='Distance (miles)'>
+					<value>73.8004</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>95.4015</value>
+				</Data>
+				<Data name='Telemetry Diagram'>
+					<value>https://drive.google.com/open?id=0B4RrY7XEz449cG51ODFEcHhfYUk</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-152.009,61.3071,0.0 -149.8022,61.1886,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>CKL to CRP</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Frequency (MHz)'>
+					<value>171.406</value>
+				</Data>
+				<Data name='Polarity'>
+					<value></value>
+				</Data>
+				<Data name='Distance (miles)'>
+					<value>7.7788</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>51.0819</value>
+				</Data>
+				<Data name='Telemetry Diagram'>
+					<value>https://drive.google.com/open?id=0B4RrY7XEz449cG51ODFEcHhfYUk</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-152.34,61.1958,0.0 -152.1578,61.2664,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>CKN to CKT</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Frequency (MHz)'>
+					<value>166.422</value>
+				</Data>
+				<Data name='Polarity'>
+					<value></value>
+				</Data>
+				<Data name='Distance (miles)'>
+					<value>1.8015</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>-152.8445</value>
+				</Data>
+				<Data name='Telemetry Diagram'>
+					<value>https://drive.google.com/open?id=0B4RrY7XEz449cG51ODFEcHhfYUk</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-152.1838,61.2234,0.0 -152.2085,61.2002,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>CKT to ANC_Rx</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Frequency (MHz)'>
+					<value>162.597</value>
+				</Data>
+				<Data name='Polarity'>
+					<value></value>
+				</Data>
+				<Data name='Distance (miles)'>
+					<value>80.1147</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>89.5188</value>
+				</Data>
+				<Data name='Telemetry Diagram'>
+					<value>https://drive.google.com/open?id=0B4RrY7XEz449cG51ODFEcHhfYUk</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-152.2085,61.2002,0.0 -149.8022,61.1886,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>CP2 to CKT</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Frequency (MHz)'>
+					<value>171.222</value>
+				</Data>
+				<Data name='Polarity'>
+					<value></value>
+				</Data>
+				<Data name='Distance (miles)'>
+					<value>4.5379</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>164.8621</value>
+				</Data>
+				<Data name='Telemetry Diagram'>
+					<value>https://drive.google.com/open?id=0B4RrY7XEz449cG51ODFEcHhfYUk</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-152.2441,61.2636,0.0 -152.2085,61.2002,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>CRP to ANC_Rx</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Frequency (MHz)'>
+					<value>163.3</value>
+				</Data>
+				<Data name='Polarity'>
+					<value></value>
+				</Data>
+				<Data name='Distance (miles)'>
+					<value>78.5247</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>92.8923</value>
+				</Data>
+				<Data name='Telemetry Diagram'>
+					<value>https://drive.google.com/open?id=0B4RrY7XEz449cG51ODFEcHhfYUk</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-152.1578,61.2664,0.0 -149.8022,61.1886,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>NCG to CGL</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Frequency (MHz)'>
+					<value>171.222</value>
+				</Data>
+				<Data name='Polarity'>
+					<value></value>
+				</Data>
+				<Data name='Distance (miles)'>
+					<value>8.2879</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>143.0998</value>
+				</Data>
+				<Data name='Telemetry Diagram'>
+					<value>https://drive.google.com/open?id=0B4RrY7XEz449cG51ODFEcHhfYUk</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-152.159,61.4031,0.0 -152.009,61.3071,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>SPU to ANC_Rx</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Frequency (MHz)'>
+					<value>164.009</value>
+				</Data>
+				<Data name='Polarity'>
+					<value></value>
+				</Data>
+				<Data name='Distance (miles)'>
+					<value>75.0787</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>88.6169</value>
+				</Data>
+				<Data name='Telemetry Diagram'>
+					<value>https://drive.google.com/open?id=0B4RrY7XEz449cG51ODFEcHhfYUk</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-152.0566,61.1811,0.0 -149.8022,61.1886,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>SPWE to CKL</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Frequency (MHz)'>
+					<value>417.263</value>
+				</Data>
+				<Data name='Polarity'>
+					<value></value>
+				</Data>
+				<Data name='Distance (miles)'>
+					<value>9.0833</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>125.7588</value>
+				</Data>
+				<Data name='Telemetry Diagram'>
+					<value>https://drive.google.com/open?id=0B4RrY7XEz449cG51ODFEcHhfYUk</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-152.5614,61.2728,0.0 -152.34,61.1958,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>DFR to BIL_Rep</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Frequency (MHz)'>
+					<value>162.809</value>
+				</Data>
+				<Data name='Polarity'>
+					<value></value>
+				</Data>
+				<Data name='Distance (miles)'>
+					<value>106.6235</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>68.1589</value>
+				</Data>
+				<Data name='Telemetry Diagram'>
+					<value>https://drive.google.com/open?id=0B4RrY7XEz449cG51ODFEcHhfYUk</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-152.6882,60.5913,0.0 -149.7204,61.133,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>NCT to DFR</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Frequency (MHz)'>
+					<value>419.994</value>
+				</Data>
+				<Data name='Polarity'>
+					<value></value>
+				</Data>
+				<Data name='Distance (miles)'>
+					<value>8.4291</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>76.0459</value>
+				</Data>
+				<Data name='Telemetry Diagram'>
+					<value>https://drive.google.com/open?id=0B4RrY7XEz449cG51ODFEcHhfYUk</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-152.9293,60.5621,0.0 -152.6882,60.5913,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>RDN to NIK_Rx</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Frequency (MHz)'>
+					<value>163.397</value>
+				</Data>
+				<Data name='Polarity'>
+					<value></value>
+				</Data>
+				<Data name='Distance (miles)'>
+					<value>47.941</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>80.5714</value>
+				</Data>
+				<Data name='Telemetry Diagram'>
+					<value>https://drive.google.com/open?id=0B4RrY7XEz449SkRyR1p3NUZnOHc</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-152.7401,60.5224,0.0 -151.3445,60.6288,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>RDT to SLK_Rep</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Frequency (MHz)'>
+					<value>171.406</value>
+				</Data>
+				<Data name='Polarity'>
+					<value></value>
+				</Data>
+				<Data name='Distance (miles)'>
+					<value>74.3264</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>92.2889</value>
+				</Data>
+				<Data name='Telemetry Diagram'>
+					<value>https://drive.google.com/open?id=0B4RrY7XEz449cG51ODFEcHhfYUk</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-152.4075,60.5726,0.0 -150.2236,60.5118,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>RED to HOM_Rx</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Frequency (MHz)'>
+					<value>164.009</value>
+				</Data>
+				<Data name='Polarity'>
+					<value></value>
+				</Data>
+				<Data name='Distance (miles)'>
+					<value>65.383</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>143.1793</value>
+				</Data>
+				<Data name='Telemetry Diagram'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-152.7742,60.4196,0.0 -151.6516,59.6573,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>REF to ENA_Rx</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Frequency (MHz)'>
+					<value>162.597</value>
+				</Data>
+				<Data name='Polarity'>
+					<value></value>
+				</Data>
+				<Data name='Distance (miles)'>
+					<value>53.2287</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>89.5427</value>
+				</Data>
+				<Data name='Telemetry Diagram'>
+					<value>https://drive.google.com/open?id=0B4RrY7XEz449SkRyR1p3NUZnOHc</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-152.694,60.4888,0.0 -151.1302,60.4858,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>RSO to SLK_Rep</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Frequency (MHz)'>
+					<value>164.846</value>
+				</Data>
+				<Data name='Polarity'>
+					<value></value>
+				</Data>
+				<Data name='Distance (miles)'>
+					<value>86.2654</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>86.5941</value>
+				</Data>
+				<Data name='Telemetry Diagram'>
+					<value>https://drive.google.com/open?id=0B4RrY7XEz449cG51ODFEcHhfYUk</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-152.756,60.4616,0.0 -150.2236,60.5118,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>ILI to NIK_Rx</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Frequency (MHz)'>
+					<value>154.57</value>
+				</Data>
+				<Data name='Polarity'>
+					<value></value>
+				</Data>
+				<Data name='Distance (miles)'>
+					<value>66.9684</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>54.8625</value>
+				</Data>
+				<Data name='Telemetry Diagram'>
+					<value>https://drive.google.com/open?id=0B4RrY7XEz449SkRyR1p3NUZnOHc</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-152.9606,60.0807,0.0 -151.3445,60.6288,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>AUE to HOM_Rx</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Frequency (MHz)'>
+					<value>166.659</value>
+				</Data>
+				<Data name='Polarity'>
+					<value></value>
+				</Data>
+				<Data name='Distance (miles)'>
+					<value>63.6424</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>71.155</value>
+				</Data>
+				<Data name='Telemetry Diagram'>
+					<value>https://drive.google.com/open?id=0B4RrY7XEz449Y1BMODI1UC16b1E</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-153.3773,59.3711,0.0 -151.6516,59.6573,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>AUH to OPT</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Frequency (MHz)'>
+					<value>452.125</value>
+				</Data>
+				<Data name='Polarity'>
+					<value></value>
+				</Data>
+				<Data name='Distance (miles)'>
+					<value>21.3495</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>20.4134</value>
+				</Data>
+				<Data name='Telemetry Diagram'>
+					<value>https://drive.google.com/open?id=0B4RrY7XEz449Y1BMODI1UC16b1E</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-153.4454,59.3632,0.0 -153.2321,59.6526,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>AUJK to HOM_Rx</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Frequency (MHz)'>
+					<value>NaN</value>
+				</Data>
+				<Data name='Polarity'>
+					<value></value>
+				</Data>
+				<Data name='Distance (miles)'>
+					<value>65.2474</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>70.2075</value>
+				</Data>
+				<Data name='Telemetry Diagram'>
+					<value>https://drive.google.com/open?id=0B4RrY7XEz449Y1BMODI1UC16b1E</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-153.4106,59.3493,0.0 -151.6516,59.6573,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>AUP to HOM_Rx</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Frequency (MHz)'>
+					<value>451.15</value>
+				</Data>
+				<Data name='Polarity'>
+					<value></value>
+				</Data>
+				<Data name='Distance (miles)'>
+					<value>65.3393</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>71.0866</value>
+				</Data>
+				<Data name='Telemetry Diagram'>
+					<value>https://drive.google.com/open?id=0B4RrY7XEz449Y1BMODI1UC16b1E</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-153.4226,59.3627,0.0 -151.6516,59.6573,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>AUW to OPT</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Frequency (MHz)'>
+					<value>159.565</value>
+				</Data>
+				<Data name='Polarity'>
+					<value></value>
+				</Data>
+				<Data name='Distance (miles)'>
+					<value>21.3131</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>23.2408</value>
+				</Data>
+				<Data name='Telemetry Diagram'>
+					<value>https://drive.google.com/open?id=0B4RrY7XEz449Y1BMODI1UC16b1E</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-153.473,59.3694,0.0 -153.2321,59.6526,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>CDD to HOM_Rx</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Frequency (MHz)'>
+					<value>163.796</value>
+				</Data>
+				<Data name='Polarity'>
+					<value></value>
+				</Data>
+				<Data name='Distance (miles)'>
+					<value>86.4802</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>53.558</value>
+				</Data>
+				<Data name='Telemetry Diagram'>
+					<value>https://drive.google.com/open?id=0B4RrY7XEz449Y1BMODI1UC16b1E</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-153.6449,58.9289,0.0 -151.6516,59.6573,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>FONW to OPT</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Frequency (MHz)'>
+					<value>409.881</value>
+				</Data>
+				<Data name='Polarity'>
+					<value></value>
+				</Data>
+				<Data name='Distance (miles)'>
+					<value>61.5636</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>22.9745</value>
+				</Data>
+				<Data name='Telemetry Diagram'>
+					<value>https://drive.google.com/open?id=0B4RrY7XEz449Y1BMODI1UC16b1E</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-153.9204,58.8341,0.0 -153.2321,59.6526,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>FOPK to HOM_Rx</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Frequency (MHz)'>
+					<value>166.421</value>
+				</Data>
+				<Data name='Polarity'>
+					<value></value>
+				</Data>
+				<Data name='Distance (miles)'>
+					<value>89.6163</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>45.2865</value>
+				</Data>
+				<Data name='Telemetry Diagram'>
+					<value>https://drive.google.com/open?id=0B4RrY7XEz449Y1BMODI1UC16b1E</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-153.4762,58.7574,0.0 -151.6516,59.6573,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>FOSS to AUJK</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Frequency (MHz)'>
+					<value>411.875</value>
+				</Data>
+				<Data name='Polarity'>
+					<value></value>
+				</Data>
+				<Data name='Distance (miles)'>
+					<value>39.3819</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>14.8489</value>
+				</Data>
+				<Data name='Telemetry Diagram'>
+					<value>https://drive.google.com/open?id=0B4RrY7XEz449Y1BMODI1UC16b1E</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-153.6971,58.7987,0.0 -153.4106,59.3493,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>KAHC to AKN_Rx</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Frequency (MHz)'>
+					<value>164.846</value>
+				</Data>
+				<Data name='Polarity'>
+					<value></value>
+				</Data>
+				<Data name='Distance (miles)'>
+					<value>59.6887</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>-87.0953</value>
+				</Data>
+				<Data name='Telemetry Diagram'>
+					<value>https://drive.google.com/open?id=0B4RrY7XEz449dTl6R3B6M2xWa0U</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-155.0081,58.6483,0.0 -156.668,58.6814,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>KAHG to KAHC</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Frequency (MHz)'>
+					<value>419.9937</value>
+				</Data>
+				<Data name='Polarity'>
+					<value></value>
+				</Data>
+				<Data name='Distance (miles)'>
+					<value>19.7242</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>-56.9165</value>
+				</Data>
+				<Data name='Telemetry Diagram'>
+					<value>https://drive.google.com/open?id=0B4RrY7XEz449dTl6R3B6M2xWa0U</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-154.5484,58.4933,0.0 -155.0081,58.6483,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>KAPH to KAHC</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Frequency (MHz)'>
+					<value>408.9812</value>
+				</Data>
+				<Data name='Polarity'>
+					<value></value>
+				</Data>
+				<Data name='Distance (miles)'>
+					<value>23.9891</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>-81.0712</value>
+				</Data>
+				<Data name='Telemetry Diagram'>
+					<value>https://drive.google.com/open?id=0B4RrY7XEz449dTl6R3B6M2xWa0U</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-154.3489,58.5961,0.0 -155.0081,58.6483,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>KARR to KAHC</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Frequency (MHz)'>
+					<value>408.5063</value>
+				</Data>
+				<Data name='Polarity'>
+					<value></value>
+				</Data>
+				<Data name='Distance (miles)'>
+					<value>15.1026</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>-46.1005</value>
+				</Data>
+				<Data name='Telemetry Diagram'>
+					<value>https://drive.google.com/open?id=0B4RrY7XEz449dTl6R3B6M2xWa0U</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-154.7054,58.4971,0.0 -155.0081,58.6483,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>KAWH to KARR</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Frequency (MHz)'>
+					<value>416.8062</value>
+				</Data>
+				<Data name='Polarity'>
+					<value></value>
+				</Data>
+				<Data name='Distance (miles)'>
+					<value>8.6132</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>23.7041</value>
+				</Data>
+				<Data name='Telemetry Diagram'>
+					<value>https://drive.google.com/open?id=0B4RrY7XEz449dTl6R3B6M2xWa0U</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-154.8013,58.383,0.0 -154.7054,58.4971,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>KABR to KAMC_Rep</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Frequency (MHz)'>
+					<value>406.2813</value>
+				</Data>
+				<Data name='Polarity'>
+					<value></value>
+				</Data>
+				<Data name='Distance (miles)'>
+					<value>11.7938</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>-48.5304</value>
+				</Data>
+				<Data name='Telemetry Diagram'>
+					<value>https://drive.google.com/open?id=0B4RrY7XEz449dTl6R3B6M2xWa0U</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-154.9705,58.1304,0.0 -155.2135,58.2432,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>KBM to KVT</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Frequency (MHz)'>
+					<value>419.9937</value>
+				</Data>
+				<Data name='Polarity'>
+					<value></value>
+				</Data>
+				<Data name='Distance (miles)'>
+					<value>8.1126</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>-24.6211</value>
+				</Data>
+				<Data name='Telemetry Diagram'>
+					<value>https://drive.google.com/open?id=0B4RrY7XEz449dTl6R3B6M2xWa0U</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-155.2038,58.2743,0.0 -155.2971,58.381,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>KCE to KVT</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Frequency (MHz)'>
+					<value>408.5063</value>
+				</Data>
+				<Data name='Polarity'>
+					<value></value>
+				</Data>
+				<Data name='Distance (miles)'>
+					<value>10.387</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>-22.9273</value>
+				</Data>
+				<Data name='Telemetry Diagram'>
+					<value>https://drive.google.com/open?id=0B4RrY7XEz449dTl6R3B6M2xWa0U</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-155.1854,58.2426,0.0 -155.2971,58.381,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>KCG to KEL</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Frequency (MHz)'>
+					<value>409.8813</value>
+				</Data>
+				<Data name='Polarity'>
+					<value></value>
+				</Data>
+				<Data name='Distance (miles)'>
+					<value>24.5686</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>-67.8708</value>
+				</Data>
+				<Data name='Telemetry Diagram'>
+					<value>https://drive.google.com/open?id=0B4RrY7XEz449dTl6R3B6M2xWa0U</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-155.1135,58.3069,0.0 -155.7428,58.4393,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>KEL to AKN_Rx</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Frequency (MHz)'>
+					<value>171.406</value>
+				</Data>
+				<Data name='Polarity'>
+					<value></value>
+				</Data>
+				<Data name='Distance (miles)'>
+					<value>37.3059</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>-62.9641</value>
+				</Data>
+				<Data name='Telemetry Diagram'>
+					<value>https://drive.google.com/open?id=0B4RrY7XEz449dTl6R3B6M2xWa0U</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-155.7428,58.4393,0.0 -156.668,58.6814,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>KVT to KEL</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Frequency (MHz)'>
+					<value>416.8062</value>
+				</Data>
+				<Data name='Polarity'>
+					<value></value>
+				</Data>
+				<Data name='Distance (miles)'>
+					<value>16.6278</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>-75.7898</value>
+				</Data>
+				<Data name='Telemetry Diagram'>
+					<value>https://drive.google.com/open?id=0B4RrY7XEz449dTl6R3B6M2xWa0U</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-155.2971,58.381,0.0 -155.7428,58.4393,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>ACH to CNTC</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Frequency (MHz)'>
+					<value>408.9812</value>
+				</Data>
+				<Data name='Polarity'>
+					<value></value>
+				</Data>
+				<Data name='Distance (miles)'>
+					<value>20.6233</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>-79.3784</value>
+				</Data>
+				<Data name='Telemetry Diagram'>
+					<value>https://drive.google.com/open?id=0B4RrY7XEz449dTl6R3B6M2xWa0U</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-155.3281,58.21,0.0 -155.8858,58.2638,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>ANCK to CNTC</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Frequency (MHz)'>
+					<value>406.2813</value>
+				</Data>
+				<Data name='Polarity'>
+					<value></value>
+				</Data>
+				<Data name='Distance (miles)'>
+					<value>14.8862</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>-72.0787</value>
+				</Data>
+				<Data name='Telemetry Diagram'>
+					<value>https://drive.google.com/open?id=0B4RrY7XEz449dTl6R3B6M2xWa0U</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-155.4961,58.1981,0.0 -155.8858,58.2638,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>CAHL to KJL</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Frequency (MHz)'>
+					<value>408.5063</value>
+				</Data>
+				<Data name='Polarity'>
+					<value></value>
+				</Data>
+				<Data name='Distance (miles)'>
+					<value>9.9345</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>-89.287</value>
+				</Data>
+				<Data name='Telemetry Diagram'>
+					<value>https://drive.google.com/open?id=0B4RrY7XEz449dTl6R3B6M2xWa0U</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-155.3036,58.0518,0.0 -155.5753,58.0533,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>CNTC to AKN_Rx</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Frequency (MHz)'>
+					<value>162.8094</value>
+				</Data>
+				<Data name='Polarity'>
+					<value></value>
+				</Data>
+				<Data name='Distance (miles)'>
+					<value>40.3897</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>-44.0723</value>
+				</Data>
+				<Data name='Telemetry Diagram'>
+					<value>https://drive.google.com/open?id=0B4RrY7XEz449dTl6R3B6M2xWa0U</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-155.8858,58.2638,0.0 -156.668,58.6814,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>KJL to CNTC</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Frequency (MHz)'>
+					<value>419.9937</value>
+				</Data>
+				<Data name='Polarity'>
+					<value></value>
+				</Data>
+				<Data name='Distance (miles)'>
+					<value>18.4303</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>-37.7582</value>
+				</Data>
+				<Data name='Telemetry Diagram'>
+					<value>https://drive.google.com/open?id=0B4RrY7XEz449dTl6R3B6M2xWa0U</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-155.5753,58.0533,0.0 -155.8858,58.2638,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>MGLS to CAHL</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Frequency (MHz)'>
+					<value>416.8062</value>
+				</Data>
+				<Data name='Polarity'>
+					<value></value>
+				</Data>
+				<Data name='Distance (miles)'>
+					<value>7.6388</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>-137.6655</value>
+				</Data>
+				<Data name='Telemetry Diagram'>
+					<value>https://drive.google.com/open?id=0B4RrY7XEz449dTl6R3B6M2xWa0U</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-155.1629,58.1336,0.0 -155.3036,58.0518,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>PLBL to PLWL</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Frequency (MHz)'>
+					<value>418.5</value>
+				</Data>
+				<Data name='Polarity'>
+					<value></value>
+				</Data>
+				<Data name='Distance (miles)'>
+					<value>29.6078</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>36.1513</value>
+				</Data>
+				<Data name='Telemetry Diagram'>
+					<value>https://drive.google.com/open?id=0B4RrY7XEz449dTl6R3B6M2xWa0U</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-156.821,57.6991,0.0 -156.3434,58.0442,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>PLK1 to PLBL</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Frequency (MHz)'>
+					<value>408.506</value>
+				</Data>
+				<Data name='Polarity'>
+					<value></value>
+				</Data>
+				<Data name='Distance (miles)'>
+					<value>10.5214</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>-132.0182</value>
+				</Data>
+				<Data name='Telemetry Diagram'>
+					<value>https://drive.google.com/open?id=0B4RrY7XEz449dTl6R3B6M2xWa0U</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-156.6093,57.8012,0.0 -156.821,57.6991,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>PLK2 to PLWL</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Frequency (MHz)'>
+					<value>417.263</value>
+				</Data>
+				<Data name='Polarity'>
+					<value></value>
+				</Data>
+				<Data name='Distance (miles)'>
+					<value>19.4057</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>-1.8359</value>
+				</Data>
+				<Data name='Telemetry Diagram'>
+					<value>https://drive.google.com/open?id=0B4RrY7XEz449dTl6R3B6M2xWa0U</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-156.3264,57.7635,0.0 -156.3434,58.0442,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>PLK3 to PLWL</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Frequency (MHz)'>
+					<value>412.238</value>
+				</Data>
+				<Data name='Polarity'>
+					<value></value>
+				</Data>
+				<Data name='Distance (miles)'>
+					<value>24.762</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>-6.2659</value>
+				</Data>
+				<Data name='Telemetry Diagram'>
+					<value>https://drive.google.com/open?id=0B4RrY7XEz449dTl6R3B6M2xWa0U</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-156.2695,57.688,0.0 -156.3434,58.0442,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>PLK4 to PLBL</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Frequency (MHz)'>
+					<value>409.881</value>
+				</Data>
+				<Data name='Polarity'>
+					<value></value>
+				</Data>
+				<Data name='Distance (miles)'>
+					<value>17.6752</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>-74.4586</value>
+				</Data>
+				<Data name='Telemetry Diagram'>
+					<value>https://drive.google.com/open?id=0B4RrY7XEz449dTl6R3B6M2xWa0U</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-156.3598,57.6314,0.0 -156.821,57.6991,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>PLK5 to PLWL</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Frequency (MHz)'>
+					<value>413.5</value>
+				</Data>
+				<Data name='Polarity'>
+					<value></value>
+				</Data>
+				<Data name='Distance (miles)'>
+					<value>19.8986</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>80.3392</value>
+				</Data>
+				<Data name='Telemetry Diagram'>
+					<value>https://drive.google.com/open?id=0B4RrY7XEz449dTl6R3B6M2xWa0U</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-156.8798,57.997,0.0 -156.3434,58.0442,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>PLWL to AKN_Rx</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Frequency (MHz)'>
+					<value>173.963</value>
+				</Data>
+				<Data name='Polarity'>
+					<value></value>
+				</Data>
+				<Data name='Distance (miles)'>
+					<value>45.5736</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>-14.8223</value>
+				</Data>
+				<Data name='Telemetry Diagram'>
+					<value>https://drive.google.com/open?id=0B4RrY7XEz449dTl6R3B6M2xWa0U</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-156.3434,58.0442,0.0 -156.668,58.6814,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>ANNE to AZAC</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Frequency (MHz)'>
+					<value>416.806</value>
+				</Data>
+				<Data name='Polarity'>
+					<value></value>
+				</Data>
+				<Data name='Distance (miles)'>
+					<value>6.5902</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>-100.3176</value>
+				</Data>
+				<Data name='Telemetry Diagram'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-158.061,56.9119,0.0 -158.2328,56.8947,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>ANNW to PTH_Rx</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Frequency (MHz)'>
+					<value>408.506</value>
+				</Data>
+				<Data name='Polarity'>
+					<value></value>
+				</Data>
+				<Data name='Distance (miles)'>
+					<value>17.0418</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>-99.736</value>
+				</Data>
+				<Data name='Telemetry Diagram'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-158.217,56.9656,0.0 -158.6624,56.9231,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>ANON to AZAC</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Frequency (MHz)'>
+					<value>417.675</value>
+				</Data>
+				<Data name='Polarity'>
+					<value></value>
+				</Data>
+				<Data name='Distance (miles)'>
+					<value>2.7912</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>-126.9569</value>
+				</Data>
+				<Data name='Telemetry Diagram'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-158.1737,56.919,0.0 -158.2328,56.8947,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>ANPB to PTH_Rx</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Frequency (MHz)'>
+					<value>406.281</value>
+				</Data>
+				<Data name='Polarity'>
+					<value></value>
+				</Data>
+				<Data name='Distance (miles)'>
+					<value>16.6121</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>-59.485</value>
+				</Data>
+				<Data name='Telemetry Diagram'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-158.2829,56.8016,0.0 -158.6624,56.9231,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>ANPK to ANPB</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Frequency (MHz)'>
+					<value>419.994</value>
+				</Data>
+				<Data name='Polarity'>
+					<value></value>
+				</Data>
+				<Data name='Distance (miles)'>
+					<value>6.4459</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>-114.8506</value>
+				</Data>
+				<Data name='Telemetry Diagram'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-158.1283,56.8409,0.0 -158.2829,56.8016,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>AZAC to PTH_Rx</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Frequency (MHz)'>
+					<value>412.075</value>
+				</Data>
+				<Data name='Polarity'>
+					<value></value>
+				</Data>
+				<Data name='Distance (miles)'>
+					<value>16.3251</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>-82.9161</value>
+				</Data>
+				<Data name='Telemetry Diagram'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-158.2328,56.8947,0.0 -158.6624,56.9231,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>BPBC to PTH_Rx</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Frequency (MHz)'>
+					<value>409.881</value>
+				</Data>
+				<Data name='Polarity'>
+					<value></value>
+				</Data>
+				<Data name='Distance (miles)'>
+					<value>24.3958</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>-18.7272</value>
+				</Data>
+				<Data name='Telemetry Diagram'>
+					<value>https://drive.google.com/open?id=0B4RrY7XEz449QTk3N2xoNmNFU0U</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-158.4547,56.5889,0.0 -158.6624,56.9231,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>VNFG to PTH_Rx</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Frequency (MHz)'>
+					<value>411.875</value>
+				</Data>
+				<Data name='Polarity'>
+					<value></value>
+				</Data>
+				<Data name='Distance (miles)'>
+					<value>55.609</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>37.1632</value>
+				</Data>
+				<Data name='Telemetry Diagram'>
+					<value>https://drive.google.com/open?id=0B4RrY7XEz449QTk3N2xoNmNFU0U</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-159.5532,56.2849,0.0 -158.6624,56.9231,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>VNHG to PTH_Rx</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Frequency (MHz)'>
+					<value>416.806</value>
+				</Data>
+				<Data name='Polarity'>
+					<value></value>
+				</Data>
+				<Data name='Distance (miles)'>
+					<value>52.2123</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>21.3432</value>
+				</Data>
+				<Data name='Telemetry Diagram'>
+					<value>https://drive.google.com/open?id=0B4RrY7XEz449QTk3N2xoNmNFU0U</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-159.1663,56.2203,0.0 -158.6624,56.9231,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>VNKR to VNSG</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Frequency (MHz)'>
+					<value>417.263</value>
+				</Data>
+				<Data name='Polarity'>
+					<value></value>
+				</Data>
+				<Data name='Distance (miles)'>
+					<value>12.7009</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>58.9082</value>
+				</Data>
+				<Data name='Telemetry Diagram'>
+					<value>https://drive.google.com/open?id=0B4RrY7XEz449QTk3N2xoNmNFU0U</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-159.3699,56.0304,0.0 -159.0875,56.125,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>VNNF to PTH_Rx</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Frequency (MHz)'>
+					<value>419.994</value>
+				</Data>
+				<Data name='Polarity'>
+					<value></value>
+				</Data>
+				<Data name='Distance (miles)'>
+					<value>50.7813</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>29.1394</value>
+				</Data>
+				<Data name='Telemetry Diagram'>
+					<value>https://drive.google.com/open?id=0B4RrY7XEz449QTk3N2xoNmNFU0U</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-159.3181,56.2829,0.0 -158.6624,56.9231,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>VNSG to VNHG</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Frequency (MHz)'>
+					<value>408.506</value>
+				</Data>
+				<Data name='Polarity'>
+					<value></value>
+				</Data>
+				<Data name='Distance (miles)'>
+					<value>7.2491</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>-24.6843</value>
+				</Data>
+				<Data name='Telemetry Diagram'>
+					<value>https://drive.google.com/open?id=0B4RrY7XEz449QTk3N2xoNmNFU0U</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-159.0875,56.125,0.0 -159.1663,56.2203,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>VNSS to VNFG</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Frequency (MHz)'>
+					<value>417.263</value>
+				</Data>
+				<Data name='Polarity'>
+					<value></value>
+				</Data>
+				<Data name='Distance (miles)'>
+					<value>5.503</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>-42.1578</value>
+				</Data>
+				<Data name='Telemetry Diagram'>
+					<value>https://drive.google.com/open?id=0B4RrY7XEz449QTk3N2xoNmNFU0U</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-159.4569,56.2259,0.0 -159.5532,56.2849,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>VNSW to VNWF</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Frequency (MHz)'>
+					<value>416.806</value>
+				</Data>
+				<Data name='Polarity'>
+					<value></value>
+				</Data>
+				<Data name='Distance (miles)'>
+					<value>5.5089</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>-1.4813</value>
+				</Data>
+				<Data name='Telemetry Diagram'>
+					<value>https://drive.google.com/open?id=0B4RrY7XEz449QTk3N2xoNmNFU0U</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-159.5606,56.0712,0.0 -159.5643,56.1509,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>VNWF to VNFG</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Frequency (MHz)'>
+					<value>406.281</value>
+				</Data>
+				<Data name='Polarity'>
+					<value></value>
+				</Data>
+				<Data name='Distance (miles)'>
+					<value>9.2689</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>2.6326</value>
+				</Data>
+				<Data name='Telemetry Diagram'>
+					<value>https://drive.google.com/open?id=0B4RrY7XEz449QTk3N2xoNmNFU0U</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-159.5643,56.1509,0.0 -159.5532,56.2849,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>BLHA to BLDY</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Frequency (MHz)'>
+					<value>408.506</value>
+				</Data>
+				<Data name='Polarity'>
+					<value></value>
+				</Data>
+				<Data name='Distance (miles)'>
+					<value>45.2644</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>-140.8545</value>
+				</Data>
+				<Data name='Telemetry Diagram'>
+					<value>https://drive.google.com/open?id=0B4RrY7XEz449c2dnRmVRMjdTeGM</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-162.0611,55.7038,0.0 -162.7856,55.1936,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>HAG to DOL</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Frequency (MHz)'>
+					<value>409.881</value>
+				</Data>
+				<Data name='Polarity'>
+					<value></value>
+				</Data>
+				<Data name='Distance (miles)'>
+					<value>11.7323</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>172.127</value>
+				</Data>
+				<Data name='Telemetry Diagram'>
+					<value>https://drive.google.com/open?id=0B4RrY7XEz449c2dnRmVRMjdTeGM</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-161.9045,55.317,0.0 -161.8638,55.1488,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>PN7A to BLHA</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Frequency (MHz)'>
+					<value>419.994</value>
+				</Data>
+				<Data name='Polarity'>
+					<value></value>
+				</Data>
+				<Data name='Distance (miles)'>
+					<value>18.8838</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>-7.5588</value>
+				</Data>
+				<Data name='Telemetry Diagram'>
+					<value>https://drive.google.com/open?id=0B4RrY7XEz449c2dnRmVRMjdTeGM</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-161.9973,55.4329,0.0 -162.0611,55.7038,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>PS1A to DOL</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Frequency (MHz)'>
+					<value>408.506</value>
+				</Data>
+				<Data name='Polarity'>
+					<value></value>
+				</Data>
+				<Data name='Distance (miles)'>
+					<value>19.3327</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>-165.8007</value>
+				</Data>
+				<Data name='Telemetry Diagram'>
+					<value>https://drive.google.com/open?id=0B4RrY7XEz449c2dnRmVRMjdTeGM</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-161.7437,55.4201,0.0 -161.8638,55.1488,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>PS4A to DOL</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Frequency (MHz)'>
+					<value>408.981</value>
+				</Data>
+				<Data name='Polarity'>
+					<value></value>
+				</Data>
+				<Data name='Distance (miles)'>
+					<value>13.6289</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>-178.8213</value>
+				</Data>
+				<Data name='Telemetry Diagram'>
+					<value>https://drive.google.com/open?id=0B4RrY7XEz449c2dnRmVRMjdTeGM</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-161.8567,55.346,0.0 -161.8638,55.1488,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>PVV to DOL</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Frequency (MHz)'>
+					<value>406.281</value>
+				</Data>
+				<Data name='Polarity'>
+					<value></value>
+				</Data>
+				<Data name='Distance (miles)'>
+					<value>15.7618</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>-169.6232</value>
+				</Data>
+				<Data name='Telemetry Diagram'>
+					<value>https://drive.google.com/open?id=0B4RrY7XEz449c2dnRmVRMjdTeGM</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-161.7919,55.3732,0.0 -161.8638,55.1488,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>DOL to DRIE_Rep</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Frequency (MHz)'>
+					<value>419.994</value>
+				</Data>
+				<Data name='Polarity'>
+					<value></value>
+				</Data>
+				<Data name='Distance (miles)'>
+					<value>20.2384</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>-128.428</value>
+				</Data>
+				<Data name='Telemetry Diagram'>
+					<value>https://drive.google.com/open?id=0B4RrY7XEz449c2dnRmVRMjdTeGM</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-161.8638,55.1488,0.0 -162.2635,54.9661,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>DRR3 to KVC_Rx</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Frequency (MHz)'>
+					<value>408.881</value>
+				</Data>
+				<Data name='Polarity'>
+					<value></value>
+				</Data>
+				<Data name='Distance (miles)'>
+					<value>6.8701</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>-18.0879</value>
+				</Data>
+				<Data name='Telemetry Diagram'>
+					<value>https://drive.google.com/open?id=0B4RrY7XEz449c2dnRmVRMjdTeGM</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-162.2631,54.966,0.0 -162.317,55.0605,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>DT1 to KVC_Rx</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Frequency (MHz)'>
+					<value>152.165</value>
+				</Data>
+				<Data name='Polarity'>
+					<value></value>
+				</Data>
+				<Data name='Distance (miles)'>
+					<value>3.4322</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>-156.9196</value>
+				</Data>
+				<Data name='Telemetry Diagram'>
+					<value>https://drive.google.com/open?id=0B4RrY7XEz449c2dnRmVRMjdTeGM</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-162.283,55.1062,0.0 -162.317,55.0605,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>DTN to KVC_Rx</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Frequency (MHz)'>
+					<value>157.5</value>
+				</Data>
+				<Data name='Polarity'>
+					<value></value>
+				</Data>
+				<Data name='Distance (miles)'>
+					<value>6.2599</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>-158.4906</value>
+				</Data>
+				<Data name='Telemetry Diagram'>
+					<value>https://drive.google.com/open?id=0B4RrY7XEz449c2dnRmVRMjdTeGM</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-162.259,55.1448,0.0 -162.317,55.0605,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>BRPK to DRIW_Rep</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Frequency (MHz)'>
+					<value>416.281</value>
+				</Data>
+				<Data name='Polarity'>
+					<value></value>
+				</Data>
+				<Data name='Distance (miles)'>
+					<value>60.8266</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>67.5952</value>
+				</Data>
+				<Data name='Telemetry Diagram'>
+					<value>https://drive.google.com/open?id=0B4RrY7XEz449c2dnRmVRMjdTeGM</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-163.7428,54.6446,0.0 -162.3248,54.9719,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>ISLZ to BRPK</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Frequency (MHz)'>
+					<value>417.263</value>
+				</Data>
+				<Data name='Polarity'>
+					<value></value>
+				</Data>
+				<Data name='Distance (miles)'>
+					<value>5.6883</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>-167.909</value>
+				</Data>
+				<Data name='Telemetry Diagram'>
+					<value>https://drive.google.com/open?id=0B4RrY7XEz449c2dnRmVRMjdTeGM</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-163.713,54.7251,0.0 -163.7428,54.6446,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>ISNN to BLDW_Rep</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Frequency (MHz)'>
+					<value>409.881</value>
+				</Data>
+				<Data name='Polarity'>
+					<value></value>
+				</Data>
+				<Data name='Distance (miles)'>
+					<value>46.5232</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>57.3024</value>
+				</Data>
+				<Data name='Telemetry Diagram'>
+					<value>https://drive.google.com/open?id=0B4RrY7XEz449c2dnRmVRMjdTeGM</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-163.7804,54.8314,0.0 -162.7878,55.1911,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>SSLN to BLDW_Rep</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Frequency (MHz)'>
+					<value>408.981</value>
+				</Data>
+				<Data name='Polarity'>
+					<value></value>
+				</Data>
+				<Data name='Distance (miles)'>
+					<value>54.6814</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>60.792</value>
+				</Data>
+				<Data name='Telemetry Diagram'>
+					<value>https://drive.google.com/open?id=0B4RrY7XEz449c2dnRmVRMjdTeGM</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-163.9979,54.8109,0.0 -162.7878,55.1911,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>SSLS to BRPK</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Frequency (MHz)'>
+					<value>406.281</value>
+				</Data>
+				<Data name='Polarity'>
+					<value></value>
+				</Data>
+				<Data name='Distance (miles)'>
+					<value>11.285</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>113.9222</value>
+				</Data>
+				<Data name='Telemetry Diagram'>
+					<value>https://drive.google.com/open?id=0B4RrY7XEz449c2dnRmVRMjdTeGM</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-164.0008,54.7111,0.0 -163.7428,54.6446,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>SSLW to WTUG</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Frequency (MHz)'>
+					<value>419.994</value>
+				</Data>
+				<Data name='Polarity'>
+					<value></value>
+				</Data>
+				<Data name='Distance (miles)'>
+					<value>11.7387</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>-63.4309</value>
+				</Data>
+				<Data name='Telemetry Diagram'>
+					<value>https://drive.google.com/open?id=0B4RrY7XEz449c2dnRmVRMjdTeGM</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-164.1234,54.7709,0.0 -164.3873,54.8466,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>WEBT to WTUG</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Frequency (MHz)'>
+					<value>417.263</value>
+				</Data>
+				<Data name='Polarity'>
+					<value></value>
+				</Data>
+				<Data name='Distance (miles)'>
+					<value>23.0051</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>39.4858</value>
+				</Data>
+				<Data name='Telemetry Diagram'>
+					<value>https://drive.google.com/open?id=0B4RrY7XEz449c2dnRmVRMjdTeGM</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-164.755,54.5902,0.0 -164.3873,54.8466,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>WECS to WEAK_Rep</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Frequency (MHz)'>
+					<value>416.806</value>
+				</Data>
+				<Data name='Polarity'>
+					<value></value>
+				</Data>
+				<Data name='Distance (miles)'>
+					<value>47.8096</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>-128.0444</value>
+				</Data>
+				<Data name='Telemetry Diagram'>
+					<value>https://drive.google.com/open?id=0B4RrY7XEz449QWJJdDBGcUZ0eDQ</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-164.7796,54.53,0.0 -165.7089,54.1,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>WESE to WEAK_Rep</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Frequency (MHz)'>
+					<value>417.263</value>
+				</Data>
+				<Data name='Polarity'>
+					<value></value>
+				</Data>
+				<Data name='Distance (miles)'>
+					<value>52.087</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>-119.1391</value>
+				</Data>
+				<Data name='Telemetry Diagram'>
+					<value>https://drive.google.com/open?id=0B4RrY7XEz449QWJJdDBGcUZ0eDQ</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-164.586,54.4723,0.0 -165.7089,54.1,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>WESN to WTUG</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Frequency (MHz)'>
+					<value>412.238</value>
+				</Data>
+				<Data name='Polarity'>
+					<value></value>
+				</Data>
+				<Data name='Distance (miles)'>
+					<value>20.2179</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>22.3323</value>
+				</Data>
+				<Data name='Telemetry Diagram'>
+					<value>https://drive.google.com/open?id=0B4RrY7XEz449c2dnRmVRMjdTeGM</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-164.5804,54.5761,0.0 -164.3873,54.8466,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>WESP to WEAK_Rep</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Frequency (MHz)'>
+					<value>412.238</value>
+				</Data>
+				<Data name='Polarity'>
+					<value></value>
+				</Data>
+				<Data name='Distance (miles)'>
+					<value>48.1191</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>-123.9149</value>
+				</Data>
+				<Data name='Telemetry Diagram'>
+					<value>https://drive.google.com/open?id=0B4RrY7XEz449QWJJdDBGcUZ0eDQ</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-164.7233,54.4926,0.0 -165.7089,54.1,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>WTUG to BLDW_Rep</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Frequency (MHz)'>
+					<value>406.281</value>
+				</Data>
+				<Data name='Polarity'>
+					<value></value>
+				</Data>
+				<Data name='Distance (miles)'>
+					<value>67.6847</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>68.7558</value>
+				</Data>
+				<Data name='Telemetry Diagram'>
+					<value>https://drive.google.com/open?id=0B4RrY7XEz449QWJJdDBGcUZ0eDQ</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-164.3873,54.8466,0.0 -162.7878,55.1911,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>AHB to AKT_Rx</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Frequency (MHz)'>
+					<value>412.075</value>
+				</Data>
+				<Data name='Polarity'>
+					<value></value>
+				</Data>
+				<Data name='Distance (miles)'>
+					<value>2.1942</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>51.64</value>
+				</Data>
+				<Data name='Telemetry Diagram'>
+					<value>https://drive.google.com/open?id=0B4RrY7XEz449QWJJdDBGcUZ0eDQ</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-165.8177,54.1144,0.0 -165.7752,54.1341,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>AKS to AKT_Rx</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Frequency (MHz)'>
+					<value>408.981</value>
+				</Data>
+				<Data name='Polarity'>
+					<value></value>
+				</Data>
+				<Data name='Distance (miles)'>
+					<value>3.5336</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>-61.2158</value>
+				</Data>
+				<Data name='Telemetry Diagram'>
+					<value>https://drive.google.com/open?id=0B4RrY7XEz449QWJJdDBGcUZ0eDQ</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-165.6987,54.1095,0.0 -165.7752,54.1341,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>AKV to AKT_Rx</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Frequency (MHz)'>
+					<value>419.994</value>
+				</Data>
+				<Data name='Polarity'>
+					<value></value>
+				</Data>
+				<Data name='Distance (miles)'>
+					<value>7.6965</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>85.3919</value>
+				</Data>
+				<Data name='Telemetry Diagram'>
+					<value>https://drive.google.com/open?id=0B4RrY7XEz449QWJJdDBGcUZ0eDQ</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-165.9647,54.1253,0.0 -165.7752,54.1341,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>HSB to AHB</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Frequency (MHz)'>
+					<value>408.506</value>
+				</Data>
+				<Data name='Polarity'>
+					<value></value>
+				</Data>
+				<Data name='Distance (miles)'>
+					<value>6.3025</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>141.5788</value>
+				</Data>
+				<Data name='Telemetry Diagram'>
+					<value>https://drive.google.com/open?id=0B4RrY7XEz449QWJJdDBGcUZ0eDQ</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-165.9144,54.1859,0.0 -165.8177,54.1144,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>LVA to HSB</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Frequency (MHz)'>
+					<value>416.806</value>
+				</Data>
+				<Data name='Polarity'>
+					<value></value>
+				</Data>
+				<Data name='Distance (miles)'>
+					<value>5.2261</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>69.9251</value>
+				</Data>
+				<Data name='Telemetry Diagram'>
+					<value>https://drive.google.com/open?id=0B4RrY7XEz449QWJJdDBGcUZ0eDQ</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-166.0358,54.16,0.0 -165.9144,54.1859,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>ZRO to AHB</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Frequency (MHz)'>
+					<value>417.675</value>
+				</Data>
+				<Data name='Polarity'>
+					<value></value>
+				</Data>
+				<Data name='Distance (miles)'>
+					<value>6.7763</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>75.9494</value>
+				</Data>
+				<Data name='Telemetry Diagram'>
+					<value>https://drive.google.com/open?id=0B4RrY7XEz449QWJJdDBGcUZ0eDQ</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-165.98,54.0907,0.0 -165.8177,54.1144,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>MCIR to DUT_Rx</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Frequency (MHz)'>
+					<value>417.675</value>
+				</Data>
+				<Data name='Polarity'>
+					<value></value>
+				</Data>
+				<Data name='Distance (miles)'>
+					<value>14.3371</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>102.6131</value>
+				</Data>
+				<Data name='Telemetry Diagram'>
+					<value>https://drive.google.com/open?id=0B4RrY7XEz449QWJJdDBGcUZ0eDQ</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-166.8942,53.9505,0.0 -166.5505,53.9047,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>MGOD to DUT_Rx</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Frequency (MHz)'>
+					<value>163.606</value>
+				</Data>
+				<Data name='Polarity'>
+					<value></value>
+				</Data>
+				<Data name='Distance (miles)'>
+					<value>15.3924</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>60.0108</value>
+				</Data>
+				<Data name='Telemetry Diagram'>
+					<value>https://drive.google.com/open?id=0B4RrY7XEz449QWJJdDBGcUZ0eDQ</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-166.878,53.7938,0.0 -166.5505,53.9047,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>MNAT to MREP</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Frequency (MHz)'>
+					<value>408.506</value>
+				</Data>
+				<Data name='Polarity'>
+					<value></value>
+				</Data>
+				<Data name='Distance (miles)'>
+					<value>5.6604</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>-153.4555</value>
+				</Data>
+				<Data name='Telemetry Diagram'>
+					<value>https://drive.google.com/open?id=0B4RrY7XEz449QWJJdDBGcUZ0eDQ</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-166.6856,53.8829,0.0 -166.7476,53.8096,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>MREP to MGOD</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Frequency (MHz)'>
+					<value>0</value>
+				</Data>
+				<Data name='Polarity'>
+					<value></value>
+				</Data>
+				<Data name='Distance (miles)'>
+					<value>5.4322</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>-101.5415</value>
+				</Data>
+				<Data name='Telemetry Diagram'>
+					<value>https://drive.google.com/open?id=0B4RrY7XEz449QWJJdDBGcUZ0eDQ</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-166.7476,53.8096,0.0 -166.878,53.7938,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>MTBL to DUT_Rx</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Frequency (MHz)'>
+					<value>409.881</value>
+				</Data>
+				<Data name='Polarity'>
+					<value></value>
+				</Data>
+				<Data name='Distance (miles)'>
+					<value>6.8876</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>129.3701</value>
+				</Data>
+				<Data name='Telemetry Diagram'>
+					<value>https://drive.google.com/open?id=0B4RrY7XEz449QWJJdDBGcUZ0eDQ</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-166.6813,53.968,0.0 -166.5505,53.9047,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>OKAK to OKWE</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Frequency (MHz)'>
+					<value>416.806</value>
+				</Data>
+				<Data name='Polarity'>
+					<value></value>
+				</Data>
+				<Data name='Distance (miles)'>
+					<value>6.3828</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>49.6091</value>
+				</Data>
+				<Data name='Telemetry Diagram'>
+					<value>https://drive.google.com/open?id=0B4RrY7XEz449QTk3N2xoNmNFU0U</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-168.36,53.4113,0.0 -168.2418,53.4711,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>OKCF to OKER</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Frequency (MHz)'>
+					<value>419.994</value>
+				</Data>
+				<Data name='Polarity'>
+					<value></value>
+				</Data>
+				<Data name='Distance (miles)'>
+					<value>5.4139</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>41.334</value>
+				</Data>
+				<Data name='Telemetry Diagram'>
+					<value>https://drive.google.com/open?id=0B4RrY7XEz449QTk3N2xoNmNFU0U</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-168.1382,53.3948,0.0 -168.0513,53.4536,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>OKER to MREP</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Frequency (MHz)'>
+					<value>408.981</value>
+				</Data>
+				<Data name='Polarity'>
+					<value></value>
+				</Data>
+				<Data name='Distance (miles)'>
+					<value>58.8073</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>64.7497</value>
+				</Data>
+				<Data name='Telemetry Diagram'>
+					<value>https://drive.google.com/open?id=0B4RrY7XEz449QTk3N2xoNmNFU0U</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-168.0513,53.4536,0.0 -166.7476,53.8096,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>OKID to MREP</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Frequency (MHz)'>
+					<value>409.675</value>
+				</Data>
+				<Data name='Polarity'>
+					<value></value>
+				</Data>
+				<Data name='Distance (miles)'>
+					<value>49.5295</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>61.8702</value>
+				</Data>
+				<Data name='Telemetry Diagram'>
+					<value>https://drive.google.com/open?id=0B4RrY7XEz449QTk3N2xoNmNFU0U</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-167.8182,53.4764,0.0 -166.7476,53.8096,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>OKRE to MREP</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Frequency (MHz)'>
+					<value>406.281</value>
+				</Data>
+				<Data name='Polarity'>
+					<value></value>
+				</Data>
+				<Data name='Distance (miles)'>
+					<value>61.4427</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>70.3687</value>
+				</Data>
+				<Data name='Telemetry Diagram'>
+					<value>https://drive.google.com/open?id=0B4RrY7XEz449QTk3N2xoNmNFU0U</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-168.1661,53.5192,0.0 -166.7476,53.8096,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>OKSP to MREP</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Frequency (MHz)'>
+					<value>406.925</value>
+				</Data>
+				<Data name='Polarity'>
+					<value></value>
+				</Data>
+				<Data name='Distance (miles)'>
+					<value>74.2445</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>58.0951</value>
+				</Data>
+				<Data name='Telemetry Diagram'>
+					<value>https://drive.google.com/open?id=0B4RrY7XEz449QTk3N2xoNmNFU0U</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-168.2925,53.2516,0.0 -166.7476,53.8096,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>OKTU to MREP</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Frequency (MHz)'>
+					<value>409.881</value>
+				</Data>
+				<Data name='Polarity'>
+					<value></value>
+				</Data>
+				<Data name='Distance (miles)'>
+					<value>60.7571</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>60.4499</value>
+				</Data>
+				<Data name='Telemetry Diagram'>
+					<value>https://drive.google.com/open?id=0B4RrY7XEz449QTk3N2xoNmNFU0U</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-168.0431,53.3829,0.0 -166.7476,53.8096,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>OKWE to OKRE</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Frequency (MHz)'>
+					<value>412.238</value>
+				</Data>
+				<Data name='Polarity'>
+					<value></value>
+				</Data>
+				<Data name='Distance (miles)'>
+					<value>4.5529</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>43.0836</value>
+				</Data>
+				<Data name='Telemetry Diagram'>
+					<value>https://drive.google.com/open?id=0B4RrY7XEz449QTk3N2xoNmNFU0U</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-168.2418,53.4711,0.0 -168.1661,53.5192,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>OKWR to MREP</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Frequency (MHz)'>
+					<value>408.506</value>
+				</Data>
+				<Data name='Polarity'>
+					<value></value>
+				</Data>
+				<Data name='Distance (miles)'>
+					<value>65.2276</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>65.9482</value>
+				</Data>
+				<Data name='Telemetry Diagram'>
+					<value>https://drive.google.com/open?id=0B4RrY7XEz449QTk3N2xoNmNFU0U</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-168.2076,53.4337,0.0 -166.7476,53.8096,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>KOFP to AKB_Rx</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Frequency (MHz)'>
+					<value>419.994</value>
+				</Data>
+				<Data name='Polarity'>
+					<value></value>
+				</Data>
+				<Data name='Distance (miles)'>
+					<value>6.3459</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>-132.333</value>
+				</Data>
+				<Data name='Telemetry Diagram'>
+					<value>https://drive.google.com/open?id=0B4RrY7XEz449QTk3N2xoNmNFU0U</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-174.0992,52.274,0.0 -174.21,52.2121,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>KOKL to AKB_Rx</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Frequency (MHz)'>
+					<value>411.875</value>
+				</Data>
+				<Data name='Polarity'>
+					<value></value>
+				</Data>
+				<Data name='Distance (miles)'>
+					<value>7.6079</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>-177.5121</value>
+				</Data>
+				<Data name='Telemetry Diagram'>
+					<value>https://drive.google.com/open?id=0B4RrY7XEz449QTk3N2xoNmNFU0U</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-174.2022,52.3221,0.0 -174.21,52.2121,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>KOKV to KOKL</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Frequency (MHz)'>
+					<value>406.281</value>
+				</Data>
+				<Data name='Polarity'>
+					<value></value>
+				</Data>
+				<Data name='Distance (miles)'>
+					<value>3.0229</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>-150.8169</value>
+				</Data>
+				<Data name='Telemetry Diagram'>
+					<value>https://drive.google.com/open?id=0B4RrY7XEz449QTk3N2xoNmNFU0U</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-174.1673,52.3603,0.0 -174.2022,52.3221,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>KONE to KOSE</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Frequency (MHz)'>
+					<value>417.263</value>
+				</Data>
+				<Data name='Polarity'>
+					<value></value>
+				</Data>
+				<Data name='Distance (miles)'>
+					<value>4.4532</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>137.8466</value>
+				</Data>
+				<Data name='Telemetry Diagram'>
+					<value>https://drive.google.com/open?id=0B4RrY7XEz449QTk3N2xoNmNFU0U</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-174.1213,52.3925,0.0 -174.0505,52.3447,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>KONW to KOWE</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Frequency (MHz)'>
+					<value>409.881</value>
+				</Data>
+				<Data name='Polarity'>
+					<value></value>
+				</Data>
+				<Data name='Distance (miles)'>
+					<value>2.7211</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>-141.4391</value>
+				</Data>
+				<Data name='Telemetry Diagram'>
+					<value>https://drive.google.com/open?id=0B4RrY7XEz449QTk3N2xoNmNFU0U</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-174.2125,52.3954,0.0 -174.2527,52.3646,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>KOSE to KOFP</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Frequency (MHz)'>
+					<value>408.506</value>
+				</Data>
+				<Data name='Polarity'>
+					<value></value>
+				</Data>
+				<Data name='Distance (miles)'>
+					<value>5.3008</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>-157.1425</value>
+				</Data>
+				<Data name='Telemetry Diagram'>
+					<value>https://drive.google.com/open?id=0B4RrY7XEz449QTk3N2xoNmNFU0U</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-174.0505,52.3447,0.0 -174.0992,52.274,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>KOWE to AKB_Rx</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Frequency (MHz)'>
+					<value>416.806</value>
+				</Data>
+				<Data name='Polarity'>
+					<value></value>
+				</Data>
+				<Data name='Distance (miles)'>
+					<value>10.6908</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>170.2642</value>
+				</Data>
+				<Data name='Telemetry Diagram'>
+					<value>https://drive.google.com/open?id=0B4RrY7XEz449QTk3N2xoNmNFU0U</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-174.2527,52.3646,0.0 -174.21,52.2121,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>GSCK to WHIT_Rep</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Frequency (MHz)'>
+					<value>406.925</value>
+				</Data>
+				<Data name='Polarity'>
+					<value></value>
+				</Data>
+				<Data name='Distance (miles)'>
+					<value>25.7957</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>-114.5002</value>
+				</Data>
+				<Data name='Telemetry Diagram'>
+					<value>https://drive.google.com/open?id=0B4RrY7XEz449d2JzMXZFOFlDdnM</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-176.164,52.0108,0.0 -176.714,51.8547,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>GSIG to WHIT_Rep</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Frequency (MHz)'>
+					<value>417.675</value>
+				</Data>
+				<Data name='Polarity'>
+					<value></value>
+				</Data>
+				<Data name='Distance (miles)'>
+					<value>34.732</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>-104.7495</value>
+				</Data>
+				<Data name='Telemetry Diagram'>
+					<value>https://drive.google.com/open?id=0B4RrY7XEz449d2JzMXZFOFlDdnM</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-175.927,51.9853,0.0 -176.714,51.8547,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>GSMY to GSIG</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Frequency (MHz)'>
+					<value>408.506</value>
+				</Data>
+				<Data name='Polarity'>
+					<value></value>
+				</Data>
+				<Data name='Distance (miles)'>
+					<value>6.8252</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>125.0505</value>
+				</Data>
+				<Data name='Telemetry Diagram'>
+					<value>https://drive.google.com/open?id=0B4RrY7XEz449d2JzMXZFOFlDdnM</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-176.0583,52.0421,0.0 -175.927,51.9853,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>GSSP to WHIT_Rep</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Frequency (MHz)'>
+					<value>413.5</value>
+				</Data>
+				<Data name='Polarity'>
+					<value></value>
+				</Data>
+				<Data name='Distance (miles)'>
+					<value>28.0945</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>-125.4428</value>
+				</Data>
+				<Data name='Telemetry Diagram'>
+					<value>https://drive.google.com/open?id=0B4RrY7XEz449d2JzMXZFOFlDdnM</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-176.1777,52.0917,0.0 -176.714,51.8547,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>GSTD to WHIT_Rep</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Frequency (MHz)'>
+					<value>418.5</value>
+				</Data>
+				<Data name='Polarity'>
+					<value></value>
+				</Data>
+				<Data name='Distance (miles)'>
+					<value>27.8308</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>-119.565</value>
+				</Data>
+				<Data name='Telemetry Diagram'>
+					<value>https://drive.google.com/open?id=0B4RrY7XEz449d2JzMXZFOFlDdnM</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-176.1468,52.0548,0.0 -176.714,51.8547,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>GSTR to GSIG</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Frequency (MHz)'>
+					<value>409.881</value>
+				</Data>
+				<Data name='Polarity'>
+					<value></value>
+				</Data>
+				<Data name='Distance (miles)'>
+					<value>9.3847</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>142.5498</value>
+				</Data>
+				<Data name='Telemetry Diagram'>
+					<value>https://drive.google.com/open?id=0B4RrY7XEz449d2JzMXZFOFlDdnM</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-176.0611,52.0932,0.0 -175.927,51.9853,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>KICM to KIMD</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Frequency (MHz)'>
+					<value>408.506</value>
+				</Data>
+				<Data name='Polarity'>
+					<value></value>
+				</Data>
+				<Data name='Distance (miles)'>
+					<value>10.9998</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>-171.143</value>
+				</Data>
+				<Data name='Telemetry Diagram'>
+					<value>https://drive.google.com/open?id=0B4RrY7XEz449d2JzMXZFOFlDdnM</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-177.1973,51.9178,0.0 -177.2369,51.7605,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>KIKV to KIMD</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Frequency (MHz)'>
+					<value>411.875</value>
+				</Data>
+				<Data name='Polarity'>
+					<value></value>
+				</Data>
+				<Data name='Distance (miles)'>
+					<value>8.554</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>-161.1868</value>
+				</Data>
+				<Data name='Telemetry Diagram'>
+					<value>https://drive.google.com/open?id=0B4RrY7XEz449d2JzMXZFOFlDdnM</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-177.1724,51.8777,0.0 -177.2369,51.7605,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>KIMD to WHIT_Rep</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Frequency (MHz)'>
+					<value>416.806</value>
+				</Data>
+				<Data name='Polarity'>
+					<value></value>
+				</Data>
+				<Data name='Distance (miles)'>
+					<value>23.2689</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>73.5506</value>
+				</Data>
+				<Data name='Telemetry Diagram'>
+					<value>https://drive.google.com/open?id=0B4RrY7XEz449d2JzMXZFOFlDdnM</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-177.2369,51.7605,0.0 -176.714,51.8547,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>KINC to ADAG_Rep</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Frequency (MHz)'>
+					<value>409.881</value>
+				</Data>
+				<Data name='Polarity'>
+					<value></value>
+				</Data>
+				<Data name='Distance (miles)'>
+					<value>22.6333</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>81.2252</value>
+				</Data>
+				<Data name='Telemetry Diagram'>
+					<value>https://drive.google.com/open?id=0B4RrY7XEz449d2JzMXZFOFlDdnM</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-177.1296,51.9303,0.0 -176.604,51.9791,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>KIRH to WHIT_Rep</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Frequency (MHz)'>
+					<value>412.238</value>
+				</Data>
+				<Data name='Polarity'>
+					<value></value>
+				</Data>
+				<Data name='Distance (miles)'>
+					<value>16.553</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>100.3849</value>
+				</Data>
+				<Data name='Telemetry Diagram'>
+					<value>https://drive.google.com/open?id=0B4RrY7XEz449d2JzMXZFOFlDdnM</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-177.0955,51.8985,0.0 -176.714,51.8547,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>KIWB to WHIT_Rep</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Frequency (MHz)'>
+					<value>417.263</value>
+				</Data>
+				<Data name='Polarity'>
+					<value></value>
+				</Data>
+				<Data name='Distance (miles)'>
+					<value>18.7289</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>89.2567</value>
+				</Data>
+				<Data name='Telemetry Diagram'>
+					<value>https://drive.google.com/open?id=0B4RrY7XEz449d2JzMXZFOFlDdnM</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-177.1528,51.852,0.0 -176.714,51.8547,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>TACS to GAEA</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Frequency (MHz)'>
+					<value>406.281</value>
+				</Data>
+				<Data name='Polarity'>
+					<value></value>
+				</Data>
+				<Data name='Distance (miles)'>
+					<value>26.5271</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>-101.8193</value>
+				</Data>
+				<Data name='Telemetry Diagram'>
+					<value>https://drive.google.com/open?id=0B4RrY7XEz449d2JzMXZFOFlDdnM</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-178.1414,51.8621,0.0 -178.7488,51.7819,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>TAFL to WHIT_Rep</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Frequency (MHz)'>
+					<value>162.597</value>
+				</Data>
+				<Data name='Polarity'>
+					<value></value>
+				</Data>
+				<Data name='Distance (miles)'>
+					<value>51.1251</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>81.8294</value>
+				</Data>
+				<Data name='Telemetry Diagram'>
+					<value>https://drive.google.com/open?id=0B4RrY7XEz449d2JzMXZFOFlDdnM</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-177.8998,51.7555,0.0 -176.714,51.8547,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>TAFP to ADAG_Rep</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Frequency (MHz)'>
+					<value>409.675</value>
+				</Data>
+				<Data name='Polarity'>
+					<value></value>
+				</Data>
+				<Data name='Distance (miles)'>
+					<value>59.099</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>84.0828</value>
+				</Data>
+				<Data name='Telemetry Diagram'>
+					<value>https://drive.google.com/open?id=0B4RrY7XEz449d2JzMXZFOFlDdnM</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-177.9853,51.899,0.0 -176.604,51.9791,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>TANO to ADAG_Rep</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Frequency (MHz)'>
+					<value>164.009</value>
+				</Data>
+				<Data name='Polarity'>
+					<value></value>
+				</Data>
+				<Data name='Distance (miles)'>
+					<value>64.8384</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>85.4609</value>
+				</Data>
+				<Data name='Telemetry Diagram'>
+					<value>https://drive.google.com/open?id=0B4RrY7XEz449d2JzMXZFOFlDdnM</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-178.1228,51.9146,0.0 -176.604,51.9791,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>TAPA to WHIT_Rep</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Frequency (MHz)'>
+					<value>166.422</value>
+				</Data>
+				<Data name='Polarity'>
+					<value></value>
+				</Data>
+				<Data name='Distance (miles)'>
+					<value>47.0837</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>86.1768</value>
+				</Data>
+				<Data name='Telemetry Diagram'>
+					<value>https://drive.google.com/open?id=0B4RrY7XEz449d2JzMXZFOFlDdnM</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-177.8148,51.8144,0.0 -176.714,51.8547,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>TASE to WHIT_Rep</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Frequency (MHz)'>
+					<value>171.222</value>
+				</Data>
+				<Data name='Polarity'>
+					<value></value>
+				</Data>
+				<Data name='Distance (miles)'>
+					<value>56.5798</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>88.0236</value>
+				</Data>
+				<Data name='Telemetry Diagram'>
+					<value>https://drive.google.com/open?id=0B4RrY7XEz449d2JzMXZFOFlDdnM</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-178.039,51.8339,0.0 -176.714,51.8547,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>GAEA to TASE</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Frequency (MHz)'>
+					<value>417.675</value>
+				</Data>
+				<Data name='Polarity'>
+					<value></value>
+				</Data>
+				<Data name='Distance (miles)'>
+					<value>30.5368</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>82.9639</value>
+				</Data>
+				<Data name='Telemetry Diagram'>
+					<value>https://drive.google.com/open?id=0B4RrY7XEz449d2JzMXZFOFlDdnM</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-178.7488,51.7819,0.0 -178.039,51.8339,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>GAKI to TAFL</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Frequency (MHz)'>
+					<value>408.981</value>
+				</Data>
+				<Data name='Polarity'>
+					<value></value>
+				</Data>
+				<Data name='Distance (miles)'>
+					<value>41.6035</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>70.0294</value>
+				</Data>
+				<Data name='Telemetry Diagram'>
+					<value>https://drive.google.com/open?id=0B4RrY7XEz449d2JzMXZFOFlDdnM</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-178.814,51.5534,0.0 -177.8998,51.7555,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>GALA to TAFL</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Frequency (MHz)'>
+					<value>409.881</value>
+				</Data>
+				<Data name='Polarity'>
+					<value></value>
+				</Data>
+				<Data name='Distance (miles)'>
+					<value>37.3698</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>90.1972</value>
+				</Data>
+				<Data name='Telemetry Diagram'>
+					<value>https://drive.google.com/open?id=0B4RrY7XEz449d2JzMXZFOFlDdnM</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-178.7735,51.7606,0.0 -177.8998,51.7555,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>GANE to TAPA</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Frequency (MHz)'>
+					<value>411.875</value>
+				</Data>
+				<Data name='Polarity'>
+					<value></value>
+				</Data>
+				<Data name='Distance (miles)'>
+					<value>41.1736</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>89.9481</value>
+				</Data>
+				<Data name='Telemetry Diagram'>
+					<value>https://drive.google.com/open?id=0B4RrY7XEz449d2JzMXZFOFlDdnM</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-178.7787,51.8178,0.0 -177.8148,51.8144,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>GANO to TASE</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Frequency (MHz)'>
+					<value>416.806</value>
+				</Data>
+				<Data name='Polarity'>
+					<value></value>
+				</Data>
+				<Data name='Distance (miles)'>
+					<value>32.7621</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>87.922</value>
+				</Data>
+				<Data name='Telemetry Diagram'>
+					<value>https://drive.google.com/open?id=0B4RrY7XEz449d2JzMXZFOFlDdnM</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-178.8058,51.8192,0.0 -178.039,51.8339,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>GASW to TAPA</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Frequency (MHz)'>
+					<value>418.5</value>
+				</Data>
+				<Data name='Polarity'>
+					<value></value>
+				</Data>
+				<Data name='Distance (miles)'>
+					<value>44.5919</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>86.3396</value>
+				</Data>
+				<Data name='Telemetry Diagram'>
+					<value>https://drive.google.com/open?id=0B4RrY7XEz449d2JzMXZFOFlDdnM</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-178.8566,51.7778,0.0 -177.8148,51.8144,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>CEAP to CETU</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Frequency (MHz)'>
+					<value>419.994</value>
+				</Data>
+				<Data name='Polarity'>
+					<value></value>
+				</Data>
+				<Data name='Distance (miles)'>
+					<value>4.353</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>-125.1512</value>
+				</Data>
+				<Data name='Telemetry Diagram'>
+					<value>https://drive.google.com/open?id=0B4RrY7XEz449Z0hQMmRNSDZWclk</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>179.5758,52.0012,0.0 179.4922,51.9649,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>CEPE to AMK_Rx</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Frequency (MHz)'>
+					<value>409.881</value>
+				</Data>
+				<Data name='Polarity'>
+					<value></value>
+				</Data>
+				<Data name='Distance (miles)'>
+					<value>43.2348</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>-159.7106</value>
+				</Data>
+				<Data name='Telemetry Diagram'>
+					<value>https://drive.google.com/open?id=0B4RrY7XEz449Z0hQMmRNSDZWclk</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>179.6472,51.9646,0.0 179.2996,51.3772,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>CERA to AMK_Rx</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Frequency (MHz)'>
+					<value>412.075</value>
+				</Data>
+				<Data name='Polarity'>
+					<value></value>
+				</Data>
+				<Data name='Distance (miles)'>
+					<value>40.0473</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>-155.6389</value>
+				</Data>
+				<Data name='Telemetry Diagram'>
+					<value>https://drive.google.com/open?id=0B4RrY7XEz449Z0hQMmRNSDZWclk</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>179.6826,51.9058,0.0 179.2996,51.3772,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>CERB to AMK_Rx</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Frequency (MHz)'>
+					<value>408.981</value>
+				</Data>
+				<Data name='Polarity'>
+					<value></value>
+				</Data>
+				<Data name='Distance (miles)'>
+					<value>40.7173</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>-159.6627</value>
+				</Data>
+				<Data name='Telemetry Diagram'>
+					<value>https://drive.google.com/open?id=0B4RrY7XEz449Z0hQMmRNSDZWclk</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>179.6277,51.9302,0.0 179.2996,51.3772,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>CESW to AMK_Rx</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Frequency (MHz)'>
+					<value>408.506</value>
+				</Data>
+				<Data name='Polarity'>
+					<value></value>
+				</Data>
+				<Data name='Distance (miles)'>
+					<value>37.814</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>-162.6328</value>
+				</Data>
+				<Data name='Telemetry Diagram'>
+					<value>https://drive.google.com/open?id=0B4RrY7XEz449Z0hQMmRNSDZWclk</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>179.5613,51.8998,0.0 179.2996,51.3772,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>CETU to AMK_Rx</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Frequency (MHz)'>
+					<value>406.281</value>
+				</Data>
+				<Data name='Polarity'>
+					<value></value>
+				</Data>
+				<Data name='Distance (miles)'>
+					<value>41.4388</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>-168.4359</value>
+				</Data>
+				<Data name='Telemetry Diagram'>
+					<value>https://drive.google.com/open?id=0B4RrY7XEz449Z0hQMmRNSDZWclk</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>179.4922,51.9649,0.0 179.2996,51.3772,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>LSNW to LSSA</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Frequency (MHz)'>
+					<value>408.506</value>
+				</Data>
+				<Data name='Polarity'>
+					<value></value>
+				</Data>
+				<Data name='Distance (miles)'>
+					<value>1.4523</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>-173.9396</value>
+				</Data>
+				<Data name='Telemetry Diagram'>
+					<value>https://drive.google.com/open?id=0B4RrY7XEz449Z0hQMmRNSDZWclk</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>178.5148,51.9693,0.0 178.5112,51.9484,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>LSPA to AMK_Rx</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Frequency (MHz)'>
+					<value>412.238</value>
+				</Data>
+				<Data name='Polarity'>
+					<value></value>
+				</Data>
+				<Data name='Distance (miles)'>
+					<value>50.7124</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>141.7333</value>
+				</Data>
+				<Data name='Telemetry Diagram'>
+					<value>https://drive.google.com/open?id=0B4RrY7XEz449Z0hQMmRNSDZWclk</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>178.5714,51.9557,0.0 179.2996,51.3772,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>LSSA to AMK_Rx</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Frequency (MHz)'>
+					<value>419.994</value>
+				</Data>
+				<Data name='Polarity'>
+					<value></value>
+				</Data>
+				<Data name='Distance (miles)'>
+					<value>51.9571</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>139.1216</value>
+				</Data>
+				<Data name='Telemetry Diagram'>
+					<value>https://drive.google.com/open?id=0B4RrY7XEz449Z0hQMmRNSDZWclk</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>178.5112,51.9484,0.0 179.2996,51.3772,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>LSSE to AMK_Rx</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Frequency (MHz)'>
+					<value>417.263</value>
+				</Data>
+				<Data name='Polarity'>
+					<value></value>
+				</Data>
+				<Data name='Distance (miles)'>
+					<value>49.5564</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>140.3871</value>
+				</Data>
+				<Data name='Telemetry Diagram'>
+					<value>https://drive.google.com/open?id=0B4RrY7XEz449Z0hQMmRNSDZWclk</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>178.567,51.932,0.0 179.2996,51.3772,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>ADAG to ADK_Rx</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Frequency (MHz)'>
+					<value>NaN</value>
+				</Data>
+				<Data name='Polarity'>
+					<value></value>
+				</Data>
+				<Data name='Distance (miles)'>
+					<value>8.3916</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>-167.3395</value>
+				</Data>
+				<Data name='Telemetry Diagram'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-176.6037,51.9791,0.0 -176.6468,51.8606,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>BLDY to CDB_Rx</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Frequency (MHz)'>
+					<value>413.5</value>
+				</Data>
+				<Data name='Polarity'>
+					<value></value>
+				</Data>
+				<Data name='Distance (miles)'>
+					<value>2.6599</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>68.807</value>
+				</Data>
+				<Data name='Telemetry Diagram'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-162.7856,55.1936,0.0 -162.7227,55.2075,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>ETKA to ADK_Rx</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Frequency (MHz)'>
+					<value>NaN</value>
+				</Data>
+				<Data name='Polarity'>
+					<value></value>
+				</Data>
+				<Data name='Distance (miles)'>
+					<value>10.1946</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>-89.9837</value>
+				</Data>
+				<Data name='Telemetry Diagram'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-176.4079,51.8608,0.0 -176.6468,51.8606,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>OPT to HOM_Rx</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Frequency (MHz)'>
+					<value>NaN</value>
+				</Data>
+				<Data name='Polarity'>
+					<value></value>
+				</Data>
+				<Data name='Distance (miles)'>
+					<value>55.1726</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>88.9808</value>
+				</Data>
+				<Data name='Telemetry Diagram'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-153.2321,59.6526,0.0 -151.6516,59.6573,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>STLK to ANC_Rx</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Frequency (MHz)'>
+					<value>NaN</value>
+				</Data>
+				<Data name='Polarity'>
+					<value></value>
+				</Data>
+				<Data name='Distance (miles)'>
+					<value>70.6684</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>106.7264</value>
+				</Data>
+				<Data name='Telemetry Diagram'>
+					<value>https://drive.google.com/open?id=0B4RrY7XEz449cG51ODFEcHhfYUk</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-151.8349,61.4982,0.0 -149.8022,61.1886,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Style id='line-A52714-3-normal'>
+			<LineStyle>
+				<color>ff1427A5</color>
+				<width>3</width>
+			</LineStyle>
+		</Style>
+		<Style id='line-A52714-3-highlight'>
+			<LineStyle>
+				<color>ff1427A5</color>
+				<width>5.0</width>
+			</LineStyle>
+		</Style>
+		<StyleMap id='line-A52714-3'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#line-A52714-3-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#line-A52714-3-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+	</Document>
+</kml>
