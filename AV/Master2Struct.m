@@ -29,14 +29,14 @@ for n = 1:numel(SiteCode)
     REP.(site).RxSiteCode = strrep(RxSiteCode{n}, '-', '_');
     REP.(site).Owner = Owner{n};
     REP.(site).Azimuth = Azimuth(n);
-    REP.(site).Distance = Distance(n);
+    REP.(site).DistanceMiles = DistanceMiles(n);
     REP.(site).SitePhotosURL = SitePhotos{n}; 
     REP.(site).TelemDiagURL = TelemetryDiagram{n};
     REP.(site).VoltagesURL = Voltages{n};
     REP.(site).IcingaURL = Icinga{n};    
 end
 clear n site SiteCode SiteName Elevft LatitudeWG84 LongitudeWG84 LongitudeWG84 RxSiteCode...
-      RxSiteName Azimuth Distance SitePhotos TelemetryDiagram Icinga Voltages Owner
+      RxSiteName Azimuth DistanceMiles SitePhotos TelemetryDiagram Icinga Voltages Owner
 
 %% DIGITAL
 DIG = [];
@@ -122,7 +122,7 @@ for n = 1:numel(SiteCode)
     RAD.(site).(RadioCode{n}).Owner = Owner{n};
     RAD.(site).(RadioCode{n}).Make = Make{n};
     RAD.(site).(RadioCode{n}).Model = Model{n};
-    RAD.(site).(RadioCode{n}).RxRadioCode = RxRadioCode{n};
+    RAD.(site).(RadioCode{n}).RxRadioCode = strrep(RxRadioCode{n}, '-', '_');
     RAD.(site).(RadioCode{n}).SN = SN(n);
     RAD.(site).(RadioCode{n}).MAC = MAC{n};
     RAD.(site).(RadioCode{n}).IPAddress = IPAddress{n};

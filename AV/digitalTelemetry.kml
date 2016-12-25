@@ -1,0 +1,3632 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns='http://www.opengis.net/kml/2.2'>
+	<Document>
+		<name>Digital Telemetry</name>
+		<Placemark>
+			<name>WAZA to HRP_Rx</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Distance (Miles)'>
+					<value>38.3102</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>-54.7469</value>
+				</Data>
+				<Data name='Polarity (miles)'>
+					<value>H</value>
+				</Data>
+				<Data name='P-P of P-MP'>
+					<value>PMP</value>
+				</Data>
+				<Data name='Frequency Key'>
+					<value>A</value>
+				</Data>
+				<Data name='Network ID'>
+					<value>1500</value>
+				</Data>
+				<Data name='TX RADIO'>
+					<value>FGR2 S/N 9397081</value>
+				</Data>
+				<Data name='Tx Radio IP Address'>
+					<value>137.229.36.184 : 80</value>
+				</Data>
+				<Data name='Tx Radio Type (E or R)'>
+					<value>Yagi</value>
+				</Data>
+				<Data name='Tx Radio Subnet (Rx/Tx)'>
+					<value>F / F</value>
+				</Data>
+				<Data name='RX RADIO'>
+					<value>FGR2 S/N 9397162</value>
+				</Data>
+				<Data name='Rx Radio IP Address'>
+					<value>137.229.36.182 : 80</value>
+				</Data>
+				<Data name='Rx Radio Type (E or R)'>
+					<value>?</value>
+				</Data>
+				<Data name='Rx Radio Subnet (Rx/Tx)'>
+					<value>F / F</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-144.1544,62.0746,0.0 -145.1314,62.3912,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>WASW to TOL_Rx</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Distance (Miles)'>
+					<value>66.0116</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>-78.3679</value>
+				</Data>
+				<Data name='Polarity (miles)'>
+					<value>H</value>
+				</Data>
+				<Data name='P-P of P-MP'>
+					<value>PMP</value>
+				</Data>
+				<Data name='Frequency Key'>
+					<value>B</value>
+				</Data>
+				<Data name='Network ID'>
+					<value>1600</value>
+				</Data>
+				<Data name='TX RADIO'>
+					<value>FGR2 S/N 9397142</value>
+				</Data>
+				<Data name='Tx Radio IP Address'>
+					<value>10.23.65.213 : 80</value>
+				</Data>
+				<Data name='Tx Radio Type (E or R)'>
+					<value>Yagi</value>
+				</Data>
+				<Data name='Tx Radio Subnet (Rx/Tx)'>
+					<value>F / F</value>
+				</Data>
+				<Data name='RX RADIO'>
+					<value>FGR2 S/N 9397272</value>
+				</Data>
+				<Data name='Rx Radio IP Address'>
+					<value>10.23.65.211 : 80</value>
+				</Data>
+				<Data name='Rx Radio Type (E or R)'>
+					<value>?</value>
+				</Data>
+				<Data name='Rx Radio Subnet (Rx/Tx)'>
+					<value>F / F</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-144.1745,61.9277,0.0 -146.1749,62.1059,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>WACK to TOL_Rx</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Distance (Miles)'>
+					<value>60.3126</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>-81.2777</value>
+				</Data>
+				<Data name='Polarity (miles)'>
+					<value>H</value>
+				</Data>
+				<Data name='P-P of P-MP'>
+					<value>PMP</value>
+				</Data>
+				<Data name='Frequency Key'>
+					<value>B</value>
+				</Data>
+				<Data name='Network ID'>
+					<value>1600</value>
+				</Data>
+				<Data name='TX RADIO'>
+					<value>FGR2 S/N 9397101</value>
+				</Data>
+				<Data name='Tx Radio IP Address'>
+					<value>10.23.65.217 : 80</value>
+				</Data>
+				<Data name='Tx Radio Type (E or R)'>
+					<value>Yagi</value>
+				</Data>
+				<Data name='Tx Radio Subnet (Rx/Tx)'>
+					<value>F / F</value>
+				</Data>
+				<Data name='RX RADIO'>
+					<value>FGR2 S/N 9397272</value>
+				</Data>
+				<Data name='Rx Radio IP Address'>
+					<value>10.23.65.211 : 80</value>
+				</Data>
+				<Data name='Rx Radio Type (E or R)'>
+					<value>?</value>
+				</Data>
+				<Data name='Rx Radio Subnet (Rx/Tx)'>
+					<value>F / F</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-144.3305,61.9858,0.0 -146.1749,62.1059,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>SSN_Rep to ANC_Rx</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Distance (Miles)'>
+					<value>NaN</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>NaN</value>
+				</Data>
+				<Data name='Polarity (miles)'>
+					<value>H</value>
+				</Data>
+				<Data name='P-P of P-MP'>
+					<value>PMP</value>
+				</Data>
+				<Data name='Frequency Key'>
+					<value></value>
+				</Data>
+				<Data name='Network ID'>
+					<value>900</value>
+				</Data>
+				<Data name='TX RADIO'>
+					<value>FGR2 S/N 9397235</value>
+				</Data>
+				<Data name='Tx Radio IP Address'>
+					<value>130.118.183.107 : 80</value>
+				</Data>
+				<Data name='Tx Radio Type (E or R)'>
+					<value>Yagi</value>
+				</Data>
+				<Data name='Tx Radio Subnet (Rx/Tx)'>
+					<value>-</value>
+				</Data>
+				<Data name='RX RADIO'>
+					<value>FGR2 S/N 9397231</value>
+				</Data>
+				<Data name='Rx Radio IP Address'>
+					<value>130.118.183.110 : 80</value>
+				</Data>
+				<Data name='Rx Radio Type (E or R)'>
+					<value>Miniflector</value>
+				</Data>
+				<Data name='Rx Radio Subnet (Rx/Tx)'>
+					<value>-</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-150.7468,61.4636,0.0 -149.8022,61.1886,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>SPCR to SPCP</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Distance (Miles)'>
+					<value>80.1346</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>89.5234</value>
+				</Data>
+				<Data name='Polarity (miles)'>
+					<value>V</value>
+				</Data>
+				<Data name='P-P of P-MP'>
+					<value>PMP</value>
+				</Data>
+				<Data name='Frequency Key'>
+					<value></value>
+				</Data>
+				<Data name='Network ID'>
+					<value>210</value>
+				</Data>
+				<Data name='TX RADIO'>
+					<value>FGR2 S/N 9397122</value>
+				</Data>
+				<Data name='Tx Radio IP Address'>
+					<value>130.118.183.112 : 80</value>
+				</Data>
+				<Data name='Tx Radio Type (E or R)'>
+					<value>Yagi</value>
+				</Data>
+				<Data name='Tx Radio Subnet (Rx/Tx)'>
+					<value>F / F</value>
+				</Data>
+				<Data name='RX RADIO'>
+					<value>FGR2 S/N 9397119</value>
+				</Data>
+				<Data name='Rx Radio IP Address'>
+					<value>130.118.183.115 : 80</value>
+				</Data>
+				<Data name='Rx Radio Type (E or R)'>
+					<value>Yagi</value>
+				</Data>
+				<Data name='Rx Radio Subnet (Rx/Tx)'>
+					<value>F / F</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-152.2091,61.2003,0.0 -152.155,61.2655,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>SPCR to ANC_Rx</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Distance (Miles)'>
+					<value>80.1346</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>89.5234</value>
+				</Data>
+				<Data name='Polarity (miles)'>
+					<value>H</value>
+				</Data>
+				<Data name='P-P of P-MP'>
+					<value>PMP</value>
+				</Data>
+				<Data name='Frequency Key'>
+					<value>A</value>
+				</Data>
+				<Data name='Network ID'>
+					<value>110</value>
+				</Data>
+				<Data name='TX RADIO'>
+					<value>EB3+ S/N 8779042</value>
+				</Data>
+				<Data name='Tx Radio IP Address'>
+					<value>192.18.16.54 : 80</value>
+				</Data>
+				<Data name='Tx Radio Type (E or R)'>
+					<value>Yagi</value>
+				</Data>
+				<Data name='Tx Radio Subnet (Rx/Tx)'>
+					<value>0 / 1</value>
+				</Data>
+				<Data name='RX RADIO'>
+					<value>EB3+ S/N 8768259</value>
+				</Data>
+				<Data name='Rx Radio IP Address'>
+					<value>192.18.16.53 : 80</value>
+				</Data>
+				<Data name='Rx Radio Type (E or R)'>
+					<value>Miniflector</value>
+				</Data>
+				<Data name='Rx Radio Subnet (Rx/Tx)'>
+					<value>F / F</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-152.2091,61.2003,0.0 -149.8022,61.1886,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>SPCP to SSN_Rep</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Distance (Miles)'>
+					<value>48.5975</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>73.0236</value>
+				</Data>
+				<Data name='Polarity (miles)'>
+					<value>V</value>
+				</Data>
+				<Data name='P-P of P-MP'>
+					<value>PMP</value>
+				</Data>
+				<Data name='Frequency Key'>
+					<value></value>
+				</Data>
+				<Data name='Network ID'>
+					<value>210</value>
+				</Data>
+				<Data name='TX RADIO'>
+					<value>FGR2 S/N 9397119</value>
+				</Data>
+				<Data name='Tx Radio IP Address'>
+					<value>130.118.183.115 : 80</value>
+				</Data>
+				<Data name='Tx Radio Type (E or R)'>
+					<value>Yagi</value>
+				</Data>
+				<Data name='Tx Radio Subnet (Rx/Tx)'>
+					<value>F / F</value>
+				</Data>
+				<Data name='RX RADIO'>
+					<value>FGR2 S/N 9397087</value>
+				</Data>
+				<Data name='Rx Radio IP Address'>
+					<value>130.118.183.114 : 80</value>
+				</Data>
+				<Data name='Rx Radio Type (E or R)'>
+					<value>Yagi</value>
+				</Data>
+				<Data name='Rx Radio Subnet (Rx/Tx)'>
+					<value>F / F</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-152.155,61.2655,0.0 -150.7468,61.4636,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>SPBG to SPCR</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Distance (Miles)'>
+					<value>6.7771</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>126.7634</value>
+				</Data>
+				<Data name='Polarity (miles)'>
+					<value>H</value>
+				</Data>
+				<Data name='P-P of P-MP'>
+					<value>PMP</value>
+				</Data>
+				<Data name='Frequency Key'>
+					<value>A</value>
+				</Data>
+				<Data name='Network ID'>
+					<value>110</value>
+				</Data>
+				<Data name='TX RADIO'>
+					<value>EB3+ S/N 8746909</value>
+				</Data>
+				<Data name='Tx Radio IP Address'>
+					<value>192.18.16.55 : 80</value>
+				</Data>
+				<Data name='Tx Radio Type (E or R)'>
+					<value>Yagi</value>
+				</Data>
+				<Data name='Tx Radio Subnet (Rx/Tx)'>
+					<value>F / F</value>
+				</Data>
+				<Data name='RX RADIO'>
+					<value>EB3+ S/N 8779042</value>
+				</Data>
+				<Data name='Rx Radio IP Address'>
+					<value>192.18.16.54 : 80</value>
+				</Data>
+				<Data name='Rx Radio Type (E or R)'>
+					<value>Yagi</value>
+				</Data>
+				<Data name='Rx Radio Subnet (Rx/Tx)'>
+					<value>0 / 1</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-152.3722,61.2591,0.0 -152.2091,61.2003,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>SPCG to ANC_Rx</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Distance (Miles)'>
+					<value>74.1622</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>94.5165</value>
+				</Data>
+				<Data name='Polarity (miles)'>
+					<value>H</value>
+				</Data>
+				<Data name='P-P of P-MP'>
+					<value>PMP</value>
+				</Data>
+				<Data name='Frequency Key'>
+					<value>B</value>
+				</Data>
+				<Data name='Network ID'>
+					<value>115</value>
+				</Data>
+				<Data name='TX RADIO'>
+					<value>EB3+ S/N 8776845</value>
+				</Data>
+				<Data name='Tx Radio IP Address'>
+					<value>192.18.16.57 : 80</value>
+				</Data>
+				<Data name='Tx Radio Type (E or R)'>
+					<value>Yagi</value>
+				</Data>
+				<Data name='Tx Radio Subnet (Rx/Tx)'>
+					<value>F / F</value>
+				</Data>
+				<Data name='RX RADIO'>
+					<value>EB3+ S/N 8768854</value>
+				</Data>
+				<Data name='Rx Radio IP Address'>
+					<value>192.18.16.56 : 80</value>
+				</Data>
+				<Data name='Rx Radio Type (E or R)'>
+					<value>Miniflector</value>
+				</Data>
+				<Data name='Rx Radio Subnet (Rx/Tx)'>
+					<value>F / F</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-152.0228,61.2913,0.0 -149.8022,61.1886,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>SPCN to CKT_Rep</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Distance (Miles)'>
+					<value>1.8404</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>-155.3028</value>
+				</Data>
+				<Data name='Polarity (miles)'>
+					<value>H</value>
+				</Data>
+				<Data name='P-P of P-MP'>
+					<value>PMP</value>
+				</Data>
+				<Data name='Frequency Key'>
+					<value>	</value>
+				</Data>
+				<Data name='Network ID'>
+					<value>125</value>
+				</Data>
+				<Data name='TX RADIO'>
+					<value>EB3+ S/N 8781936</value>
+				</Data>
+				<Data name='Tx Radio IP Address'>
+					<value>192.18.16.60 : 80</value>
+				</Data>
+				<Data name='Tx Radio Type (E or R)'>
+					<value>Yagi</value>
+				</Data>
+				<Data name='Tx Radio Subnet (Rx/Tx)'>
+					<value>2 / F</value>
+				</Data>
+				<Data name='RX RADIO'>
+					<value>EB3+ S/N 8782051</value>
+				</Data>
+				<Data name='Rx Radio IP Address'>
+					<value>192.18.16.62 : 80</value>
+				</Data>
+				<Data name='Rx Radio Type (E or R)'>
+					<value>Yagi</value>
+				</Data>
+				<Data name='Rx Radio Subnet (Rx/Tx)'>
+					<value>0 / 1</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-152.1854,61.2244,0.0 -152.2085,61.2002,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>CKT_Rep to ANC_Rx</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Distance (Miles)'>
+					<value>NaN</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>NaN</value>
+				</Data>
+				<Data name='Polarity (miles)'>
+					<value>H</value>
+				</Data>
+				<Data name='P-P of P-MP'>
+					<value>PMP</value>
+				</Data>
+				<Data name='Frequency Key'>
+					<value>	</value>
+				</Data>
+				<Data name='Network ID'>
+					<value>125</value>
+				</Data>
+				<Data name='TX RADIO'>
+					<value>EB3+ S/N 8782051</value>
+				</Data>
+				<Data name='Tx Radio IP Address'>
+					<value>192.18.16.62 : 80</value>
+				</Data>
+				<Data name='Tx Radio Type (E or R)'>
+					<value>Yagi</value>
+				</Data>
+				<Data name='Tx Radio Subnet (Rx/Tx)'>
+					<value>0 / 1</value>
+				</Data>
+				<Data name='RX RADIO'>
+					<value>EB3+ S/N 8762693</value>
+				</Data>
+				<Data name='Rx Radio IP Address'>
+					<value>192.18.16.61 : 80</value>
+				</Data>
+				<Data name='Rx Radio Type (E or R)'>
+					<value>Miniflector</value>
+				</Data>
+				<Data name='Rx Radio Subnet (Rx/Tx)'>
+					<value>F / F</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-152.2085,61.2002,0.0 -149.8022,61.1886,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>SPCL_Rep to CKT_Rep</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Distance (Miles)'>
+					<value>NaN</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>NaN</value>
+				</Data>
+				<Data name='Polarity (miles)'>
+					<value>H</value>
+				</Data>
+				<Data name='P-P of P-MP'>
+					<value>PMP</value>
+				</Data>
+				<Data name='Frequency Key'>
+					<value>	</value>
+				</Data>
+				<Data name='Network ID'>
+					<value>125</value>
+				</Data>
+				<Data name='TX RADIO'>
+					<value>EB3+ S/N NaN</value>
+				</Data>
+				<Data name='Tx Radio IP Address'>
+					<value>192.18.16.63 : 80</value>
+				</Data>
+				<Data name='Tx Radio Type (E or R)'>
+					<value>Yagi</value>
+				</Data>
+				<Data name='Tx Radio Subnet (Rx/Tx)'>
+					<value>1 / 2</value>
+				</Data>
+				<Data name='RX RADIO'>
+					<value>EB3+ S/N 8782051</value>
+				</Data>
+				<Data name='Rx Radio IP Address'>
+					<value>192.18.16.62 : 80</value>
+				</Data>
+				<Data name='Rx Radio Type (E or R)'>
+					<value>Yagi</value>
+				</Data>
+				<Data name='Rx Radio Subnet (Rx/Tx)'>
+					<value>0 / 1</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-152.5614,61.2728,0.0 -152.2085,61.2002,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>SPNN to SPCL_Rep</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Distance (Miles)'>
+					<value>7.9462</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>144.2472</value>
+				</Data>
+				<Data name='Polarity (miles)'>
+					<value>H</value>
+				</Data>
+				<Data name='P-P of P-MP'>
+					<value>PMP</value>
+				</Data>
+				<Data name='Frequency Key'>
+					<value>	</value>
+				</Data>
+				<Data name='Network ID'>
+					<value>125</value>
+				</Data>
+				<Data name='TX RADIO'>
+					<value>EB3+ S/N NaN</value>
+				</Data>
+				<Data name='Tx Radio IP Address'>
+					<value>192.18.16.64 : 80</value>
+				</Data>
+				<Data name='Tx Radio Type (E or R)'>
+					<value>Yagi</value>
+				</Data>
+				<Data name='Tx Radio Subnet (Rx/Tx)'>
+					<value>2 / F</value>
+				</Data>
+				<Data name='RX RADIO'>
+					<value>EB3+ S/N NaN</value>
+				</Data>
+				<Data name='Rx Radio IP Address'>
+					<value>192.18.16.63 : 80</value>
+				</Data>
+				<Data name='Rx Radio Type (E or R)'>
+					<value>Yagi</value>
+				</Data>
+				<Data name='Rx Radio Subnet (Rx/Tx)'>
+					<value>1 / 2</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-152.7012,61.3662,0.0 -152.5614,61.2728,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>SLK_Rep to ANC_Rx</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Distance (Miles)'>
+					<value>NaN</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>NaN</value>
+				</Data>
+				<Data name='Polarity (miles)'>
+					<value>H</value>
+				</Data>
+				<Data name='P-P of P-MP'>
+					<value>PMP</value>
+				</Data>
+				<Data name='Frequency Key'>
+					<value>C</value>
+				</Data>
+				<Data name='Network ID'>
+					<value>130</value>
+				</Data>
+				<Data name='TX RADIO'>
+					<value>FGR2 S/N 9397222</value>
+				</Data>
+				<Data name='Tx Radio IP Address'>
+					<value>198.18.1.66 : 80</value>
+				</Data>
+				<Data name='Tx Radio Type (E or R)'>
+					<value>Yagi</value>
+				</Data>
+				<Data name='Tx Radio Subnet (Rx/Tx)'>
+					<value>F / F</value>
+				</Data>
+				<Data name='RX RADIO'>
+					<value>FGR2 S/N 9397180</value>
+				</Data>
+				<Data name='Rx Radio IP Address'>
+					<value>198.18.1.65 : 80</value>
+				</Data>
+				<Data name='Rx Radio Type (E or R)'>
+					<value>Miniflector</value>
+				</Data>
+				<Data name='Rx Radio Subnet (Rx/Tx)'>
+					<value>F / F</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-150.2236,60.5118,0.0 -149.8022,61.1886,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>RDJH to NIK_Rx</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Distance (Miles)'>
+					<value>49.6225</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>86.3065</value>
+				</Data>
+				<Data name='Polarity (miles)'>
+					<value>H</value>
+				</Data>
+				<Data name='P-P of P-MP'>
+					<value>PP</value>
+				</Data>
+				<Data name='Frequency Key'>
+					<value>-</value>
+				</Data>
+				<Data name='Network ID'>
+					<value>NaN</value>
+				</Data>
+				<Data name='TX RADIO'>
+					<value>EB3+ S/N NaN</value>
+				</Data>
+				<Data name='Tx Radio IP Address'>
+					<value>192.168.205.62 : 8003</value>
+				</Data>
+				<Data name='Tx Radio Type (E or R)'>
+					<value>Yagi</value>
+				</Data>
+				<Data name='Tx Radio Subnet (Rx/Tx)'>
+					<value>-</value>
+				</Data>
+				<Data name='RX RADIO'>
+					<value>EB3+ S/N NaN</value>
+				</Data>
+				<Data name='Rx Radio IP Address'>
+					<value>192.168.205.61 : 8002</value>
+				</Data>
+				<Data name='Rx Radio Type (E or R)'>
+					<value>Yagi</value>
+				</Data>
+				<Data name='Rx Radio Subnet (Rx/Tx)'>
+					<value>-</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-152.8058,60.5905,0.0 -151.3445,60.6288,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>RDJH to RDJH</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Distance (Miles)'>
+					<value>49.6225</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>86.3065</value>
+				</Data>
+				<Data name='Polarity (miles)'>
+					<value>V</value>
+				</Data>
+				<Data name='P-P of P-MP'>
+					<value>PMP</value>
+				</Data>
+				<Data name='Frequency Key'>
+					<value></value>
+				</Data>
+				<Data name='Network ID'>
+					<value>108</value>
+				</Data>
+				<Data name='TX RADIO'>
+					<value>EB3+ S/N NaN</value>
+				</Data>
+				<Data name='Tx Radio IP Address'>
+					<value>192.168.205.63 : 8004</value>
+				</Data>
+				<Data name='Tx Radio Type (E or R)'>
+					<value>Yagi</value>
+				</Data>
+				<Data name='Tx Radio Subnet (Rx/Tx)'>
+					<value>F / F</value>
+				</Data>
+				<Data name='RX RADIO'>
+					<value>EB3+ S/N NaN</value>
+				</Data>
+				<Data name='Rx Radio IP Address'>
+					<value>192.168.205.62 : 8003</value>
+				</Data>
+				<Data name='Rx Radio Type (E or R)'>
+					<value>Yagi</value>
+				</Data>
+				<Data name='Rx Radio Subnet (Rx/Tx)'>
+					<value>-</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-152.8058,60.5905,0.0 -152.8058,60.5905,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>RDWB to RDJH</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Distance (Miles)'>
+					<value>7.2667</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>10.1931</value>
+				</Data>
+				<Data name='Polarity (miles)'>
+					<value>V</value>
+				</Data>
+				<Data name='P-P of P-MP'>
+					<value>PMP</value>
+				</Data>
+				<Data name='Frequency Key'>
+					<value></value>
+				</Data>
+				<Data name='Network ID'>
+					<value>108</value>
+				</Data>
+				<Data name='TX RADIO'>
+					<value>EB3+ S/N NaN</value>
+				</Data>
+				<Data name='Tx Radio IP Address'>
+					<value>192.168.205.66 : 8007</value>
+				</Data>
+				<Data name='Tx Radio Type (E or R)'>
+					<value>Yagi</value>
+				</Data>
+				<Data name='Tx Radio Subnet (Rx/Tx)'>
+					<value>F / F</value>
+				</Data>
+				<Data name='RX RADIO'>
+					<value>EB3+ S/N NaN</value>
+				</Data>
+				<Data name='Rx Radio IP Address'>
+					<value>192.168.205.63 : 8004</value>
+				</Data>
+				<Data name='Rx Radio Type (E or R)'>
+					<value>Yagi</value>
+				</Data>
+				<Data name='Rx Radio Subnet (Rx/Tx)'>
+					<value>F / F</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-152.8437,60.487,0.0 -152.8058,60.5905,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>RDDF to NIK_Rx</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Distance (Miles)'>
+					<value>45.6411</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>86.1515</value>
+				</Data>
+				<Data name='Polarity (miles)'>
+					<value>?</value>
+				</Data>
+				<Data name='P-P of P-MP'>
+					<value>PMP</value>
+				</Data>
+				<Data name='Frequency Key'>
+					<value></value>
+				</Data>
+				<Data name='Network ID'>
+					<value>175</value>
+				</Data>
+				<Data name='TX RADIO'>
+					<value>EB3+ S/N NaN</value>
+				</Data>
+				<Data name='Tx Radio IP Address'>
+					<value>192.168.205.68 : 8009</value>
+				</Data>
+				<Data name='Tx Radio Type (E or R)'>
+					<value>Yagi</value>
+				</Data>
+				<Data name='Tx Radio Subnet (Rx/Tx)'>
+					<value>0 / 1</value>
+				</Data>
+				<Data name='RX RADIO'>
+					<value>EB3+ S/N NaN</value>
+				</Data>
+				<Data name='Rx Radio IP Address'>
+					<value>192.168.205.67 : 8008</value>
+				</Data>
+				<Data name='Rx Radio Type (E or R)'>
+					<value>Yagi</value>
+				</Data>
+				<Data name='Rx Radio Subnet (Rx/Tx)'>
+					<value>F / F</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-152.6883,60.5912,0.0 -151.3445,60.6288,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>NCT to RDDF</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Distance (Miles)'>
+					<value>8.4242</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>76.086</value>
+				</Data>
+				<Data name='Polarity (miles)'>
+					<value>?</value>
+				</Data>
+				<Data name='P-P of P-MP'>
+					<value>PMP</value>
+				</Data>
+				<Data name='Frequency Key'>
+					<value></value>
+				</Data>
+				<Data name='Network ID'>
+					<value>175</value>
+				</Data>
+				<Data name='TX RADIO'>
+					<value>EB3+ S/N NaN</value>
+				</Data>
+				<Data name='Tx Radio IP Address'>
+					<value>192.168.205.70 : 8011</value>
+				</Data>
+				<Data name='Tx Radio Type (E or R)'>
+					<value>Yagi</value>
+				</Data>
+				<Data name='Tx Radio Subnet (Rx/Tx)'>
+					<value>1 / F</value>
+				</Data>
+				<Data name='RX RADIO'>
+					<value>EB3+ S/N NaN</value>
+				</Data>
+				<Data name='Rx Radio IP Address'>
+					<value>192.168.205.68 : 8009</value>
+				</Data>
+				<Data name='Rx Radio Type (E or R)'>
+					<value>Yagi</value>
+				</Data>
+				<Data name='Rx Radio Subnet (Rx/Tx)'>
+					<value>0 / 1</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-152.9293,60.5621,0.0 -152.6883,60.5912,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>RDER_Rep to NIK_Rx</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Distance (Miles)'>
+					<value>NaN</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>NaN</value>
+				</Data>
+				<Data name='Polarity (miles)'>
+					<value>H</value>
+				</Data>
+				<Data name='P-P of P-MP'>
+					<value>PMP</value>
+				</Data>
+				<Data name='Frequency Key'>
+					<value></value>
+				</Data>
+				<Data name='Network ID'>
+					<value>185</value>
+				</Data>
+				<Data name='TX RADIO'>
+					<value>EB3+ S/N NaN</value>
+				</Data>
+				<Data name='Tx Radio IP Address'>
+					<value>192.168.205.74 : 8015</value>
+				</Data>
+				<Data name='Tx Radio Type (E or R)'>
+					<value>Radome Yagi</value>
+				</Data>
+				<Data name='Tx Radio Subnet (Rx/Tx)'>
+					<value>0 / 1</value>
+				</Data>
+				<Data name='RX RADIO'>
+					<value>EB3+ S/N NaN</value>
+				</Data>
+				<Data name='Rx Radio IP Address'>
+					<value>192.168.205.73 : 8014</value>
+				</Data>
+				<Data name='Rx Radio Type (E or R)'>
+					<value>Yagi</value>
+				</Data>
+				<Data name='Rx Radio Subnet (Rx/Tx)'>
+					<value>F / F</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-152.6676,60.2777,0.0 -151.3445,60.6288,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>RED to RDER_Rep</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Distance (Miles)'>
+					<value>10.4602</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>159.566</value>
+				</Data>
+				<Data name='Polarity (miles)'>
+					<value>H</value>
+				</Data>
+				<Data name='P-P of P-MP'>
+					<value>PMP</value>
+				</Data>
+				<Data name='Frequency Key'>
+					<value></value>
+				</Data>
+				<Data name='Network ID'>
+					<value>185</value>
+				</Data>
+				<Data name='TX RADIO'>
+					<value>EB3+ S/N NaN</value>
+				</Data>
+				<Data name='Tx Radio IP Address'>
+					<value>192.168.205.75 : 8016</value>
+				</Data>
+				<Data name='Tx Radio Type (E or R)'>
+					<value>Yagi</value>
+				</Data>
+				<Data name='Tx Radio Subnet (Rx/Tx)'>
+					<value>1 / F</value>
+				</Data>
+				<Data name='RX RADIO'>
+					<value>EB3+ S/N NaN</value>
+				</Data>
+				<Data name='Rx Radio IP Address'>
+					<value>192.168.205.74 : 8015</value>
+				</Data>
+				<Data name='Rx Radio Type (E or R)'>
+					<value>Radome Yagi</value>
+				</Data>
+				<Data name='Rx Radio Subnet (Rx/Tx)'>
+					<value>0 / 1</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-152.7742,60.4196,0.0 -152.6676,60.2777,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>RDSO to RDER_Rep</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Distance (Miles)'>
+					<value>12.4408</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>167.6453</value>
+				</Data>
+				<Data name='Polarity (miles)'>
+					<value>H</value>
+				</Data>
+				<Data name='P-P of P-MP'>
+					<value>PMP</value>
+				</Data>
+				<Data name='Frequency Key'>
+					<value></value>
+				</Data>
+				<Data name='Network ID'>
+					<value>185</value>
+				</Data>
+				<Data name='TX RADIO'>
+					<value>EB3+ S/N NaN</value>
+				</Data>
+				<Data name='Tx Radio IP Address'>
+					<value>192.168.205.76 : 8017</value>
+				</Data>
+				<Data name='Tx Radio Type (E or R)'>
+					<value>Yagi</value>
+				</Data>
+				<Data name='Tx Radio Subnet (Rx/Tx)'>
+					<value>1 / F</value>
+				</Data>
+				<Data name='RX RADIO'>
+					<value>EB3+ S/N NaN</value>
+				</Data>
+				<Data name='Rx Radio IP Address'>
+					<value>192.168.205.74 : 8015</value>
+				</Data>
+				<Data name='Rx Radio Type (E or R)'>
+					<value>Radome Yagi</value>
+				</Data>
+				<Data name='Rx Radio Subnet (Rx/Tx)'>
+					<value>0 / 1</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-152.7453,60.4536,0.0 -152.6676,60.2777,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>ILW to RDER_Rep</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Distance (Miles)'>
+					<value>22.152</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>46.8304</value>
+				</Data>
+				<Data name='Polarity (miles)'>
+					<value>H</value>
+				</Data>
+				<Data name='P-P of P-MP'>
+					<value>PMP</value>
+				</Data>
+				<Data name='Frequency Key'>
+					<value></value>
+				</Data>
+				<Data name='Network ID'>
+					<value>185</value>
+				</Data>
+				<Data name='TX RADIO'>
+					<value>EB3+ S/N NaN</value>
+				</Data>
+				<Data name='Tx Radio IP Address'>
+					<value>192.168.205.77 : 8019</value>
+				</Data>
+				<Data name='Tx Radio Type (E or R)'>
+					<value>Yagi</value>
+				</Data>
+				<Data name='Tx Radio Subnet (Rx/Tx)'>
+					<value>1 / F</value>
+				</Data>
+				<Data name='RX RADIO'>
+					<value>EB3+ S/N NaN</value>
+				</Data>
+				<Data name='Rx Radio IP Address'>
+					<value>192.168.205.74 : 8015</value>
+				</Data>
+				<Data name='Rx Radio Type (E or R)'>
+					<value>Radome Yagi</value>
+				</Data>
+				<Data name='Rx Radio Subnet (Rx/Tx)'>
+					<value>0 / 1</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-153.1392,60.0592,0.0 -152.6676,60.2777,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>REF to NIK_Rx</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Distance (Miles)'>
+					<value>46.8426</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>77.495</value>
+				</Data>
+				<Data name='Polarity (miles)'>
+					<value>H</value>
+				</Data>
+				<Data name='P-P of P-MP'>
+					<value>PMP</value>
+				</Data>
+				<Data name='Frequency Key'>
+					<value></value>
+				</Data>
+				<Data name='Network ID'>
+					<value>185</value>
+				</Data>
+				<Data name='TX RADIO'>
+					<value>FGR2 S/N NaN</value>
+				</Data>
+				<Data name='Tx Radio IP Address'>
+					<value>192.168.205.78 : 8020</value>
+				</Data>
+				<Data name='Tx Radio Type (E or R)'>
+					<value>Yagi</value>
+				</Data>
+				<Data name='Tx Radio Subnet (Rx/Tx)'>
+					<value>0 / F</value>
+				</Data>
+				<Data name='RX RADIO'>
+					<value>EB3+ S/N NaN</value>
+				</Data>
+				<Data name='Rx Radio IP Address'>
+					<value>192.168.205.73 : 8014</value>
+				</Data>
+				<Data name='Rx Radio Type (E or R)'>
+					<value>Yagi</value>
+				</Data>
+				<Data name='Rx Radio Subnet (Rx/Tx)'>
+					<value>F / F</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-152.694,60.4888,0.0 -151.3445,60.6288,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>ILNE to NIN_Rx</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Distance (Miles)'>
+					<value>48.1267</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>90.3663</value>
+				</Data>
+				<Data name='Polarity (miles)'>
+					<value>H</value>
+				</Data>
+				<Data name='P-P of P-MP'>
+					<value>PMP</value>
+				</Data>
+				<Data name='Frequency Key'>
+					<value></value>
+				</Data>
+				<Data name='Network ID'>
+					<value>220</value>
+				</Data>
+				<Data name='TX RADIO'>
+					<value>FGR2 S/N 9397075</value>
+				</Data>
+				<Data name='Tx Radio IP Address'>
+					<value>192.168.13.152 : 8002</value>
+				</Data>
+				<Data name='Tx Radio Type (E or R)'>
+					<value>Yagi</value>
+				</Data>
+				<Data name='Tx Radio Subnet (Rx/Tx)'>
+					<value>F / F</value>
+				</Data>
+				<Data name='RX RADIO'>
+					<value>EB3+ S/N NaN</value>
+				</Data>
+				<Data name='Rx Radio IP Address'>
+					<value>192.168.13.153 : 8003</value>
+				</Data>
+				<Data name='Rx Radio Type (E or R)'>
+					<value>Yagi</value>
+				</Data>
+				<Data name='Rx Radio Subnet (Rx/Tx)'>
+					<value>F / F</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-153.0635,60.0573,0.0 -151.6685,60.0455,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>IVE to NIN_Rx</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Distance (Miles)'>
+					<value>46.6401</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>86.936</value>
+				</Data>
+				<Data name='Polarity (miles)'>
+					<value>H</value>
+				</Data>
+				<Data name='P-P of P-MP'>
+					<value>PMP</value>
+				</Data>
+				<Data name='Frequency Key'>
+					<value></value>
+				</Data>
+				<Data name='Network ID'>
+					<value>220</value>
+				</Data>
+				<Data name='TX RADIO'>
+					<value>EB3+ S/N NaN</value>
+				</Data>
+				<Data name='Tx Radio IP Address'>
+					<value>192.168.13.155 : 8004</value>
+				</Data>
+				<Data name='Tx Radio Type (E or R)'>
+					<value>Yagi</value>
+				</Data>
+				<Data name='Tx Radio Subnet (Rx/Tx)'>
+					<value>F / F</value>
+				</Data>
+				<Data name='RX RADIO'>
+					<value>EB3+ S/N NaN</value>
+				</Data>
+				<Data name='Rx Radio IP Address'>
+					<value>192.168.13.153 : 8003</value>
+				</Data>
+				<Data name='Rx Radio Type (E or R)'>
+					<value>Yagi</value>
+				</Data>
+				<Data name='Rx Radio Subnet (Rx/Tx)'>
+					<value>F / F</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-153.0185,60.0163,0.0 -151.6685,60.0455,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>AUSS to HOM_Rx</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Distance (Miles)'>
+					<value>65.7011</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>70.9455</value>
+				</Data>
+				<Data name='Polarity (miles)'>
+					<value>H</value>
+				</Data>
+				<Data name='P-P of P-MP'>
+					<value>PP</value>
+				</Data>
+				<Data name='Frequency Key'>
+					<value>-</value>
+				</Data>
+				<Data name='Network ID'>
+					<value>NaN</value>
+				</Data>
+				<Data name='TX RADIO'>
+					<value>FGR2 S/N 9364898</value>
+				</Data>
+				<Data name='Tx Radio IP Address'>
+					<value>198.18.17.41 : 80</value>
+				</Data>
+				<Data name='Tx Radio Type (E or R)'>
+					<value>Yagi</value>
+				</Data>
+				<Data name='Tx Radio Subnet (Rx/Tx)'>
+					<value>F / F</value>
+				</Data>
+				<Data name='RX RADIO'>
+					<value>FGR2 S/N 9364798</value>
+				</Data>
+				<Data name='Rx Radio IP Address'>
+					<value>198.18.17.40 : 80</value>
+				</Data>
+				<Data name='Rx Radio Type (E or R)'>
+					<value>Miniflector</value>
+				</Data>
+				<Data name='Rx Radio Subnet (Rx/Tx)'>
+					<value>F / F</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-153.4309,59.3589,0.0 -151.6516,59.6573,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>ILCB_Rep to HOM_Rx</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Distance (Miles)'>
+					<value>NaN</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>NaN</value>
+				</Data>
+				<Data name='Polarity (miles)'>
+					<value>H</value>
+				</Data>
+				<Data name='P-P of P-MP'>
+					<value>PMP</value>
+				</Data>
+				<Data name='Frequency Key'>
+					<value></value>
+				</Data>
+				<Data name='Network ID'>
+					<value>1001</value>
+				</Data>
+				<Data name='TX RADIO'>
+					<value>FGR2 S/N 9364840</value>
+				</Data>
+				<Data name='Tx Radio IP Address'>
+					<value>198.18.17.44 : 80</value>
+				</Data>
+				<Data name='Tx Radio Type (E or R)'>
+					<value>Yagi</value>
+				</Data>
+				<Data name='Tx Radio Subnet (Rx/Tx)'>
+					<value>F / F</value>
+				</Data>
+				<Data name='RX RADIO'>
+					<value>FGR2 S/N 9364970</value>
+				</Data>
+				<Data name='Rx Radio IP Address'>
+					<value>198.18.17.43 : 80</value>
+				</Data>
+				<Data name='Rx Radio Type (E or R)'>
+					<value>Miniflector</value>
+				</Data>
+				<Data name='Rx Radio Subnet (Rx/Tx)'>
+					<value>F / F</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-153.0142,59.8184,0.0 -151.6516,59.6573,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>ILCB_Rep to ILCB_Rep</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Distance (Miles)'>
+					<value>NaN</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>NaN</value>
+				</Data>
+				<Data name='Polarity (miles)'>
+					<value>V</value>
+				</Data>
+				<Data name='P-P of P-MP'>
+					<value>PMP</value>
+				</Data>
+				<Data name='Frequency Key'>
+					<value></value>
+				</Data>
+				<Data name='Network ID'>
+					<value>2002</value>
+				</Data>
+				<Data name='TX RADIO'>
+					<value>FGR2 S/N 9365093</value>
+				</Data>
+				<Data name='Tx Radio IP Address'>
+					<value>198.18.17.45 : 80</value>
+				</Data>
+				<Data name='Tx Radio Type (E or R)'>
+					<value>Yagi</value>
+				</Data>
+				<Data name='Tx Radio Subnet (Rx/Tx)'>
+					<value>F / F</value>
+				</Data>
+				<Data name='RX RADIO'>
+					<value>FGR2 S/N 9364840</value>
+				</Data>
+				<Data name='Rx Radio IP Address'>
+					<value>198.18.17.44 : 80</value>
+				</Data>
+				<Data name='Rx Radio Type (E or R)'>
+					<value>Yagi</value>
+				</Data>
+				<Data name='Rx Radio Subnet (Rx/Tx)'>
+					<value>F / F</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-153.0142,59.8184,0.0 -153.0142,59.8184,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>ILSW to ILCB_Rep</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Distance (Miles)'>
+					<value>12.2244</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>158.6175</value>
+				</Data>
+				<Data name='Polarity (miles)'>
+					<value>V</value>
+				</Data>
+				<Data name='P-P of P-MP'>
+					<value>PMP</value>
+				</Data>
+				<Data name='Frequency Key'>
+					<value></value>
+				</Data>
+				<Data name='Network ID'>
+					<value>2002</value>
+				</Data>
+				<Data name='TX RADIO'>
+					<value>FGR2 S/N 9365008</value>
+				</Data>
+				<Data name='Tx Radio IP Address'>
+					<value>198.18.17.46 : 80</value>
+				</Data>
+				<Data name='Tx Radio Type (E or R)'>
+					<value>Yagi</value>
+				</Data>
+				<Data name='Tx Radio Subnet (Rx/Tx)'>
+					<value>F / F</value>
+				</Data>
+				<Data name='RX RADIO'>
+					<value>FGR2 S/N 9365093</value>
+				</Data>
+				<Data name='Rx Radio IP Address'>
+					<value>198.18.17.45 : 80</value>
+				</Data>
+				<Data name='Rx Radio Type (E or R)'>
+					<value>Yagi</value>
+				</Data>
+				<Data name='Rx Radio Subnet (Rx/Tx)'>
+					<value>F / F</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-153.1425,59.9832,0.0 -153.0142,59.8184,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>ILS to ILCB_Rep</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Distance (Miles)'>
+					<value>9.7724</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>168.4969</value>
+				</Data>
+				<Data name='Polarity (miles)'>
+					<value>V</value>
+				</Data>
+				<Data name='P-P of P-MP'>
+					<value>PMP</value>
+				</Data>
+				<Data name='Frequency Key'>
+					<value></value>
+				</Data>
+				<Data name='Network ID'>
+					<value>2002</value>
+				</Data>
+				<Data name='TX RADIO'>
+					<value>FGR2 S/N 9364995</value>
+				</Data>
+				<Data name='Tx Radio IP Address'>
+					<value>198.18.17.50 : 80</value>
+				</Data>
+				<Data name='Tx Radio Type (E or R)'>
+					<value>Yagi</value>
+				</Data>
+				<Data name='Tx Radio Subnet (Rx/Tx)'>
+					<value>F / F</value>
+				</Data>
+				<Data name='RX RADIO'>
+					<value>FGR2 S/N 9365093</value>
+				</Data>
+				<Data name='Rx Radio IP Address'>
+					<value>198.18.17.45 : 80</value>
+				</Data>
+				<Data name='Rx Radio Type (E or R)'>
+					<value>Yagi</value>
+				</Data>
+				<Data name='Rx Radio Subnet (Rx/Tx)'>
+					<value>F / F</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-153.0703,59.957,0.0 -153.0142,59.8184,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>KAHC_Rep to AKN_Rx</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Distance (Miles)'>
+					<value>NaN</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>NaN</value>
+				</Data>
+				<Data name='Polarity (miles)'>
+					<value>H</value>
+				</Data>
+				<Data name='P-P of P-MP'>
+					<value>PMP</value>
+				</Data>
+				<Data name='Frequency Key'>
+					<value>D</value>
+				</Data>
+				<Data name='Network ID'>
+					<value>120</value>
+				</Data>
+				<Data name='TX RADIO'>
+					<value>FGR2 S/N 9458273</value>
+				</Data>
+				<Data name='Tx Radio IP Address'>
+					<value>198.18.9.68 : 80</value>
+				</Data>
+				<Data name='Tx Radio Type (E or R)'>
+					<value>Yagi</value>
+				</Data>
+				<Data name='Tx Radio Subnet (Rx/Tx)'>
+					<value>F / F</value>
+				</Data>
+				<Data name='RX RADIO'>
+					<value>FGR2 S/N 9458395</value>
+				</Data>
+				<Data name='Rx Radio IP Address'>
+					<value>198.18.9.66 : 80</value>
+				</Data>
+				<Data name='Rx Radio Type (E or R)'>
+					<value>Yagi</value>
+				</Data>
+				<Data name='Rx Radio Subnet (Rx/Tx)'>
+					<value>F / F</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-155.0081,58.6483,0.0 -156.668,58.6814,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>KABU to KEL_Rep</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Distance (Miles)'>
+					<value>20.3177</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>-54.6995</value>
+				</Data>
+				<Data name='Polarity (miles)'>
+					<value>?</value>
+				</Data>
+				<Data name='P-P of P-MP'>
+					<value>PMP</value>
+				</Data>
+				<Data name='Frequency Key'>
+					<value>C</value>
+				</Data>
+				<Data name='Network ID'>
+					<value>110</value>
+				</Data>
+				<Data name='TX RADIO'>
+					<value>EB3+ S/N 8767965</value>
+				</Data>
+				<Data name='Tx Radio IP Address'>
+					<value>198.18.9.179 : 80</value>
+				</Data>
+				<Data name='Tx Radio Type (E or R)'>
+					<value>Yagi</value>
+				</Data>
+				<Data name='Tx Radio Subnet (Rx/Tx)'>
+					<value>F / F</value>
+				</Data>
+				<Data name='RX RADIO'>
+					<value>EB3+ S/N 8779027</value>
+				</Data>
+				<Data name='Rx Radio IP Address'>
+					<value>198.18.9.100 : 80</value>
+				</Data>
+				<Data name='Rx Radio Type (E or R)'>
+					<value>Yagi</value>
+				</Data>
+				<Data name='Rx Radio Subnet (Rx/Tx)'>
+					<value>F / F</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-155.2843,58.2702,0.0 -155.7428,58.4393,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>KABU to KEL_Rep</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Distance (Miles)'>
+					<value>20.3177</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>-54.6995</value>
+				</Data>
+				<Data name='Polarity (miles)'>
+					<value></value>
+				</Data>
+				<Data name='P-P of P-MP'>
+					<value>PMP</value>
+				</Data>
+				<Data name='Frequency Key'>
+					<value></value>
+				</Data>
+				<Data name='Network ID'>
+					<value>NaN</value>
+				</Data>
+				<Data name='TX RADIO'>
+					<value>EB1 S/N 9232835</value>
+				</Data>
+				<Data name='Tx Radio IP Address'>
+					<value>198.18.9.179 : NaN</value>
+				</Data>
+				<Data name='Tx Radio Type (E or R)'>
+					<value></value>
+				</Data>
+				<Data name='Tx Radio Subnet (Rx/Tx)'>
+					<value></value>
+				</Data>
+				<Data name='RX RADIO'>
+					<value>EB1 S/N NaN</value>
+				</Data>
+				<Data name='Rx Radio IP Address'>
+					<value>198.18.9.164 : NaN</value>
+				</Data>
+				<Data name='Rx Radio Type (E or R)'>
+					<value></value>
+				</Data>
+				<Data name='Rx Radio Subnet (Rx/Tx)'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-155.2843,58.2702,0.0 -155.7428,58.4393,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>KEL_Rep to AKN_Rx</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Distance (Miles)'>
+					<value>NaN</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>NaN</value>
+				</Data>
+				<Data name='Polarity (miles)'>
+					<value>?</value>
+				</Data>
+				<Data name='P-P of P-MP'>
+					<value>PMP</value>
+				</Data>
+				<Data name='Frequency Key'>
+					<value>C</value>
+				</Data>
+				<Data name='Network ID'>
+					<value>110</value>
+				</Data>
+				<Data name='TX RADIO'>
+					<value>EB3+ S/N 8779027</value>
+				</Data>
+				<Data name='Tx Radio IP Address'>
+					<value>198.18.9.100 : 80</value>
+				</Data>
+				<Data name='Tx Radio Type (E or R)'>
+					<value>Yagi</value>
+				</Data>
+				<Data name='Tx Radio Subnet (Rx/Tx)'>
+					<value>F / F</value>
+				</Data>
+				<Data name='RX RADIO'>
+					<value>EB3+ S/N 8768824</value>
+				</Data>
+				<Data name='Rx Radio IP Address'>
+					<value>198.18.9.98 : 80</value>
+				</Data>
+				<Data name='Rx Radio Type (E or R)'>
+					<value>Yagi</value>
+				</Data>
+				<Data name='Rx Radio Subnet (Rx/Tx)'>
+					<value>F / F</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-155.7428,58.4393,0.0 -156.668,58.6814,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>KEL_Rep to AKN_Rx</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Distance (Miles)'>
+					<value>NaN</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>NaN</value>
+				</Data>
+				<Data name='Polarity (miles)'>
+					<value></value>
+				</Data>
+				<Data name='P-P of P-MP'>
+					<value>PMP</value>
+				</Data>
+				<Data name='Frequency Key'>
+					<value></value>
+				</Data>
+				<Data name='Network ID'>
+					<value>NaN</value>
+				</Data>
+				<Data name='TX RADIO'>
+					<value>EB1 S/N NaN</value>
+				</Data>
+				<Data name='Tx Radio IP Address'>
+					<value>198.18.9.164 : NaN</value>
+				</Data>
+				<Data name='Tx Radio Type (E or R)'>
+					<value></value>
+				</Data>
+				<Data name='Tx Radio Subnet (Rx/Tx)'>
+					<value></value>
+				</Data>
+				<Data name='RX RADIO'>
+					<value>EB1 S/N NaN</value>
+				</Data>
+				<Data name='Rx Radio IP Address'>
+					<value>198.18.9.162 : NaN</value>
+				</Data>
+				<Data name='Rx Radio Type (E or R)'>
+					<value></value>
+				</Data>
+				<Data name='Rx Radio Subnet (Rx/Tx)'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-155.7428,58.4393,0.0 -156.668,58.6814,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>KAKN to KEL_Rep</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Distance (Miles)'>
+					<value>26.5363</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>-67.85</value>
+				</Data>
+				<Data name='Polarity (miles)'>
+					<value>?</value>
+				</Data>
+				<Data name='P-P of P-MP'>
+					<value>PMP</value>
+				</Data>
+				<Data name='Frequency Key'>
+					<value>C</value>
+				</Data>
+				<Data name='Network ID'>
+					<value>110</value>
+				</Data>
+				<Data name='TX RADIO'>
+					<value>EB3+ S/N 8767952</value>
+				</Data>
+				<Data name='Tx Radio IP Address'>
+					<value>198.18.9.106 : 80</value>
+				</Data>
+				<Data name='Tx Radio Type (E or R)'>
+					<value>Yagi</value>
+				</Data>
+				<Data name='Tx Radio Subnet (Rx/Tx)'>
+					<value>F / F</value>
+				</Data>
+				<Data name='RX RADIO'>
+					<value>EB3+ S/N 8779027</value>
+				</Data>
+				<Data name='Rx Radio IP Address'>
+					<value>198.18.9.100 : 80</value>
+				</Data>
+				<Data name='Rx Radio Type (E or R)'>
+					<value>Yagi</value>
+				</Data>
+				<Data name='Rx Radio Subnet (Rx/Tx)'>
+					<value>F / F</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-155.0632,58.2963,0.0 -155.7428,58.4393,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>CNTC_Rep to AKN_Rx</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Distance (Miles)'>
+					<value>NaN</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>NaN</value>
+				</Data>
+				<Data name='Polarity (miles)'>
+					<value>H</value>
+				</Data>
+				<Data name='P-P of P-MP'>
+					<value>PMP</value>
+				</Data>
+				<Data name='Frequency Key'>
+					<value>E</value>
+				</Data>
+				<Data name='Network ID'>
+					<value>130</value>
+				</Data>
+				<Data name='TX RADIO'>
+					<value>FGR2 S/N 9458427</value>
+				</Data>
+				<Data name='Tx Radio IP Address'>
+					<value>198.18.9.132 : 80</value>
+				</Data>
+				<Data name='Tx Radio Type (E or R)'>
+					<value>Yagi</value>
+				</Data>
+				<Data name='Tx Radio Subnet (Rx/Tx)'>
+					<value></value>
+				</Data>
+				<Data name='RX RADIO'>
+					<value>FGR2 S/N 9458270</value>
+				</Data>
+				<Data name='Rx Radio IP Address'>
+					<value>198.18.9.130 : 80</value>
+				</Data>
+				<Data name='Rx Radio Type (E or R)'>
+					<value>Yagi</value>
+				</Data>
+				<Data name='Rx Radio Subnet (Rx/Tx)'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-155.8858,58.2638,0.0 -156.668,58.6814,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>ANCK to CNTC_Rep</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Distance (Miles)'>
+					<value>14.8862</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>-72.0787</value>
+				</Data>
+				<Data name='Polarity (miles)'>
+					<value>H</value>
+				</Data>
+				<Data name='P-P of P-MP'>
+					<value>PMP</value>
+				</Data>
+				<Data name='Frequency Key'>
+					<value>E</value>
+				</Data>
+				<Data name='Network ID'>
+					<value>130</value>
+				</Data>
+				<Data name='TX RADIO'>
+					<value>FGR2 S/N NaN</value>
+				</Data>
+				<Data name='Tx Radio IP Address'>
+					<value>198.18.9.138 : 80</value>
+				</Data>
+				<Data name='Tx Radio Type (E or R)'>
+					<value>Yagi</value>
+				</Data>
+				<Data name='Tx Radio Subnet (Rx/Tx)'>
+					<value></value>
+				</Data>
+				<Data name='RX RADIO'>
+					<value>FGR2 S/N 9458427</value>
+				</Data>
+				<Data name='Rx Radio IP Address'>
+					<value>198.18.9.132 : 80</value>
+				</Data>
+				<Data name='Rx Radio Type (E or R)'>
+					<value>Yagi</value>
+				</Data>
+				<Data name='Rx Radio Subnet (Rx/Tx)'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-155.4961,58.1981,0.0 -155.8858,58.2638,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>BLDE_Rep to CDB_Rx</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Distance (Miles)'>
+					<value>NaN</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>NaN</value>
+				</Data>
+				<Data name='Polarity (miles)'>
+					<value>V</value>
+				</Data>
+				<Data name='P-P of P-MP'>
+					<value>PMP</value>
+				</Data>
+				<Data name='Frequency Key'>
+					<value></value>
+				</Data>
+				<Data name='Network ID'>
+					<value>1001</value>
+				</Data>
+				<Data name='TX RADIO'>
+					<value>EB3+ S/N 8768030</value>
+				</Data>
+				<Data name='Tx Radio IP Address'>
+					<value>198.18.3.35 : 80</value>
+				</Data>
+				<Data name='Tx Radio Type (E or R)'>
+					<value>Yagi</value>
+				</Data>
+				<Data name='Tx Radio Subnet (Rx/Tx)'>
+					<value>0 / 1</value>
+				</Data>
+				<Data name='RX RADIO'>
+					<value>EB3+ S/N 8776850</value>
+				</Data>
+				<Data name='Rx Radio IP Address'>
+					<value>198.18.3.25 : 80</value>
+				</Data>
+				<Data name='Rx Radio Type (E or R)'>
+					<value>Yagi</value>
+				</Data>
+				<Data name='Rx Radio Subnet (Rx/Tx)'>
+					<value>F / F</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-162.7856,55.1936,0.0 -162.7227,55.2075,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>BLHA_Rep to BLDE_Rep</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Distance (Miles)'>
+					<value>NaN</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>NaN</value>
+				</Data>
+				<Data name='Polarity (miles)'>
+					<value>V</value>
+				</Data>
+				<Data name='P-P of P-MP'>
+					<value>PMP</value>
+				</Data>
+				<Data name='Frequency Key'>
+					<value></value>
+				</Data>
+				<Data name='Network ID'>
+					<value>1001</value>
+				</Data>
+				<Data name='TX RADIO'>
+					<value>EB3+ S/N 8746932</value>
+				</Data>
+				<Data name='Tx Radio IP Address'>
+					<value>198.18.3.42 : 80</value>
+				</Data>
+				<Data name='Tx Radio Type (E or R)'>
+					<value>Yagi</value>
+				</Data>
+				<Data name='Tx Radio Subnet (Rx/Tx)'>
+					<value>1 / F</value>
+				</Data>
+				<Data name='RX RADIO'>
+					<value>EB3+ S/N 8768030</value>
+				</Data>
+				<Data name='Rx Radio IP Address'>
+					<value>198.18.3.35 : 80</value>
+				</Data>
+				<Data name='Rx Radio Type (E or R)'>
+					<value>Yagi</value>
+				</Data>
+				<Data name='Rx Radio Subnet (Rx/Tx)'>
+					<value>0 / 1</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-162.0611,55.7038,0.0 -162.7856,55.1936,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>PN7A to BLHA_Rep</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Distance (Miles)'>
+					<value>18.8838</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>-7.5588</value>
+				</Data>
+				<Data name='Polarity (miles)'>
+					<value>H</value>
+				</Data>
+				<Data name='P-P of P-MP'>
+					<value>PMP</value>
+				</Data>
+				<Data name='Frequency Key'>
+					<value></value>
+				</Data>
+				<Data name='Network ID'>
+					<value>1003</value>
+				</Data>
+				<Data name='TX RADIO'>
+					<value>FGR2 S/N 9397265</value>
+				</Data>
+				<Data name='Tx Radio IP Address'>
+					<value>198.18.3.50 : 80</value>
+				</Data>
+				<Data name='Tx Radio Type (E or R)'>
+					<value>Panel</value>
+				</Data>
+				<Data name='Tx Radio Subnet (Rx/Tx)'>
+					<value>F / F</value>
+				</Data>
+				<Data name='RX RADIO'>
+					<value>FGR2 S/N 9397225</value>
+				</Data>
+				<Data name='Rx Radio IP Address'>
+					<value>198.18.3.43 : 80</value>
+				</Data>
+				<Data name='Rx Radio Type (E or R)'>
+					<value>Yagi</value>
+				</Data>
+				<Data name='Rx Radio Subnet (Rx/Tx)'>
+					<value>F / F</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-161.9973,55.4329,0.0 -162.0611,55.7038,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>PV6A to BLHA_Rep</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Distance (Miles)'>
+					<value>14.0419</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>-14.4015</value>
+				</Data>
+				<Data name='Polarity (miles)'>
+					<value>H</value>
+				</Data>
+				<Data name='P-P of P-MP'>
+					<value>PMP</value>
+				</Data>
+				<Data name='Frequency Key'>
+					<value></value>
+				</Data>
+				<Data name='Network ID'>
+					<value>1003</value>
+				</Data>
+				<Data name='TX RADIO'>
+					<value>FGR2 S/N 9397116</value>
+				</Data>
+				<Data name='Tx Radio IP Address'>
+					<value>198.18.3.59 : 80</value>
+				</Data>
+				<Data name='Tx Radio Type (E or R)'>
+					<value>Panel</value>
+				</Data>
+				<Data name='Tx Radio Subnet (Rx/Tx)'>
+					<value>F / F</value>
+				</Data>
+				<Data name='RX RADIO'>
+					<value>FGR2 S/N 9397225</value>
+				</Data>
+				<Data name='Rx Radio IP Address'>
+					<value>198.18.3.43 : 80</value>
+				</Data>
+				<Data name='Rx Radio Type (E or R)'>
+					<value>Yagi</value>
+				</Data>
+				<Data name='Rx Radio Subnet (Rx/Tx)'>
+					<value>F / F</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-161.9714,55.507,0.0 -162.0611,55.7038,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>MSW to DUT_Rx</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Distance (Miles)'>
+					<value>9.692</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>94.0333</value>
+				</Data>
+				<Data name='Polarity (miles)'>
+					<value>?</value>
+				</Data>
+				<Data name='P-P of P-MP'>
+					<value>PMP</value>
+				</Data>
+				<Data name='Frequency Key'>
+					<value>A</value>
+				</Data>
+				<Data name='Network ID'>
+					<value>110</value>
+				</Data>
+				<Data name='TX RADIO'>
+					<value>EB3+ S/N 8767958</value>
+				</Data>
+				<Data name='Tx Radio IP Address'>
+					<value>192.168.64.83 : 80</value>
+				</Data>
+				<Data name='Tx Radio Type (E or R)'>
+					<value></value>
+				</Data>
+				<Data name='Tx Radio Subnet (Rx/Tx)'>
+					<value>0 / F</value>
+				</Data>
+				<Data name='RX RADIO'>
+					<value>EB3+ S/N 8768805</value>
+				</Data>
+				<Data name='Rx Radio IP Address'>
+					<value>192.168.64.67 : 80</value>
+				</Data>
+				<Data name='Rx Radio Type (E or R)'>
+					<value></value>
+				</Data>
+				<Data name='Rx Radio Subnet (Rx/Tx)'>
+					<value>F / 0</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-166.788,53.9148,0.0 -166.5505,53.9047,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>MREP_Rep to DUT_Rx</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Distance (Miles)'>
+					<value>NaN</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>NaN</value>
+				</Data>
+				<Data name='Polarity (miles)'>
+					<value>?</value>
+				</Data>
+				<Data name='P-P of P-MP'>
+					<value>PMP</value>
+				</Data>
+				<Data name='Frequency Key'>
+					<value>A</value>
+				</Data>
+				<Data name='Network ID'>
+					<value>110</value>
+				</Data>
+				<Data name='TX RADIO'>
+					<value>EB3+ S/N 8768081</value>
+				</Data>
+				<Data name='Tx Radio IP Address'>
+					<value>192.168.64.68 : 80</value>
+				</Data>
+				<Data name='Tx Radio Type (E or R)'>
+					<value></value>
+				</Data>
+				<Data name='Tx Radio Subnet (Rx/Tx)'>
+					<value>0 / F</value>
+				</Data>
+				<Data name='RX RADIO'>
+					<value>EB3+ S/N 8768805</value>
+				</Data>
+				<Data name='Rx Radio IP Address'>
+					<value>192.168.64.67 : 80</value>
+				</Data>
+				<Data name='Rx Radio Type (E or R)'>
+					<value></value>
+				</Data>
+				<Data name='Rx Radio Subnet (Rx/Tx)'>
+					<value>F / 0</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-166.748,53.8096,0.0 -166.5505,53.9047,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>MREP_Rep to DUT_Rx</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Distance (Miles)'>
+					<value>NaN</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>NaN</value>
+				</Data>
+				<Data name='Polarity (miles)'>
+					<value>?</value>
+				</Data>
+				<Data name='P-P of P-MP'>
+					<value>PP</value>
+				</Data>
+				<Data name='Frequency Key'>
+					<value>B</value>
+				</Data>
+				<Data name='Network ID'>
+					<value>120</value>
+				</Data>
+				<Data name='TX RADIO'>
+					<value>EB3+ S/N 8760252</value>
+				</Data>
+				<Data name='Tx Radio IP Address'>
+					<value>192.168.64.93 : 80</value>
+				</Data>
+				<Data name='Tx Radio Type (E or R)'>
+					<value></value>
+				</Data>
+				<Data name='Tx Radio Subnet (Rx/Tx)'>
+					<value>0 / F</value>
+				</Data>
+				<Data name='RX RADIO'>
+					<value>EB3+ S/N 8768682</value>
+				</Data>
+				<Data name='Rx Radio IP Address'>
+					<value>192.168.64.73 : 80</value>
+				</Data>
+				<Data name='Rx Radio Type (E or R)'>
+					<value></value>
+				</Data>
+				<Data name='Rx Radio Subnet (Rx/Tx)'>
+					<value>F / F</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-166.748,53.8096,0.0 -166.5505,53.9047,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>MREP_Rep to MREP_Rep</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Distance (Miles)'>
+					<value>NaN</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>NaN</value>
+				</Data>
+				<Data name='Polarity (miles)'>
+					<value>?</value>
+				</Data>
+				<Data name='P-P of P-MP'>
+					<value>PMP</value>
+				</Data>
+				<Data name='Frequency Key'>
+					<value>B</value>
+				</Data>
+				<Data name='Network ID'>
+					<value>120</value>
+				</Data>
+				<Data name='TX RADIO'>
+					<value>EB3+ S/N 8779024</value>
+				</Data>
+				<Data name='Tx Radio IP Address'>
+					<value>192.168.64.74 : 80</value>
+				</Data>
+				<Data name='Tx Radio Type (E or R)'>
+					<value></value>
+				</Data>
+				<Data name='Tx Radio Subnet (Rx/Tx)'>
+					<value>F / F</value>
+				</Data>
+				<Data name='RX RADIO'>
+					<value>EB3+ S/N 8760252</value>
+				</Data>
+				<Data name='Rx Radio IP Address'>
+					<value>192.168.64.93 : 80</value>
+				</Data>
+				<Data name='Rx Radio Type (E or R)'>
+					<value></value>
+				</Data>
+				<Data name='Rx Radio Subnet (Rx/Tx)'>
+					<value>0 / F</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-166.748,53.8096,0.0 -166.748,53.8096,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>OKNR_Rep to MREP_Rep</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Distance (Miles)'>
+					<value>NaN</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>NaN</value>
+				</Data>
+				<Data name='Polarity (miles)'>
+					<value>?</value>
+				</Data>
+				<Data name='P-P of P-MP'>
+					<value>PMP</value>
+				</Data>
+				<Data name='Frequency Key'>
+					<value>A</value>
+				</Data>
+				<Data name='Network ID'>
+					<value>110</value>
+				</Data>
+				<Data name='TX RADIO'>
+					<value>EB3+ S/N 8767936</value>
+				</Data>
+				<Data name='Tx Radio IP Address'>
+					<value>192.168.64.69 : 80</value>
+				</Data>
+				<Data name='Tx Radio Type (E or R)'>
+					<value></value>
+				</Data>
+				<Data name='Tx Radio Subnet (Rx/Tx)'>
+					<value>F / 2</value>
+				</Data>
+				<Data name='RX RADIO'>
+					<value>EB3+ S/N 8768081</value>
+				</Data>
+				<Data name='Rx Radio IP Address'>
+					<value>192.168.64.68 : 80</value>
+				</Data>
+				<Data name='Rx Radio Type (E or R)'>
+					<value></value>
+				</Data>
+				<Data name='Rx Radio Subnet (Rx/Tx)'>
+					<value>0 / F</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-168.0952,53.4854,0.0 -166.748,53.8096,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>OKCE to OKNR_Rep</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Distance (Miles)'>
+					<value>5.0402</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>35.45</value>
+				</Data>
+				<Data name='Polarity (miles)'>
+					<value>?</value>
+				</Data>
+				<Data name='P-P of P-MP'>
+					<value>PMP</value>
+				</Data>
+				<Data name='Frequency Key'>
+					<value>A</value>
+				</Data>
+				<Data name='Network ID'>
+					<value>110</value>
+				</Data>
+				<Data name='TX RADIO'>
+					<value>EB3+ S/N 8768216</value>
+				</Data>
+				<Data name='Tx Radio IP Address'>
+					<value>192.168.64.71 : 80</value>
+				</Data>
+				<Data name='Tx Radio Type (E or R)'>
+					<value></value>
+				</Data>
+				<Data name='Tx Radio Subnet (Rx/Tx)'>
+					<value>2 / F</value>
+				</Data>
+				<Data name='RX RADIO'>
+					<value>EB3+ S/N 8767936</value>
+				</Data>
+				<Data name='Rx Radio IP Address'>
+					<value>192.168.64.69 : 80</value>
+				</Data>
+				<Data name='Rx Radio Type (E or R)'>
+					<value></value>
+				</Data>
+				<Data name='Rx Radio Subnet (Rx/Tx)'>
+					<value>F / 2</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-168.1663,53.426,0.0 -168.0952,53.4854,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>OKNC to OKNR_Rep</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Distance (Miles)'>
+					<value>2.3935</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>31.5964</value>
+				</Data>
+				<Data name='Polarity (miles)'>
+					<value>?</value>
+				</Data>
+				<Data name='P-P of P-MP'>
+					<value>PMP</value>
+				</Data>
+				<Data name='Frequency Key'>
+					<value>A</value>
+				</Data>
+				<Data name='Network ID'>
+					<value>110</value>
+				</Data>
+				<Data name='TX RADIO'>
+					<value>EB3+ S/N 8782078</value>
+				</Data>
+				<Data name='Tx Radio IP Address'>
+					<value>192.168.64.81 : 80</value>
+				</Data>
+				<Data name='Tx Radio Type (E or R)'>
+					<value></value>
+				</Data>
+				<Data name='Tx Radio Subnet (Rx/Tx)'>
+					<value>2 / F</value>
+				</Data>
+				<Data name='RX RADIO'>
+					<value>EB3+ S/N 8767936</value>
+				</Data>
+				<Data name='Rx Radio IP Address'>
+					<value>192.168.64.69 : 80</value>
+				</Data>
+				<Data name='Rx Radio Type (E or R)'>
+					<value></value>
+				</Data>
+				<Data name='Rx Radio Subnet (Rx/Tx)'>
+					<value>F / 2</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-168.1257,53.4559,0.0 -168.0952,53.4854,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>OKFG to MREP_Rep</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Distance (Miles)'>
+					<value>55.0869</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>59.5097</value>
+				</Data>
+				<Data name='Polarity (miles)'>
+					<value>?</value>
+				</Data>
+				<Data name='P-P of P-MP'>
+					<value>PMP</value>
+				</Data>
+				<Data name='Frequency Key'>
+					<value>B</value>
+				</Data>
+				<Data name='Network ID'>
+					<value>120</value>
+				</Data>
+				<Data name='TX RADIO'>
+					<value>EB3+ S/N 8781954</value>
+				</Data>
+				<Data name='Tx Radio IP Address'>
+					<value>192.168.64.70 : 80</value>
+				</Data>
+				<Data name='Tx Radio Type (E or R)'>
+					<value></value>
+				</Data>
+				<Data name='Tx Radio Subnet (Rx/Tx)'>
+					<value>0 / F</value>
+				</Data>
+				<Data name='RX RADIO'>
+					<value>EB3+ S/N 8779024</value>
+				</Data>
+				<Data name='Rx Radio IP Address'>
+					<value>192.168.64.74 : 80</value>
+				</Data>
+				<Data name='Rx Radio Type (E or R)'>
+					<value></value>
+				</Data>
+				<Data name='Rx Radio Subnet (Rx/Tx)'>
+					<value>F / F</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-167.9115,53.4107,0.0 -166.748,53.8096,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>OKSP_Rep to MREP_Rep</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Distance (Miles)'>
+					<value>NaN</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>NaN</value>
+				</Data>
+				<Data name='Polarity (miles)'>
+					<value>?</value>
+				</Data>
+				<Data name='P-P of P-MP'>
+					<value>PMP</value>
+				</Data>
+				<Data name='Frequency Key'>
+					<value>B</value>
+				</Data>
+				<Data name='Network ID'>
+					<value>120</value>
+				</Data>
+				<Data name='TX RADIO'>
+					<value>EB3+ S/N 8768733</value>
+				</Data>
+				<Data name='Tx Radio IP Address'>
+					<value>192.168.64.76 : 80</value>
+				</Data>
+				<Data name='Tx Radio Type (E or R)'>
+					<value></value>
+				</Data>
+				<Data name='Tx Radio Subnet (Rx/Tx)'>
+					<value>0 / 1</value>
+				</Data>
+				<Data name='RX RADIO'>
+					<value>EB3+ S/N 8779024</value>
+				</Data>
+				<Data name='Rx Radio IP Address'>
+					<value>192.168.64.74 : 80</value>
+				</Data>
+				<Data name='Rx Radio Type (E or R)'>
+					<value></value>
+				</Data>
+				<Data name='Rx Radio Subnet (Rx/Tx)'>
+					<value>F / F</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-168.2925,53.2516,0.0 -166.748,53.8096,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>OK0 to MREP_Rep</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Distance (Miles)'>
+					<value>NaN</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>NaN</value>
+				</Data>
+				<Data name='Polarity (miles)'>
+					<value></value>
+				</Data>
+				<Data name='P-P of P-MP'>
+					<value>PMP</value>
+				</Data>
+				<Data name='Frequency Key'>
+					<value>B</value>
+				</Data>
+				<Data name='Network ID'>
+					<value>120</value>
+				</Data>
+				<Data name='TX RADIO'>
+					<value>EB3+ S/N 8781954</value>
+				</Data>
+				<Data name='Tx Radio IP Address'>
+					<value>192.168.64.78 : 80</value>
+				</Data>
+				<Data name='Tx Radio Type (E or R)'>
+					<value></value>
+				</Data>
+				<Data name='Tx Radio Subnet (Rx/Tx)'>
+					<value>0 / F</value>
+				</Data>
+				<Data name='RX RADIO'>
+					<value>EB3+ S/N 8779024</value>
+				</Data>
+				<Data name='Rx Radio IP Address'>
+					<value>192.168.64.74 : 80</value>
+				</Data>
+				<Data name='Rx Radio Type (E or R)'>
+					<value></value>
+				</Data>
+				<Data name='Rx Radio Subnet (Rx/Tx)'>
+					<value>F / F</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>NaN,NaN,0.0 -166.748,53.8096,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>OKSO to OKSP_Rep</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Distance (Miles)'>
+					<value>9.0343</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>-143.2995</value>
+				</Data>
+				<Data name='Polarity (miles)'>
+					<value>?</value>
+				</Data>
+				<Data name='P-P of P-MP'>
+					<value>PMP</value>
+				</Data>
+				<Data name='Frequency Key'>
+					<value>B</value>
+				</Data>
+				<Data name='Network ID'>
+					<value>120</value>
+				</Data>
+				<Data name='TX RADIO'>
+					<value>EB3+ S/N 8768168</value>
+				</Data>
+				<Data name='Tx Radio IP Address'>
+					<value>192.168.64.79 : 80</value>
+				</Data>
+				<Data name='Tx Radio Type (E or R)'>
+					<value></value>
+				</Data>
+				<Data name='Tx Radio Subnet (Rx/Tx)'>
+					<value>1 / F</value>
+				</Data>
+				<Data name='RX RADIO'>
+					<value>EB3+ S/N 8768733</value>
+				</Data>
+				<Data name='Rx Radio IP Address'>
+					<value>192.168.64.76 : 80</value>
+				</Data>
+				<Data name='Rx Radio Type (E or R)'>
+					<value></value>
+				</Data>
+				<Data name='Rx Radio Subnet (Rx/Tx)'>
+					<value>0 / 1</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-168.1619,53.3565,0.0 -168.2925,53.2516,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>MNAT to DUT_Rx</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Distance (Miles)'>
+					<value>5.7035</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>74.6317</value>
+				</Data>
+				<Data name='Polarity (miles)'>
+					<value>?</value>
+				</Data>
+				<Data name='P-P of P-MP'>
+					<value>PMP</value>
+				</Data>
+				<Data name='Frequency Key'>
+					<value>C</value>
+				</Data>
+				<Data name='Network ID'>
+					<value>130</value>
+				</Data>
+				<Data name='TX RADIO'>
+					<value>EB3+ S/N 8767051</value>
+				</Data>
+				<Data name='Tx Radio IP Address'>
+					<value>192.168.64.108 : 80</value>
+				</Data>
+				<Data name='Tx Radio Type (E or R)'>
+					<value></value>
+				</Data>
+				<Data name='Tx Radio Subnet (Rx/Tx)'>
+					<value>0 / F</value>
+				</Data>
+				<Data name='RX RADIO'>
+					<value>EB3+ S/N 8768189</value>
+				</Data>
+				<Data name='Rx Radio IP Address'>
+					<value>192.168.64.109 : 80</value>
+				</Data>
+				<Data name='Rx Radio Type (E or R)'>
+					<value></value>
+				</Data>
+				<Data name='Rx Radio Subnet (Rx/Tx)'>
+					<value>F / F</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-166.6856,53.8829,0.0 -166.5505,53.9047,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>AKGG to EIDR_Rep</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Distance (Miles)'>
+					<value>30.344</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>-131.6606</value>
+				</Data>
+				<Data name='Polarity (miles)'>
+					<value>?</value>
+				</Data>
+				<Data name='P-P of P-MP'>
+					<value>PMP</value>
+				</Data>
+				<Data name='Frequency Key'>
+					<value>C</value>
+				</Data>
+				<Data name='Network ID'>
+					<value>130</value>
+				</Data>
+				<Data name='TX RADIO'>
+					<value>EB3+ S/N 8768036</value>
+				</Data>
+				<Data name='Tx Radio IP Address'>
+					<value>192.168.64.113 : 80</value>
+				</Data>
+				<Data name='Tx Radio Type (E or R)'>
+					<value></value>
+				</Data>
+				<Data name='Tx Radio Subnet (Rx/Tx)'>
+					<value>1 / 2</value>
+				</Data>
+				<Data name='RX RADIO'>
+					<value>EB3+ S/N 8768066</value>
+				</Data>
+				<Data name='Rx Radio IP Address'>
+					<value>198.18.11.156 : 80</value>
+				</Data>
+				<Data name='Rx Radio Type (E or R)'>
+					<value></value>
+				</Data>
+				<Data name='Rx Radio Subnet (Rx/Tx)'>
+					<value>0 / 1</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-165.9936,54.1979,0.0 -166.5505,53.9047,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>AKLV to AKGG</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Distance (Miles)'>
+					<value>2.8882</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>-30.2542</value>
+				</Data>
+				<Data name='Polarity (miles)'>
+					<value>?</value>
+				</Data>
+				<Data name='P-P of P-MP'>
+					<value>PMP</value>
+				</Data>
+				<Data name='Frequency Key'>
+					<value>C</value>
+				</Data>
+				<Data name='Network ID'>
+					<value>130</value>
+				</Data>
+				<Data name='TX RADIO'>
+					<value>FGR2 S/N 9397221</value>
+				</Data>
+				<Data name='Tx Radio IP Address'>
+					<value>198.18.11.173 : 80</value>
+				</Data>
+				<Data name='Tx Radio Type (E or R)'>
+					<value></value>
+				</Data>
+				<Data name='Tx Radio Subnet (Rx/Tx)'>
+					<value>2 / F</value>
+				</Data>
+				<Data name='RX RADIO'>
+					<value>EB3+ S/N 8768036</value>
+				</Data>
+				<Data name='Rx Radio IP Address'>
+					<value>192.168.64.113 : 80</value>
+				</Data>
+				<Data name='Rx Radio Type (E or R)'>
+					<value></value>
+				</Data>
+				<Data name='Rx Radio Subnet (Rx/Tx)'>
+					<value>1 / 2</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-165.9576,54.1618,0.0 -165.9936,54.1979,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>MTBL to DUT_Rx</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Distance (Miles)'>
+					<value>6.8876</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>129.3701</value>
+				</Data>
+				<Data name='Polarity (miles)'>
+					<value>?</value>
+				</Data>
+				<Data name='P-P of P-MP'>
+					<value>PMP</value>
+				</Data>
+				<Data name='Frequency Key'>
+					<value>C</value>
+				</Data>
+				<Data name='Network ID'>
+					<value>130</value>
+				</Data>
+				<Data name='TX RADIO'>
+					<value>EB3+ S/N 8768632</value>
+				</Data>
+				<Data name='Tx Radio IP Address'>
+					<value>198.18.11.145 : 80</value>
+				</Data>
+				<Data name='Tx Radio Type (E or R)'>
+					<value></value>
+				</Data>
+				<Data name='Tx Radio Subnet (Rx/Tx)'>
+					<value>0 / F</value>
+				</Data>
+				<Data name='RX RADIO'>
+					<value>EB3+ S/N 8768189</value>
+				</Data>
+				<Data name='Rx Radio IP Address'>
+					<value>192.168.64.109 : 80</value>
+				</Data>
+				<Data name='Rx Radio Type (E or R)'>
+					<value></value>
+				</Data>
+				<Data name='Rx Radio Subnet (Rx/Tx)'>
+					<value>F / F</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-166.6813,53.968,0.0 -166.5505,53.9047,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>MTBL to MTBL</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Distance (Miles)'>
+					<value>6.8876</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>129.3701</value>
+				</Data>
+				<Data name='Polarity (miles)'>
+					<value>?</value>
+				</Data>
+				<Data name='P-P of P-MP'>
+					<value>PMP</value>
+				</Data>
+				<Data name='Frequency Key'>
+					<value>?</value>
+				</Data>
+				<Data name='Network ID'>
+					<value>NaN</value>
+				</Data>
+				<Data name='TX RADIO'>
+					<value>FGR2 S/N 9364992</value>
+				</Data>
+				<Data name='Tx Radio IP Address'>
+					<value>198.18.11.146 : 80</value>
+				</Data>
+				<Data name='Tx Radio Type (E or R)'>
+					<value></value>
+				</Data>
+				<Data name='Tx Radio Subnet (Rx/Tx)'>
+					<value>0 / F</value>
+				</Data>
+				<Data name='RX RADIO'>
+					<value>EB3+ S/N 8768632</value>
+				</Data>
+				<Data name='Rx Radio IP Address'>
+					<value>198.18.11.145 : 80</value>
+				</Data>
+				<Data name='Rx Radio Type (E or R)'>
+					<value></value>
+				</Data>
+				<Data name='Rx Radio Subnet (Rx/Tx)'>
+					<value>0 / F</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-166.6813,53.968,0.0 -166.6813,53.968,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>EIDR_Rep to DUT_Rx</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Distance (Miles)'>
+					<value>NaN</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>NaN</value>
+				</Data>
+				<Data name='Polarity (miles)'>
+					<value>?</value>
+				</Data>
+				<Data name='P-P of P-MP'>
+					<value>PMP</value>
+				</Data>
+				<Data name='Frequency Key'>
+					<value>C</value>
+				</Data>
+				<Data name='Network ID'>
+					<value>130</value>
+				</Data>
+				<Data name='TX RADIO'>
+					<value>EB3+ S/N 8768066</value>
+				</Data>
+				<Data name='Tx Radio IP Address'>
+					<value>198.18.11.156 : 80</value>
+				</Data>
+				<Data name='Tx Radio Type (E or R)'>
+					<value></value>
+				</Data>
+				<Data name='Tx Radio Subnet (Rx/Tx)'>
+					<value>0 / 1</value>
+				</Data>
+				<Data name='RX RADIO'>
+					<value>EB3+ S/N 8768189</value>
+				</Data>
+				<Data name='Rx Radio IP Address'>
+					<value>192.168.64.109 : 80</value>
+				</Data>
+				<Data name='Rx Radio Type (E or R)'>
+					<value></value>
+				</Data>
+				<Data name='Rx Radio Subnet (Rx/Tx)'>
+					<value>F / F</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-166.5505,53.9047,0.0 -166.5505,53.9047,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>EIDR_Rep to DUT_Rx</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Distance (Miles)'>
+					<value>NaN</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>NaN</value>
+				</Data>
+				<Data name='Polarity (miles)'>
+					<value>?</value>
+				</Data>
+				<Data name='P-P of P-MP'>
+					<value>PMP</value>
+				</Data>
+				<Data name='Frequency Key'>
+					<value>D</value>
+				</Data>
+				<Data name='Network ID'>
+					<value>140</value>
+				</Data>
+				<Data name='TX RADIO'>
+					<value>EB3+ S/N 8768170</value>
+				</Data>
+				<Data name='Tx Radio IP Address'>
+					<value>198.18.11.159 : 80</value>
+				</Data>
+				<Data name='Tx Radio Type (E or R)'>
+					<value></value>
+				</Data>
+				<Data name='Tx Radio Subnet (Rx/Tx)'>
+					<value>0 / 1</value>
+				</Data>
+				<Data name='RX RADIO'>
+					<value>EB3+ S/N 8768183</value>
+				</Data>
+				<Data name='Rx Radio IP Address'>
+					<value>192.168.64.110 : 80</value>
+				</Data>
+				<Data name='Rx Radio Type (E or R)'>
+					<value></value>
+				</Data>
+				<Data name='Rx Radio Subnet (Rx/Tx)'>
+					<value>F / F</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-166.5505,53.9047,0.0 -166.5505,53.9047,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>MCIR to MTBL</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Distance (Miles)'>
+					<value>8.7394</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>81.9608</value>
+				</Data>
+				<Data name='Polarity (miles)'>
+					<value>?</value>
+				</Data>
+				<Data name='P-P of P-MP'>
+					<value>PMP</value>
+				</Data>
+				<Data name='Frequency Key'>
+					<value>?</value>
+				</Data>
+				<Data name='Network ID'>
+					<value>NaN</value>
+				</Data>
+				<Data name='TX RADIO'>
+					<value>FGR2 S/N 9364928</value>
+				</Data>
+				<Data name='Tx Radio IP Address'>
+					<value>198.18.11.140 : 80</value>
+				</Data>
+				<Data name='Tx Radio Type (E or R)'>
+					<value></value>
+				</Data>
+				<Data name='Tx Radio Subnet (Rx/Tx)'>
+					<value>F / F</value>
+				</Data>
+				<Data name='RX RADIO'>
+					<value>FGR2 S/N 9364992</value>
+				</Data>
+				<Data name='Rx Radio IP Address'>
+					<value>198.18.11.146 : 80</value>
+				</Data>
+				<Data name='Rx Radio Type (E or R)'>
+					<value></value>
+				</Data>
+				<Data name='Rx Radio Subnet (Rx/Tx)'>
+					<value>0 / F</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-166.8942,53.9505,0.0 -166.6813,53.968,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>LVA to EIDR_Rep</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Distance (Miles)'>
+					<value>27.3404</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>-129.9736</value>
+				</Data>
+				<Data name='Polarity (miles)'>
+					<value>?</value>
+				</Data>
+				<Data name='P-P of P-MP'>
+					<value>PMP</value>
+				</Data>
+				<Data name='Frequency Key'>
+					<value>D</value>
+				</Data>
+				<Data name='Network ID'>
+					<value>140</value>
+				</Data>
+				<Data name='TX RADIO'>
+					<value>FGR2 S/N 9364946</value>
+				</Data>
+				<Data name='Tx Radio IP Address'>
+					<value>198.18.11.151 : 80</value>
+				</Data>
+				<Data name='Tx Radio Type (E or R)'>
+					<value></value>
+				</Data>
+				<Data name='Tx Radio Subnet (Rx/Tx)'>
+					<value>1 / F</value>
+				</Data>
+				<Data name='RX RADIO'>
+					<value>EB3+ S/N 8768170</value>
+				</Data>
+				<Data name='Rx Radio IP Address'>
+					<value>198.18.11.159 : 80</value>
+				</Data>
+				<Data name='Rx Radio Type (E or R)'>
+					<value></value>
+				</Data>
+				<Data name='Rx Radio Subnet (Rx/Tx)'>
+					<value>0 / 1</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-166.0358,54.16,0.0 -166.5505,53.9047,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>AKRB to EIDR_Rep</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Distance (Miles)'>
+					<value>24.8978</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>-128.3443</value>
+				</Data>
+				<Data name='Polarity (miles)'>
+					<value>?</value>
+				</Data>
+				<Data name='P-P of P-MP'>
+					<value>PMP</value>
+				</Data>
+				<Data name='Frequency Key'>
+					<value>D</value>
+				</Data>
+				<Data name='Network ID'>
+					<value>140</value>
+				</Data>
+				<Data name='TX RADIO'>
+					<value>EB3+ S/N 8778966</value>
+				</Data>
+				<Data name='Tx Radio IP Address'>
+					<value>192.168.64.114 : 80</value>
+				</Data>
+				<Data name='Tx Radio Type (E or R)'>
+					<value></value>
+				</Data>
+				<Data name='Tx Radio Subnet (Rx/Tx)'>
+					<value>1 / F</value>
+				</Data>
+				<Data name='RX RADIO'>
+					<value>EB3+ S/N 8768170</value>
+				</Data>
+				<Data name='Rx Radio IP Address'>
+					<value>198.18.11.159 : 80</value>
+				</Data>
+				<Data name='Rx Radio Type (E or R)'>
+					<value></value>
+				</Data>
+				<Data name='Rx Radio Subnet (Rx/Tx)'>
+					<value>0 / 1</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-166.0708,54.1292,0.0 -166.5505,53.9047,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>AKMO to EIDR_Rep</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Distance (Miles)'>
+					<value>25.3336</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>-120.1948</value>
+				</Data>
+				<Data name='Polarity (miles)'>
+					<value>?</value>
+				</Data>
+				<Data name='P-P of P-MP'>
+					<value>PMP</value>
+				</Data>
+				<Data name='Frequency Key'>
+					<value>D</value>
+				</Data>
+				<Data name='Network ID'>
+					<value>140</value>
+				</Data>
+				<Data name='TX RADIO'>
+					<value>EB3+ S/N 8781860</value>
+				</Data>
+				<Data name='Tx Radio IP Address'>
+					<value>192.168.64.115 : 80</value>
+				</Data>
+				<Data name='Tx Radio Type (E or R)'>
+					<value></value>
+				</Data>
+				<Data name='Tx Radio Subnet (Rx/Tx)'>
+					<value>1 / F</value>
+				</Data>
+				<Data name='RX RADIO'>
+					<value>EB3+ S/N 8768170</value>
+				</Data>
+				<Data name='Rx Radio IP Address'>
+					<value>198.18.11.159 : 80</value>
+				</Data>
+				<Data name='Rx Radio Type (E or R)'>
+					<value></value>
+				</Data>
+				<Data name='Rx Radio Subnet (Rx/Tx)'>
+					<value>0 / 1</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-166.0126,54.0903,0.0 -166.5505,53.9047,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>CLCO to IKO_Rx</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Distance (Miles)'>
+					<value>37.4769</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>73.3157</value>
+				</Data>
+				<Data name='Polarity (miles)'>
+					<value>H</value>
+				</Data>
+				<Data name='P-P of P-MP'>
+					<value>PMP</value>
+				</Data>
+				<Data name='Frequency Key'>
+					<value></value>
+				</Data>
+				<Data name='Network ID'>
+					<value>1002</value>
+				</Data>
+				<Data name='TX RADIO'>
+					<value>EB3+ S/N NaN</value>
+				</Data>
+				<Data name='Tx Radio IP Address'>
+					<value>10.105.54.133 : 8005</value>
+				</Data>
+				<Data name='Tx Radio Type (E or R)'>
+					<value></value>
+				</Data>
+				<Data name='Tx Radio Subnet (Rx/Tx)'>
+					<value>F / F</value>
+				</Data>
+				<Data name='RX RADIO'>
+					<value>EB3+ S/N NaN</value>
+				</Data>
+				<Data name='Rx Radio IP Address'>
+					<value>10.105.54.124 : 8004</value>
+				</Data>
+				<Data name='Rx Radio Type (E or R)'>
+					<value></value>
+				</Data>
+				<Data name='Rx Radio Subnet (Rx/Tx)'>
+					<value>F / F</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-169.7229,52.7866,0.0 -168.8608,52.9392,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>CLCO to CLCO</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Distance (Miles)'>
+					<value>37.4769</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>73.3157</value>
+				</Data>
+				<Data name='Polarity (miles)'>
+					<value>H</value>
+				</Data>
+				<Data name='P-P of P-MP'>
+					<value>PMP</value>
+				</Data>
+				<Data name='Frequency Key'>
+					<value></value>
+				</Data>
+				<Data name='Network ID'>
+					<value>1003</value>
+				</Data>
+				<Data name='TX RADIO'>
+					<value>EB3+ S/N NaN</value>
+				</Data>
+				<Data name='Tx Radio IP Address'>
+					<value>10.105.54.127 : 8006</value>
+				</Data>
+				<Data name='Tx Radio Type (E or R)'>
+					<value></value>
+				</Data>
+				<Data name='Tx Radio Subnet (Rx/Tx)'>
+					<value>F / F</value>
+				</Data>
+				<Data name='RX RADIO'>
+					<value>EB3+ S/N NaN</value>
+				</Data>
+				<Data name='Rx Radio IP Address'>
+					<value>10.105.54.133 : 8005</value>
+				</Data>
+				<Data name='Rx Radio Type (E or R)'>
+					<value></value>
+				</Data>
+				<Data name='Rx Radio Subnet (Rx/Tx)'>
+					<value>F / F</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-169.7229,52.7866,0.0 -169.7229,52.7866,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Placemark>
+			<name>CLES to CLCO</name>
+			<styleUrl>#line-A52714-3</styleUrl>
+			<ExtendedData>
+				<Data name='Distance (Miles)'>
+					<value>7.6316</value>
+				</Data>
+				<Data name='Azimuth'>
+					<value>109.4492</value>
+				</Data>
+				<Data name='Polarity (miles)'>
+					<value>H</value>
+				</Data>
+				<Data name='P-P of P-MP'>
+					<value>PMP</value>
+				</Data>
+				<Data name='Frequency Key'>
+					<value></value>
+				</Data>
+				<Data name='Network ID'>
+					<value>1003</value>
+				</Data>
+				<Data name='TX RADIO'>
+					<value>EB3+ S/N NaN</value>
+				</Data>
+				<Data name='Tx Radio IP Address'>
+					<value>10.105.54.128 : 8007</value>
+				</Data>
+				<Data name='Tx Radio Type (E or R)'>
+					<value></value>
+				</Data>
+				<Data name='Tx Radio Subnet (Rx/Tx)'>
+					<value>F / F</value>
+				</Data>
+				<Data name='RX RADIO'>
+					<value>EB3+ S/N NaN</value>
+				</Data>
+				<Data name='Rx Radio IP Address'>
+					<value>10.105.54.127 : 8006</value>
+				</Data>
+				<Data name='Rx Radio Type (E or R)'>
+					<value></value>
+				</Data>
+				<Data name='Rx Radio Subnet (Rx/Tx)'>
+					<value>F / F</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-169.8951,52.8235,0.0 -169.7229,52.7866,0.0</coordinates>
+			</LineString>
+		</Placemark>
+
+		<Style id='line-A52714-3-normal'>
+			<LineStyle>
+				<color>ff1427A5</color>
+				<width>3</width>
+			</LineStyle>
+		</Style>
+		<Style id='line-A52714-3-highlight'>
+			<LineStyle>
+				<color>ff1427A5</color>
+				<width>5.0</width>
+			</LineStyle>
+		</Style>
+		<StyleMap id='line-A52714-3'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#line-A52714-3-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#line-A52714-3-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+	</Document>
+</kml>
