@@ -69,7 +69,7 @@ block = 3/24;    % 3 hours
 ror = 0.1;    
 bpf = [1 15];
 ploterw = 1;
-scnl = get(erw,'scnlobject');
+ct = get(erw,'ChannelTag');
 
 %% USER-DEFINED PROPERTIES
 if (nargin > 2)
@@ -99,8 +99,8 @@ if (nargin > 2)
             bpf = val;
          case 'plot'   
             ploterw = val;
-         case 'scnl'   
-            scnl = val;
+         case 'ct'   
+            ct = val;
          otherwise
             error('erw_corr: Property name not recognized')
       end
@@ -119,57 +119,57 @@ fh = figure;
 ax = axes;
 
 %% DETECT EVENTS BACKWARDS THROUGHT TIME
-disp('Detecting events backwards from start time')
-pause(0.1)
-t1 = start;
-d = 0;
-while d < dist
-    t2 = t1;
-    t1 = t1-block;
-    w = get_w(ds,scnl,t1,t2);
-    w = filt(w,'bp',bpf);
-    if ~isempty(w)
-        d = get(w,'data');
-        l = length(d);
-        tv = get(w,'timevector');
-        flag = 0;
-        wb_h = waitbar(0);
-        for k = l-sl:-1:1; % Number of slide increments
-            tmp = corrcoef(d(k:k+sl-1),sd);
-            tmp = tmp(1,2);
-            if (tmp > sav_th) && (flag == 0)
-                flag = 1;
-                X = [tmp k];
-            elseif (tmp > sav_th) && (flag == 1)
-                X = [X; tmp k];
-            elseif (tmp < sav_th) && (flag == 1)
-                flag = 0;
-                [max_val ref] = max(X(:,1));
-                max_ref = X(ref,2);
-                cc = [max_val cc];
-                tt = [tv(max_ref) tt];
-                if max_val > add_th
-                    sd = (1-ror)*sd + ror*d(max_ref:max_ref+sl-1);
-                end
-                clear X max_ref max_val
-            end
-            if rem(k,100)==0
-                waitbar(k/(l-sl),wb_h,['Time: ',datestr(tv(k)),' Number of Detections: ',num2str(length(tt))])
-            end
-            if length(tt)==plt_nxt
-                plt_nxt = plt_nxt + plt_inc;
-                cla(ax)
-                plot(sd)
-            end
-        end
-    end
-    if isempty(tt)
-        d = start-t1;
-    elseif ~isempty(tt)
-        d = tt(1)-t1;
-    end
-end
-delete(wb_h)
+% disp('Detecting events backwards from start time')
+% pause(0.1)
+% t1 = start;
+% d = 0;
+% while d < dist
+%     t2 = t1;
+%     t1 = t1-block;
+%     w = waveform(ds,ct,t1,t2);
+%     w = filt(w,'bp',bpf);
+%     if ~isempty(w)
+%         d = get(w,'data');
+%         l = length(d);
+%         tv = get(w,'timevector');
+%         flag = 0;
+%         wb_h = waitbar(0);
+%         for k = l-sl:-1:1; % Number of slide increments
+%             tmp = corrcoef(d(k:k+sl-1),sd);
+%             tmp = tmp(1,2);
+%             if (tmp > sav_th) && (flag == 0)
+%                 flag = 1;
+%                 X = [tmp k];
+%             elseif (tmp > sav_th) && (flag == 1)
+%                 X = [X; tmp k];
+%             elseif (tmp < sav_th) && (flag == 1)
+%                 flag = 0;
+%                 [max_val ref] = max(X(:,1));
+%                 max_ref = X(ref,2);
+%                 cc = [max_val cc];
+%                 tt = [tv(max_ref) tt];
+%                 if max_val > add_th
+%                     sd = (1-ror)*sd + ror*d(max_ref:max_ref+sl-1);
+%                 end
+%                 clear X max_ref max_val
+%             end
+%             if rem(k,100)==0
+%                 waitbar(k/(l-sl),wb_h,['Time: ',datestr(tv(k)),' Number of Detections: ',num2str(length(tt))])
+%             end
+%             if length(tt)==plt_nxt
+%                 plt_nxt = plt_nxt + plt_inc;
+%                 cla(ax)
+%                 plot(sd)
+%             end
+%         end
+%     end
+%     if isempty(tt)
+%         d = start-t1;
+%     elseif ~isempty(tt)
+%         d = tt(1)-t1;
+%     end
+% end
+% delete(wb_h)
 
 %% DETECT EVENTS FORWARDS THROUGHT TIME
 disp('Detecting events forwards from start time')
@@ -180,7 +180,7 @@ d = 0;
 while d < dist
     t1 = t2;
     t2 = t2+block;
-    w = get_w(ds,scnl,t1,t2);
+    w = get_w(ds,ct,t1,t2);
     w = filt(w,'bp',bpf);
     if ~isempty(w)
         d = get(w,'data');
