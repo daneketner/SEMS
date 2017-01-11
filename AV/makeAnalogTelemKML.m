@@ -2,7 +2,7 @@
 %% MAKE ANALOG TELEMETRY KML FILE
 
 ST = fieldnames(ANA);
-fid1 = fopen('C:\AVO\Github\SEMS\AV\analogTelemetry.kml','w+');
+fid1 = fopen('C:\Github\SEMS\AV\analogTelemetry.kml','w+');
 
 fprintf(fid1,'<?xml version=''1.0'' encoding=''UTF-8''?>\n')
 fprintf(fid1,'<kml xmlns=''http://www.opengis.net/kml/2.2''>\n')
@@ -19,14 +19,9 @@ for n = 1:numel(ST)
         case{'_rx'}
             lat2 = RX.(RxSite).LatitudeWG84;
             lon2 = RX.(RxSite).LongitudeWG84;
-        case{'rep'}
-            if strcmp(RxSite(end-3),'_')
-                lat2 = REP.(RxSite).LatitudeWG84;
-                lon2 = REP.(RxSite).LongitudeWG84;
-            else
-                lat2 = ANA.(RxSite).LatitudeWG84;
-                lon2 = ANA.(RxSite).LongitudeWG84;
-            end
+        case{'_ar'}
+            lat2 = ARP.(RxSite).LatitudeWG84;
+            lon2 = ARP.(RxSite).LongitudeWG84;
         otherwise
             lat2 = ANA.(RxSite).LatitudeWG84;
             lon2 = ANA.(RxSite).LongitudeWG84;

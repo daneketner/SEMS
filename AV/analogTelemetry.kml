@@ -13,10 +13,10 @@
 					<value></value>
 				</Data>
 				<Data name='Distance (miles)'>
-					<value>5.1615</value>
+					<value>5.16</value>
 				</Data>
 				<Data name='Azimuth'>
-					<value>160.6769</value>
+					<value>160.68</value>
 				</Data>
 				<Data name='Telemetry Diagram'>
 					<value>https://drive.google.com/open?id=0B4RrY7XEz449cG51ODFEcHhfYUk</value>
@@ -29,7 +29,7 @@
 		</Placemark>
 
 		<Placemark>
-			<name>CGL to ANC_Rx</name>
+			<name>CGL to ANC_rx</name>
 			<styleUrl>#line-A52714-3</styleUrl>
 			<ExtendedData>
 				<Data name='Frequency (MHz)'>
@@ -39,10 +39,10 @@
 					<value></value>
 				</Data>
 				<Data name='Distance (miles)'>
-					<value>73.8004</value>
+					<value>73.8</value>
 				</Data>
 				<Data name='Azimuth'>
-					<value>95.4015</value>
+					<value>95.4</value>
 				</Data>
 				<Data name='Telemetry Diagram'>
 					<value>https://drive.google.com/open?id=0B4RrY7XEz449cG51ODFEcHhfYUk</value>
@@ -65,10 +65,10 @@
 					<value></value>
 				</Data>
 				<Data name='Distance (miles)'>
-					<value>7.7788</value>
+					<value>7.78</value>
 				</Data>
 				<Data name='Azimuth'>
-					<value>51.0819</value>
+					<value>51.08</value>
 				</Data>
 				<Data name='Telemetry Diagram'>
 					<value>https://drive.google.com/open?id=0B4RrY7XEz449cG51ODFEcHhfYUk</value>
@@ -91,10 +91,10 @@
 					<value></value>
 				</Data>
 				<Data name='Distance (miles)'>
-					<value>1.8015</value>
+					<value>1.8</value>
 				</Data>
 				<Data name='Azimuth'>
-					<value>-152.8445</value>
+					<value>-152.84</value>
 				</Data>
 				<Data name='Telemetry Diagram'>
 					<value>https://drive.google.com/open?id=0B4RrY7XEz449cG51ODFEcHhfYUk</value>
@@ -107,7 +107,7 @@
 		</Placemark>
 
 		<Placemark>
-			<name>CKT to ANC_Rx</name>
+			<name>CKT to ANC_rx</name>
 			<styleUrl>#line-A52714-3</styleUrl>
 			<ExtendedData>
 				<Data name='Frequency (MHz)'>
@@ -117,10 +117,10 @@
 					<value></value>
 				</Data>
 				<Data name='Distance (miles)'>
-					<value>80.1147</value>
+					<value>80.11</value>
 				</Data>
 				<Data name='Azimuth'>
-					<value>89.5188</value>
+					<value>89.52</value>
 				</Data>
 				<Data name='Telemetry Diagram'>
 					<value>https://drive.google.com/open?id=0B4RrY7XEz449cG51ODFEcHhfYUk</value>
@@ -143,10 +143,10 @@
 					<value></value>
 				</Data>
 				<Data name='Distance (miles)'>
-					<value>4.5379</value>
+					<value>4.54</value>
 				</Data>
 				<Data name='Azimuth'>
-					<value>164.8621</value>
+					<value>164.86</value>
 				</Data>
 				<Data name='Telemetry Diagram'>
 					<value>https://drive.google.com/open?id=0B4RrY7XEz449cG51ODFEcHhfYUk</value>
@@ -159,7 +159,7 @@
 		</Placemark>
 
 		<Placemark>
-			<name>CRP to ANC_Rx</name>
+			<name>CRP to ANC_rx</name>
 			<styleUrl>#line-A52714-3</styleUrl>
 			<ExtendedData>
 				<Data name='Frequency (MHz)'>
@@ -169,10 +169,10 @@
 					<value></value>
 				</Data>
 				<Data name='Distance (miles)'>
-					<value>78.5247</value>
+					<value>78.52</value>
 				</Data>
 				<Data name='Azimuth'>
-					<value>92.8923</value>
+					<value>92.89</value>
 				</Data>
 				<Data name='Telemetry Diagram'>
 					<value>https://drive.google.com/open?id=0B4RrY7XEz449cG51ODFEcHhfYUk</value>
@@ -195,10 +195,10 @@
 					<value></value>
 				</Data>
 				<Data name='Distance (miles)'>
-					<value>8.2879</value>
+					<value>8.29</value>
 				</Data>
 				<Data name='Azimuth'>
-					<value>143.0998</value>
+					<value>143.1</value>
 				</Data>
 				<Data name='Telemetry Diagram'>
 					<value>https://drive.google.com/open?id=0B4RrY7XEz449cG51ODFEcHhfYUk</value>
@@ -211,7 +211,7 @@
 		</Placemark>
 
 		<Placemark>
-			<name>SPU to ANC_Rx</name>
+			<name>SPU to ANC_rx</name>
 			<styleUrl>#line-A52714-3</styleUrl>
 			<ExtendedData>
 				<Data name='Frequency (MHz)'>
@@ -221,10 +221,10 @@
 					<value></value>
 				</Data>
 				<Data name='Distance (miles)'>
-					<value>75.0787</value>
+					<value>75.08</value>
 				</Data>
 				<Data name='Azimuth'>
-					<value>88.6169</value>
+					<value>88.62</value>
 				</Data>
 				<Data name='Telemetry Diagram'>
 					<value>https://drive.google.com/open?id=0B4RrY7XEz449cG51ODFEcHhfYUk</value>
@@ -247,10 +247,10 @@
 					<value></value>
 				</Data>
 				<Data name='Distance (miles)'>
-					<value>9.0833</value>
+					<value>9.08</value>
 				</Data>
 				<Data name='Azimuth'>
-					<value>125.7588</value>
+					<value>125.76</value>
 				</Data>
 				<Data name='Telemetry Diagram'>
 					<value>https://drive.google.com/open?id=0B4RrY7XEz449cG51ODFEcHhfYUk</value>
@@ -263,7 +263,7 @@
 		</Placemark>
 
 		<Placemark>
-			<name>DFR to BIL_Rep</name>
+			<name>DFR to BIL_ar</name>
 			<styleUrl>#line-A52714-3</styleUrl>
 			<ExtendedData>
 				<Data name='Frequency (MHz)'>
@@ -273,10 +273,10 @@
 					<value></value>
 				</Data>
 				<Data name='Distance (miles)'>
-					<value>106.6235</value>
+					<value>106.62</value>
 				</Data>
 				<Data name='Azimuth'>
-					<value>68.1589</value>
+					<value>68.16</value>
 				</Data>
 				<Data name='Telemetry Diagram'>
 					<value>https://drive.google.com/open?id=0B4RrY7XEz449cG51ODFEcHhfYUk</value>
@@ -299,10 +299,10 @@
 					<value></value>
 				</Data>
 				<Data name='Distance (miles)'>
-					<value>8.4291</value>
+					<value>8.43</value>
 				</Data>
 				<Data name='Azimuth'>
-					<value>76.0459</value>
+					<value>76.05</value>
 				</Data>
 				<Data name='Telemetry Diagram'>
 					<value>https://drive.google.com/open?id=0B4RrY7XEz449cG51ODFEcHhfYUk</value>
@@ -315,7 +315,7 @@
 		</Placemark>
 
 		<Placemark>
-			<name>RDN to NIK_Rx</name>
+			<name>RDN to NIK_rx</name>
 			<styleUrl>#line-A52714-3</styleUrl>
 			<ExtendedData>
 				<Data name='Frequency (MHz)'>
@@ -325,10 +325,10 @@
 					<value></value>
 				</Data>
 				<Data name='Distance (miles)'>
-					<value>47.941</value>
+					<value>47.94</value>
 				</Data>
 				<Data name='Azimuth'>
-					<value>80.5714</value>
+					<value>80.57</value>
 				</Data>
 				<Data name='Telemetry Diagram'>
 					<value>https://drive.google.com/open?id=0B4RrY7XEz449SkRyR1p3NUZnOHc</value>
@@ -341,7 +341,7 @@
 		</Placemark>
 
 		<Placemark>
-			<name>RDT to SLK_Rep</name>
+			<name>RDT to SLK_ar</name>
 			<styleUrl>#line-A52714-3</styleUrl>
 			<ExtendedData>
 				<Data name='Frequency (MHz)'>
@@ -351,10 +351,10 @@
 					<value></value>
 				</Data>
 				<Data name='Distance (miles)'>
-					<value>74.3264</value>
+					<value>74.33</value>
 				</Data>
 				<Data name='Azimuth'>
-					<value>92.2889</value>
+					<value>92.29</value>
 				</Data>
 				<Data name='Telemetry Diagram'>
 					<value>https://drive.google.com/open?id=0B4RrY7XEz449cG51ODFEcHhfYUk</value>
@@ -367,7 +367,7 @@
 		</Placemark>
 
 		<Placemark>
-			<name>RED to HOM_Rx</name>
+			<name>RED to HOM_rx</name>
 			<styleUrl>#line-A52714-3</styleUrl>
 			<ExtendedData>
 				<Data name='Frequency (MHz)'>
@@ -377,10 +377,10 @@
 					<value></value>
 				</Data>
 				<Data name='Distance (miles)'>
-					<value>65.383</value>
+					<value>65.38</value>
 				</Data>
 				<Data name='Azimuth'>
-					<value>143.1793</value>
+					<value>143.18</value>
 				</Data>
 				<Data name='Telemetry Diagram'>
 					<value></value>
@@ -393,7 +393,7 @@
 		</Placemark>
 
 		<Placemark>
-			<name>REF to ENA_Rx</name>
+			<name>REF to ENA_rx</name>
 			<styleUrl>#line-A52714-3</styleUrl>
 			<ExtendedData>
 				<Data name='Frequency (MHz)'>
@@ -403,10 +403,10 @@
 					<value></value>
 				</Data>
 				<Data name='Distance (miles)'>
-					<value>53.2287</value>
+					<value>53.23</value>
 				</Data>
 				<Data name='Azimuth'>
-					<value>89.5427</value>
+					<value>89.54</value>
 				</Data>
 				<Data name='Telemetry Diagram'>
 					<value>https://drive.google.com/open?id=0B4RrY7XEz449SkRyR1p3NUZnOHc</value>
@@ -419,7 +419,7 @@
 		</Placemark>
 
 		<Placemark>
-			<name>RSO to SLK_Rep</name>
+			<name>RSO to SLK_ar</name>
 			<styleUrl>#line-A52714-3</styleUrl>
 			<ExtendedData>
 				<Data name='Frequency (MHz)'>
@@ -429,10 +429,10 @@
 					<value></value>
 				</Data>
 				<Data name='Distance (miles)'>
-					<value>86.2654</value>
+					<value>86.27</value>
 				</Data>
 				<Data name='Azimuth'>
-					<value>86.5941</value>
+					<value>86.59</value>
 				</Data>
 				<Data name='Telemetry Diagram'>
 					<value>https://drive.google.com/open?id=0B4RrY7XEz449cG51ODFEcHhfYUk</value>
@@ -445,7 +445,7 @@
 		</Placemark>
 
 		<Placemark>
-			<name>ILI to NIK_Rx</name>
+			<name>ILI to NIK_rx</name>
 			<styleUrl>#line-A52714-3</styleUrl>
 			<ExtendedData>
 				<Data name='Frequency (MHz)'>
@@ -455,10 +455,10 @@
 					<value></value>
 				</Data>
 				<Data name='Distance (miles)'>
-					<value>66.9684</value>
+					<value>66.97</value>
 				</Data>
 				<Data name='Azimuth'>
-					<value>54.8625</value>
+					<value>54.86</value>
 				</Data>
 				<Data name='Telemetry Diagram'>
 					<value>https://drive.google.com/open?id=0B4RrY7XEz449SkRyR1p3NUZnOHc</value>
@@ -471,7 +471,7 @@
 		</Placemark>
 
 		<Placemark>
-			<name>AUE to HOM_Rx</name>
+			<name>AUE to HOM_rx</name>
 			<styleUrl>#line-A52714-3</styleUrl>
 			<ExtendedData>
 				<Data name='Frequency (MHz)'>
@@ -481,10 +481,10 @@
 					<value></value>
 				</Data>
 				<Data name='Distance (miles)'>
-					<value>63.6424</value>
+					<value>63.64</value>
 				</Data>
 				<Data name='Azimuth'>
-					<value>71.155</value>
+					<value>71.16</value>
 				</Data>
 				<Data name='Telemetry Diagram'>
 					<value>https://drive.google.com/open?id=0B4RrY7XEz449Y1BMODI1UC16b1E</value>
@@ -507,10 +507,10 @@
 					<value></value>
 				</Data>
 				<Data name='Distance (miles)'>
-					<value>21.3495</value>
+					<value>21.35</value>
 				</Data>
 				<Data name='Azimuth'>
-					<value>20.4134</value>
+					<value>20.41</value>
 				</Data>
 				<Data name='Telemetry Diagram'>
 					<value>https://drive.google.com/open?id=0B4RrY7XEz449Y1BMODI1UC16b1E</value>
@@ -523,7 +523,7 @@
 		</Placemark>
 
 		<Placemark>
-			<name>AUJK to HOM_Rx</name>
+			<name>AUJK to HOM_rx</name>
 			<styleUrl>#line-A52714-3</styleUrl>
 			<ExtendedData>
 				<Data name='Frequency (MHz)'>
@@ -533,10 +533,10 @@
 					<value></value>
 				</Data>
 				<Data name='Distance (miles)'>
-					<value>65.2474</value>
+					<value>65.25</value>
 				</Data>
 				<Data name='Azimuth'>
-					<value>70.2075</value>
+					<value>70.21</value>
 				</Data>
 				<Data name='Telemetry Diagram'>
 					<value>https://drive.google.com/open?id=0B4RrY7XEz449Y1BMODI1UC16b1E</value>
@@ -549,7 +549,7 @@
 		</Placemark>
 
 		<Placemark>
-			<name>AUP to HOM_Rx</name>
+			<name>AUP to HOM_rx</name>
 			<styleUrl>#line-A52714-3</styleUrl>
 			<ExtendedData>
 				<Data name='Frequency (MHz)'>
@@ -559,10 +559,10 @@
 					<value></value>
 				</Data>
 				<Data name='Distance (miles)'>
-					<value>65.3393</value>
+					<value>65.34</value>
 				</Data>
 				<Data name='Azimuth'>
-					<value>71.0866</value>
+					<value>71.09</value>
 				</Data>
 				<Data name='Telemetry Diagram'>
 					<value>https://drive.google.com/open?id=0B4RrY7XEz449Y1BMODI1UC16b1E</value>
@@ -585,10 +585,10 @@
 					<value></value>
 				</Data>
 				<Data name='Distance (miles)'>
-					<value>21.3131</value>
+					<value>21.31</value>
 				</Data>
 				<Data name='Azimuth'>
-					<value>23.2408</value>
+					<value>23.24</value>
 				</Data>
 				<Data name='Telemetry Diagram'>
 					<value>https://drive.google.com/open?id=0B4RrY7XEz449Y1BMODI1UC16b1E</value>
@@ -601,7 +601,7 @@
 		</Placemark>
 
 		<Placemark>
-			<name>CDD to HOM_Rx</name>
+			<name>CDD to HOM_rx</name>
 			<styleUrl>#line-A52714-3</styleUrl>
 			<ExtendedData>
 				<Data name='Frequency (MHz)'>
@@ -611,10 +611,10 @@
 					<value></value>
 				</Data>
 				<Data name='Distance (miles)'>
-					<value>86.4802</value>
+					<value>86.48</value>
 				</Data>
 				<Data name='Azimuth'>
-					<value>53.558</value>
+					<value>53.56</value>
 				</Data>
 				<Data name='Telemetry Diagram'>
 					<value>https://drive.google.com/open?id=0B4RrY7XEz449Y1BMODI1UC16b1E</value>
@@ -637,10 +637,10 @@
 					<value></value>
 				</Data>
 				<Data name='Distance (miles)'>
-					<value>61.5636</value>
+					<value>61.56</value>
 				</Data>
 				<Data name='Azimuth'>
-					<value>22.9745</value>
+					<value>22.97</value>
 				</Data>
 				<Data name='Telemetry Diagram'>
 					<value>https://drive.google.com/open?id=0B4RrY7XEz449Y1BMODI1UC16b1E</value>
@@ -653,7 +653,7 @@
 		</Placemark>
 
 		<Placemark>
-			<name>FOPK to HOM_Rx</name>
+			<name>FOPK to HOM_rx</name>
 			<styleUrl>#line-A52714-3</styleUrl>
 			<ExtendedData>
 				<Data name='Frequency (MHz)'>
@@ -663,10 +663,10 @@
 					<value></value>
 				</Data>
 				<Data name='Distance (miles)'>
-					<value>89.6163</value>
+					<value>89.62</value>
 				</Data>
 				<Data name='Azimuth'>
-					<value>45.2865</value>
+					<value>45.29</value>
 				</Data>
 				<Data name='Telemetry Diagram'>
 					<value>https://drive.google.com/open?id=0B4RrY7XEz449Y1BMODI1UC16b1E</value>
@@ -689,10 +689,10 @@
 					<value></value>
 				</Data>
 				<Data name='Distance (miles)'>
-					<value>39.3819</value>
+					<value>39.38</value>
 				</Data>
 				<Data name='Azimuth'>
-					<value>14.8489</value>
+					<value>14.85</value>
 				</Data>
 				<Data name='Telemetry Diagram'>
 					<value>https://drive.google.com/open?id=0B4RrY7XEz449Y1BMODI1UC16b1E</value>
@@ -705,7 +705,7 @@
 		</Placemark>
 
 		<Placemark>
-			<name>KAHC to AKN_Rx</name>
+			<name>KAHC to AKN_rx</name>
 			<styleUrl>#line-A52714-3</styleUrl>
 			<ExtendedData>
 				<Data name='Frequency (MHz)'>
@@ -715,10 +715,10 @@
 					<value></value>
 				</Data>
 				<Data name='Distance (miles)'>
-					<value>59.6887</value>
+					<value>59.69</value>
 				</Data>
 				<Data name='Azimuth'>
-					<value>-87.0953</value>
+					<value>-87.1</value>
 				</Data>
 				<Data name='Telemetry Diagram'>
 					<value>https://drive.google.com/open?id=0B4RrY7XEz449dTl6R3B6M2xWa0U</value>
@@ -741,10 +741,10 @@
 					<value></value>
 				</Data>
 				<Data name='Distance (miles)'>
-					<value>19.7242</value>
+					<value>19.72</value>
 				</Data>
 				<Data name='Azimuth'>
-					<value>-56.9165</value>
+					<value>-56.92</value>
 				</Data>
 				<Data name='Telemetry Diagram'>
 					<value>https://drive.google.com/open?id=0B4RrY7XEz449dTl6R3B6M2xWa0U</value>
@@ -767,10 +767,10 @@
 					<value></value>
 				</Data>
 				<Data name='Distance (miles)'>
-					<value>23.9891</value>
+					<value>23.99</value>
 				</Data>
 				<Data name='Azimuth'>
-					<value>-81.0712</value>
+					<value>-81.07</value>
 				</Data>
 				<Data name='Telemetry Diagram'>
 					<value>https://drive.google.com/open?id=0B4RrY7XEz449dTl6R3B6M2xWa0U</value>
@@ -793,10 +793,10 @@
 					<value></value>
 				</Data>
 				<Data name='Distance (miles)'>
-					<value>15.1026</value>
+					<value>15.1</value>
 				</Data>
 				<Data name='Azimuth'>
-					<value>-46.1005</value>
+					<value>-46.1</value>
 				</Data>
 				<Data name='Telemetry Diagram'>
 					<value>https://drive.google.com/open?id=0B4RrY7XEz449dTl6R3B6M2xWa0U</value>
@@ -819,10 +819,10 @@
 					<value></value>
 				</Data>
 				<Data name='Distance (miles)'>
-					<value>8.6132</value>
+					<value>8.61</value>
 				</Data>
 				<Data name='Azimuth'>
-					<value>23.7041</value>
+					<value>23.7</value>
 				</Data>
 				<Data name='Telemetry Diagram'>
 					<value>https://drive.google.com/open?id=0B4RrY7XEz449dTl6R3B6M2xWa0U</value>
@@ -835,7 +835,7 @@
 		</Placemark>
 
 		<Placemark>
-			<name>KABR to KAMC_Rep</name>
+			<name>KABR to KAMC_ar</name>
 			<styleUrl>#line-A52714-3</styleUrl>
 			<ExtendedData>
 				<Data name='Frequency (MHz)'>
@@ -845,10 +845,10 @@
 					<value></value>
 				</Data>
 				<Data name='Distance (miles)'>
-					<value>11.7938</value>
+					<value>11.79</value>
 				</Data>
 				<Data name='Azimuth'>
-					<value>-48.5304</value>
+					<value>-48.53</value>
 				</Data>
 				<Data name='Telemetry Diagram'>
 					<value>https://drive.google.com/open?id=0B4RrY7XEz449dTl6R3B6M2xWa0U</value>
@@ -871,10 +871,10 @@
 					<value></value>
 				</Data>
 				<Data name='Distance (miles)'>
-					<value>8.1126</value>
+					<value>8.11</value>
 				</Data>
 				<Data name='Azimuth'>
-					<value>-24.6211</value>
+					<value>-24.62</value>
 				</Data>
 				<Data name='Telemetry Diagram'>
 					<value>https://drive.google.com/open?id=0B4RrY7XEz449dTl6R3B6M2xWa0U</value>
@@ -897,10 +897,10 @@
 					<value></value>
 				</Data>
 				<Data name='Distance (miles)'>
-					<value>10.387</value>
+					<value>10.39</value>
 				</Data>
 				<Data name='Azimuth'>
-					<value>-22.9273</value>
+					<value>-22.93</value>
 				</Data>
 				<Data name='Telemetry Diagram'>
 					<value>https://drive.google.com/open?id=0B4RrY7XEz449dTl6R3B6M2xWa0U</value>
@@ -923,10 +923,10 @@
 					<value></value>
 				</Data>
 				<Data name='Distance (miles)'>
-					<value>24.5686</value>
+					<value>24.57</value>
 				</Data>
 				<Data name='Azimuth'>
-					<value>-67.8708</value>
+					<value>-67.87</value>
 				</Data>
 				<Data name='Telemetry Diagram'>
 					<value>https://drive.google.com/open?id=0B4RrY7XEz449dTl6R3B6M2xWa0U</value>
@@ -939,7 +939,7 @@
 		</Placemark>
 
 		<Placemark>
-			<name>KEL to AKN_Rx</name>
+			<name>KEL to AKN_rx</name>
 			<styleUrl>#line-A52714-3</styleUrl>
 			<ExtendedData>
 				<Data name='Frequency (MHz)'>
@@ -949,10 +949,10 @@
 					<value></value>
 				</Data>
 				<Data name='Distance (miles)'>
-					<value>37.3059</value>
+					<value>37.31</value>
 				</Data>
 				<Data name='Azimuth'>
-					<value>-62.9641</value>
+					<value>-62.96</value>
 				</Data>
 				<Data name='Telemetry Diagram'>
 					<value>https://drive.google.com/open?id=0B4RrY7XEz449dTl6R3B6M2xWa0U</value>
@@ -975,10 +975,10 @@
 					<value></value>
 				</Data>
 				<Data name='Distance (miles)'>
-					<value>16.6278</value>
+					<value>16.63</value>
 				</Data>
 				<Data name='Azimuth'>
-					<value>-75.7898</value>
+					<value>-75.79</value>
 				</Data>
 				<Data name='Telemetry Diagram'>
 					<value>https://drive.google.com/open?id=0B4RrY7XEz449dTl6R3B6M2xWa0U</value>
@@ -1001,10 +1001,10 @@
 					<value></value>
 				</Data>
 				<Data name='Distance (miles)'>
-					<value>20.6233</value>
+					<value>20.62</value>
 				</Data>
 				<Data name='Azimuth'>
-					<value>-79.3784</value>
+					<value>-79.38</value>
 				</Data>
 				<Data name='Telemetry Diagram'>
 					<value>https://drive.google.com/open?id=0B4RrY7XEz449dTl6R3B6M2xWa0U</value>
@@ -1027,10 +1027,10 @@
 					<value></value>
 				</Data>
 				<Data name='Distance (miles)'>
-					<value>14.8862</value>
+					<value>14.89</value>
 				</Data>
 				<Data name='Azimuth'>
-					<value>-72.0787</value>
+					<value>-72.08</value>
 				</Data>
 				<Data name='Telemetry Diagram'>
 					<value>https://drive.google.com/open?id=0B4RrY7XEz449dTl6R3B6M2xWa0U</value>
@@ -1053,10 +1053,10 @@
 					<value></value>
 				</Data>
 				<Data name='Distance (miles)'>
-					<value>9.9345</value>
+					<value>9.93</value>
 				</Data>
 				<Data name='Azimuth'>
-					<value>-89.287</value>
+					<value>-89.29</value>
 				</Data>
 				<Data name='Telemetry Diagram'>
 					<value>https://drive.google.com/open?id=0B4RrY7XEz449dTl6R3B6M2xWa0U</value>
@@ -1069,7 +1069,7 @@
 		</Placemark>
 
 		<Placemark>
-			<name>CNTC to AKN_Rx</name>
+			<name>CNTC to AKN_rx</name>
 			<styleUrl>#line-A52714-3</styleUrl>
 			<ExtendedData>
 				<Data name='Frequency (MHz)'>
@@ -1079,10 +1079,10 @@
 					<value></value>
 				</Data>
 				<Data name='Distance (miles)'>
-					<value>40.3897</value>
+					<value>40.39</value>
 				</Data>
 				<Data name='Azimuth'>
-					<value>-44.0723</value>
+					<value>-44.07</value>
 				</Data>
 				<Data name='Telemetry Diagram'>
 					<value>https://drive.google.com/open?id=0B4RrY7XEz449dTl6R3B6M2xWa0U</value>
@@ -1105,10 +1105,10 @@
 					<value></value>
 				</Data>
 				<Data name='Distance (miles)'>
-					<value>18.4303</value>
+					<value>18.43</value>
 				</Data>
 				<Data name='Azimuth'>
-					<value>-37.7582</value>
+					<value>-37.76</value>
 				</Data>
 				<Data name='Telemetry Diagram'>
 					<value>https://drive.google.com/open?id=0B4RrY7XEz449dTl6R3B6M2xWa0U</value>
@@ -1131,10 +1131,10 @@
 					<value></value>
 				</Data>
 				<Data name='Distance (miles)'>
-					<value>7.6388</value>
+					<value>7.64</value>
 				</Data>
 				<Data name='Azimuth'>
-					<value>-137.6655</value>
+					<value>-137.67</value>
 				</Data>
 				<Data name='Telemetry Diagram'>
 					<value>https://drive.google.com/open?id=0B4RrY7XEz449dTl6R3B6M2xWa0U</value>
@@ -1157,10 +1157,10 @@
 					<value></value>
 				</Data>
 				<Data name='Distance (miles)'>
-					<value>29.6078</value>
+					<value>29.61</value>
 				</Data>
 				<Data name='Azimuth'>
-					<value>36.1513</value>
+					<value>36.15</value>
 				</Data>
 				<Data name='Telemetry Diagram'>
 					<value>https://drive.google.com/open?id=0B4RrY7XEz449dTl6R3B6M2xWa0U</value>
@@ -1183,10 +1183,10 @@
 					<value></value>
 				</Data>
 				<Data name='Distance (miles)'>
-					<value>10.5214</value>
+					<value>10.52</value>
 				</Data>
 				<Data name='Azimuth'>
-					<value>-132.0182</value>
+					<value>-132.02</value>
 				</Data>
 				<Data name='Telemetry Diagram'>
 					<value>https://drive.google.com/open?id=0B4RrY7XEz449dTl6R3B6M2xWa0U</value>
@@ -1209,10 +1209,10 @@
 					<value></value>
 				</Data>
 				<Data name='Distance (miles)'>
-					<value>19.4057</value>
+					<value>19.41</value>
 				</Data>
 				<Data name='Azimuth'>
-					<value>-1.8359</value>
+					<value>-1.84</value>
 				</Data>
 				<Data name='Telemetry Diagram'>
 					<value>https://drive.google.com/open?id=0B4RrY7XEz449dTl6R3B6M2xWa0U</value>
@@ -1235,10 +1235,10 @@
 					<value></value>
 				</Data>
 				<Data name='Distance (miles)'>
-					<value>24.762</value>
+					<value>24.76</value>
 				</Data>
 				<Data name='Azimuth'>
-					<value>-6.2659</value>
+					<value>-6.27</value>
 				</Data>
 				<Data name='Telemetry Diagram'>
 					<value>https://drive.google.com/open?id=0B4RrY7XEz449dTl6R3B6M2xWa0U</value>
@@ -1261,10 +1261,10 @@
 					<value></value>
 				</Data>
 				<Data name='Distance (miles)'>
-					<value>17.6752</value>
+					<value>17.68</value>
 				</Data>
 				<Data name='Azimuth'>
-					<value>-74.4586</value>
+					<value>-74.46</value>
 				</Data>
 				<Data name='Telemetry Diagram'>
 					<value>https://drive.google.com/open?id=0B4RrY7XEz449dTl6R3B6M2xWa0U</value>
@@ -1287,10 +1287,10 @@
 					<value></value>
 				</Data>
 				<Data name='Distance (miles)'>
-					<value>19.8986</value>
+					<value>19.9</value>
 				</Data>
 				<Data name='Azimuth'>
-					<value>80.3392</value>
+					<value>80.34</value>
 				</Data>
 				<Data name='Telemetry Diagram'>
 					<value>https://drive.google.com/open?id=0B4RrY7XEz449dTl6R3B6M2xWa0U</value>
@@ -1303,7 +1303,7 @@
 		</Placemark>
 
 		<Placemark>
-			<name>PLWL to AKN_Rx</name>
+			<name>PLWL to AKN_rx</name>
 			<styleUrl>#line-A52714-3</styleUrl>
 			<ExtendedData>
 				<Data name='Frequency (MHz)'>
@@ -1313,10 +1313,10 @@
 					<value></value>
 				</Data>
 				<Data name='Distance (miles)'>
-					<value>45.5736</value>
+					<value>45.57</value>
 				</Data>
 				<Data name='Azimuth'>
-					<value>-14.8223</value>
+					<value>-14.82</value>
 				</Data>
 				<Data name='Telemetry Diagram'>
 					<value>https://drive.google.com/open?id=0B4RrY7XEz449dTl6R3B6M2xWa0U</value>
@@ -1339,10 +1339,10 @@
 					<value></value>
 				</Data>
 				<Data name='Distance (miles)'>
-					<value>6.5902</value>
+					<value>6.59</value>
 				</Data>
 				<Data name='Azimuth'>
-					<value>-100.3176</value>
+					<value>-100.32</value>
 				</Data>
 				<Data name='Telemetry Diagram'>
 					<value></value>
@@ -1355,7 +1355,7 @@
 		</Placemark>
 
 		<Placemark>
-			<name>ANNW to PTH_Rx</name>
+			<name>ANNW to PTH_rx</name>
 			<styleUrl>#line-A52714-3</styleUrl>
 			<ExtendedData>
 				<Data name='Frequency (MHz)'>
@@ -1365,10 +1365,10 @@
 					<value></value>
 				</Data>
 				<Data name='Distance (miles)'>
-					<value>17.0418</value>
+					<value>17.04</value>
 				</Data>
 				<Data name='Azimuth'>
-					<value>-99.736</value>
+					<value>-99.74</value>
 				</Data>
 				<Data name='Telemetry Diagram'>
 					<value></value>
@@ -1391,10 +1391,10 @@
 					<value></value>
 				</Data>
 				<Data name='Distance (miles)'>
-					<value>2.7912</value>
+					<value>2.79</value>
 				</Data>
 				<Data name='Azimuth'>
-					<value>-126.9569</value>
+					<value>-126.96</value>
 				</Data>
 				<Data name='Telemetry Diagram'>
 					<value></value>
@@ -1407,7 +1407,7 @@
 		</Placemark>
 
 		<Placemark>
-			<name>ANPB to PTH_Rx</name>
+			<name>ANPB to PTH_rx</name>
 			<styleUrl>#line-A52714-3</styleUrl>
 			<ExtendedData>
 				<Data name='Frequency (MHz)'>
@@ -1417,10 +1417,10 @@
 					<value></value>
 				</Data>
 				<Data name='Distance (miles)'>
-					<value>16.6121</value>
+					<value>16.61</value>
 				</Data>
 				<Data name='Azimuth'>
-					<value>-59.485</value>
+					<value>-59.48</value>
 				</Data>
 				<Data name='Telemetry Diagram'>
 					<value></value>
@@ -1443,10 +1443,10 @@
 					<value></value>
 				</Data>
 				<Data name='Distance (miles)'>
-					<value>6.4459</value>
+					<value>6.45</value>
 				</Data>
 				<Data name='Azimuth'>
-					<value>-114.8506</value>
+					<value>-114.85</value>
 				</Data>
 				<Data name='Telemetry Diagram'>
 					<value></value>
@@ -1459,7 +1459,7 @@
 		</Placemark>
 
 		<Placemark>
-			<name>AZAC to PTH_Rx</name>
+			<name>AZAC to PTH_rx</name>
 			<styleUrl>#line-A52714-3</styleUrl>
 			<ExtendedData>
 				<Data name='Frequency (MHz)'>
@@ -1469,10 +1469,10 @@
 					<value></value>
 				</Data>
 				<Data name='Distance (miles)'>
-					<value>16.3251</value>
+					<value>16.33</value>
 				</Data>
 				<Data name='Azimuth'>
-					<value>-82.9161</value>
+					<value>-82.92</value>
 				</Data>
 				<Data name='Telemetry Diagram'>
 					<value></value>
@@ -1485,7 +1485,7 @@
 		</Placemark>
 
 		<Placemark>
-			<name>BPBC to PTH_Rx</name>
+			<name>BPBC to PTH_rx</name>
 			<styleUrl>#line-A52714-3</styleUrl>
 			<ExtendedData>
 				<Data name='Frequency (MHz)'>
@@ -1495,10 +1495,10 @@
 					<value></value>
 				</Data>
 				<Data name='Distance (miles)'>
-					<value>24.3958</value>
+					<value>24.4</value>
 				</Data>
 				<Data name='Azimuth'>
-					<value>-18.7272</value>
+					<value>-18.73</value>
 				</Data>
 				<Data name='Telemetry Diagram'>
 					<value>https://drive.google.com/open?id=0B4RrY7XEz449QTk3N2xoNmNFU0U</value>
@@ -1511,7 +1511,7 @@
 		</Placemark>
 
 		<Placemark>
-			<name>VNFG to PTH_Rx</name>
+			<name>VNFG to PTH_rx</name>
 			<styleUrl>#line-A52714-3</styleUrl>
 			<ExtendedData>
 				<Data name='Frequency (MHz)'>
@@ -1521,10 +1521,10 @@
 					<value></value>
 				</Data>
 				<Data name='Distance (miles)'>
-					<value>55.609</value>
+					<value>55.61</value>
 				</Data>
 				<Data name='Azimuth'>
-					<value>37.1632</value>
+					<value>37.16</value>
 				</Data>
 				<Data name='Telemetry Diagram'>
 					<value>https://drive.google.com/open?id=0B4RrY7XEz449QTk3N2xoNmNFU0U</value>
@@ -1537,7 +1537,7 @@
 		</Placemark>
 
 		<Placemark>
-			<name>VNHG to PTH_Rx</name>
+			<name>VNHG to PTH_rx</name>
 			<styleUrl>#line-A52714-3</styleUrl>
 			<ExtendedData>
 				<Data name='Frequency (MHz)'>
@@ -1547,10 +1547,10 @@
 					<value></value>
 				</Data>
 				<Data name='Distance (miles)'>
-					<value>52.2123</value>
+					<value>52.21</value>
 				</Data>
 				<Data name='Azimuth'>
-					<value>21.3432</value>
+					<value>21.34</value>
 				</Data>
 				<Data name='Telemetry Diagram'>
 					<value>https://drive.google.com/open?id=0B4RrY7XEz449QTk3N2xoNmNFU0U</value>
@@ -1573,10 +1573,10 @@
 					<value></value>
 				</Data>
 				<Data name='Distance (miles)'>
-					<value>12.7009</value>
+					<value>12.7</value>
 				</Data>
 				<Data name='Azimuth'>
-					<value>58.9082</value>
+					<value>58.91</value>
 				</Data>
 				<Data name='Telemetry Diagram'>
 					<value>https://drive.google.com/open?id=0B4RrY7XEz449QTk3N2xoNmNFU0U</value>
@@ -1589,7 +1589,7 @@
 		</Placemark>
 
 		<Placemark>
-			<name>VNNF to PTH_Rx</name>
+			<name>VNNF to PTH_rx</name>
 			<styleUrl>#line-A52714-3</styleUrl>
 			<ExtendedData>
 				<Data name='Frequency (MHz)'>
@@ -1599,10 +1599,10 @@
 					<value></value>
 				</Data>
 				<Data name='Distance (miles)'>
-					<value>50.7813</value>
+					<value>50.78</value>
 				</Data>
 				<Data name='Azimuth'>
-					<value>29.1394</value>
+					<value>29.14</value>
 				</Data>
 				<Data name='Telemetry Diagram'>
 					<value>https://drive.google.com/open?id=0B4RrY7XEz449QTk3N2xoNmNFU0U</value>
@@ -1625,10 +1625,10 @@
 					<value></value>
 				</Data>
 				<Data name='Distance (miles)'>
-					<value>7.2491</value>
+					<value>7.25</value>
 				</Data>
 				<Data name='Azimuth'>
-					<value>-24.6843</value>
+					<value>-24.68</value>
 				</Data>
 				<Data name='Telemetry Diagram'>
 					<value>https://drive.google.com/open?id=0B4RrY7XEz449QTk3N2xoNmNFU0U</value>
@@ -1651,10 +1651,10 @@
 					<value></value>
 				</Data>
 				<Data name='Distance (miles)'>
-					<value>5.503</value>
+					<value>5.5</value>
 				</Data>
 				<Data name='Azimuth'>
-					<value>-42.1578</value>
+					<value>-42.16</value>
 				</Data>
 				<Data name='Telemetry Diagram'>
 					<value>https://drive.google.com/open?id=0B4RrY7XEz449QTk3N2xoNmNFU0U</value>
@@ -1677,10 +1677,10 @@
 					<value></value>
 				</Data>
 				<Data name='Distance (miles)'>
-					<value>5.5089</value>
+					<value>5.51</value>
 				</Data>
 				<Data name='Azimuth'>
-					<value>-1.4813</value>
+					<value>-1.48</value>
 				</Data>
 				<Data name='Telemetry Diagram'>
 					<value>https://drive.google.com/open?id=0B4RrY7XEz449QTk3N2xoNmNFU0U</value>
@@ -1703,10 +1703,10 @@
 					<value></value>
 				</Data>
 				<Data name='Distance (miles)'>
-					<value>9.2689</value>
+					<value>9.27</value>
 				</Data>
 				<Data name='Azimuth'>
-					<value>2.6326</value>
+					<value>2.63</value>
 				</Data>
 				<Data name='Telemetry Diagram'>
 					<value>https://drive.google.com/open?id=0B4RrY7XEz449QTk3N2xoNmNFU0U</value>
@@ -1729,10 +1729,10 @@
 					<value></value>
 				</Data>
 				<Data name='Distance (miles)'>
-					<value>45.2644</value>
+					<value>45.26</value>
 				</Data>
 				<Data name='Azimuth'>
-					<value>-140.8545</value>
+					<value>-140.85</value>
 				</Data>
 				<Data name='Telemetry Diagram'>
 					<value>https://drive.google.com/open?id=0B4RrY7XEz449c2dnRmVRMjdTeGM</value>
@@ -1755,10 +1755,10 @@
 					<value></value>
 				</Data>
 				<Data name='Distance (miles)'>
-					<value>11.7323</value>
+					<value>11.73</value>
 				</Data>
 				<Data name='Azimuth'>
-					<value>172.127</value>
+					<value>172.13</value>
 				</Data>
 				<Data name='Telemetry Diagram'>
 					<value>https://drive.google.com/open?id=0B4RrY7XEz449c2dnRmVRMjdTeGM</value>
@@ -1781,10 +1781,10 @@
 					<value></value>
 				</Data>
 				<Data name='Distance (miles)'>
-					<value>18.8838</value>
+					<value>18.88</value>
 				</Data>
 				<Data name='Azimuth'>
-					<value>-7.5588</value>
+					<value>-7.56</value>
 				</Data>
 				<Data name='Telemetry Diagram'>
 					<value>https://drive.google.com/open?id=0B4RrY7XEz449c2dnRmVRMjdTeGM</value>
@@ -1807,10 +1807,10 @@
 					<value></value>
 				</Data>
 				<Data name='Distance (miles)'>
-					<value>19.3327</value>
+					<value>19.33</value>
 				</Data>
 				<Data name='Azimuth'>
-					<value>-165.8007</value>
+					<value>-165.8</value>
 				</Data>
 				<Data name='Telemetry Diagram'>
 					<value>https://drive.google.com/open?id=0B4RrY7XEz449c2dnRmVRMjdTeGM</value>
@@ -1833,10 +1833,10 @@
 					<value></value>
 				</Data>
 				<Data name='Distance (miles)'>
-					<value>13.6289</value>
+					<value>13.63</value>
 				</Data>
 				<Data name='Azimuth'>
-					<value>-178.8213</value>
+					<value>-178.82</value>
 				</Data>
 				<Data name='Telemetry Diagram'>
 					<value>https://drive.google.com/open?id=0B4RrY7XEz449c2dnRmVRMjdTeGM</value>
@@ -1859,10 +1859,10 @@
 					<value></value>
 				</Data>
 				<Data name='Distance (miles)'>
-					<value>15.7618</value>
+					<value>15.76</value>
 				</Data>
 				<Data name='Azimuth'>
-					<value>-169.6232</value>
+					<value>-169.62</value>
 				</Data>
 				<Data name='Telemetry Diagram'>
 					<value>https://drive.google.com/open?id=0B4RrY7XEz449c2dnRmVRMjdTeGM</value>
@@ -1875,7 +1875,7 @@
 		</Placemark>
 
 		<Placemark>
-			<name>DOL to DRIE_Rep</name>
+			<name>DOL to DRIE_ar</name>
 			<styleUrl>#line-A52714-3</styleUrl>
 			<ExtendedData>
 				<Data name='Frequency (MHz)'>
@@ -1885,10 +1885,10 @@
 					<value></value>
 				</Data>
 				<Data name='Distance (miles)'>
-					<value>20.2384</value>
+					<value>20.24</value>
 				</Data>
 				<Data name='Azimuth'>
-					<value>-128.428</value>
+					<value>-128.43</value>
 				</Data>
 				<Data name='Telemetry Diagram'>
 					<value>https://drive.google.com/open?id=0B4RrY7XEz449c2dnRmVRMjdTeGM</value>
@@ -1901,7 +1901,7 @@
 		</Placemark>
 
 		<Placemark>
-			<name>DRR3 to KVC_Rx</name>
+			<name>DRR3 to KVC_rx</name>
 			<styleUrl>#line-A52714-3</styleUrl>
 			<ExtendedData>
 				<Data name='Frequency (MHz)'>
@@ -1911,10 +1911,10 @@
 					<value></value>
 				</Data>
 				<Data name='Distance (miles)'>
-					<value>6.8701</value>
+					<value>6.87</value>
 				</Data>
 				<Data name='Azimuth'>
-					<value>-18.0879</value>
+					<value>-18.09</value>
 				</Data>
 				<Data name='Telemetry Diagram'>
 					<value>https://drive.google.com/open?id=0B4RrY7XEz449c2dnRmVRMjdTeGM</value>
@@ -1927,7 +1927,7 @@
 		</Placemark>
 
 		<Placemark>
-			<name>DT1 to KVC_Rx</name>
+			<name>DT1 to KVC_rx</name>
 			<styleUrl>#line-A52714-3</styleUrl>
 			<ExtendedData>
 				<Data name='Frequency (MHz)'>
@@ -1937,10 +1937,10 @@
 					<value></value>
 				</Data>
 				<Data name='Distance (miles)'>
-					<value>3.4322</value>
+					<value>3.43</value>
 				</Data>
 				<Data name='Azimuth'>
-					<value>-156.9196</value>
+					<value>-156.92</value>
 				</Data>
 				<Data name='Telemetry Diagram'>
 					<value>https://drive.google.com/open?id=0B4RrY7XEz449c2dnRmVRMjdTeGM</value>
@@ -1953,7 +1953,7 @@
 		</Placemark>
 
 		<Placemark>
-			<name>DTN to KVC_Rx</name>
+			<name>DTN to KVC_rx</name>
 			<styleUrl>#line-A52714-3</styleUrl>
 			<ExtendedData>
 				<Data name='Frequency (MHz)'>
@@ -1963,10 +1963,10 @@
 					<value></value>
 				</Data>
 				<Data name='Distance (miles)'>
-					<value>6.2599</value>
+					<value>6.26</value>
 				</Data>
 				<Data name='Azimuth'>
-					<value>-158.4906</value>
+					<value>-158.49</value>
 				</Data>
 				<Data name='Telemetry Diagram'>
 					<value>https://drive.google.com/open?id=0B4RrY7XEz449c2dnRmVRMjdTeGM</value>
@@ -1979,7 +1979,7 @@
 		</Placemark>
 
 		<Placemark>
-			<name>BRPK to DRIW_Rep</name>
+			<name>BRPK to DRIW_ar</name>
 			<styleUrl>#line-A52714-3</styleUrl>
 			<ExtendedData>
 				<Data name='Frequency (MHz)'>
@@ -1989,10 +1989,10 @@
 					<value></value>
 				</Data>
 				<Data name='Distance (miles)'>
-					<value>60.8266</value>
+					<value>60.83</value>
 				</Data>
 				<Data name='Azimuth'>
-					<value>67.5952</value>
+					<value>67.6</value>
 				</Data>
 				<Data name='Telemetry Diagram'>
 					<value>https://drive.google.com/open?id=0B4RrY7XEz449c2dnRmVRMjdTeGM</value>
@@ -2015,10 +2015,10 @@
 					<value></value>
 				</Data>
 				<Data name='Distance (miles)'>
-					<value>5.6883</value>
+					<value>5.69</value>
 				</Data>
 				<Data name='Azimuth'>
-					<value>-167.909</value>
+					<value>-167.91</value>
 				</Data>
 				<Data name='Telemetry Diagram'>
 					<value>https://drive.google.com/open?id=0B4RrY7XEz449c2dnRmVRMjdTeGM</value>
@@ -2031,7 +2031,7 @@
 		</Placemark>
 
 		<Placemark>
-			<name>ISNN to BLDW_Rep</name>
+			<name>ISNN to BLDW_ar</name>
 			<styleUrl>#line-A52714-3</styleUrl>
 			<ExtendedData>
 				<Data name='Frequency (MHz)'>
@@ -2041,10 +2041,10 @@
 					<value></value>
 				</Data>
 				<Data name='Distance (miles)'>
-					<value>46.5232</value>
+					<value>46.52</value>
 				</Data>
 				<Data name='Azimuth'>
-					<value>57.3024</value>
+					<value>57.3</value>
 				</Data>
 				<Data name='Telemetry Diagram'>
 					<value>https://drive.google.com/open?id=0B4RrY7XEz449c2dnRmVRMjdTeGM</value>
@@ -2057,7 +2057,7 @@
 		</Placemark>
 
 		<Placemark>
-			<name>SSLN to BLDW_Rep</name>
+			<name>SSLN to BLDW_ar</name>
 			<styleUrl>#line-A52714-3</styleUrl>
 			<ExtendedData>
 				<Data name='Frequency (MHz)'>
@@ -2067,10 +2067,10 @@
 					<value></value>
 				</Data>
 				<Data name='Distance (miles)'>
-					<value>54.6814</value>
+					<value>54.68</value>
 				</Data>
 				<Data name='Azimuth'>
-					<value>60.792</value>
+					<value>60.79</value>
 				</Data>
 				<Data name='Telemetry Diagram'>
 					<value>https://drive.google.com/open?id=0B4RrY7XEz449c2dnRmVRMjdTeGM</value>
@@ -2093,10 +2093,10 @@
 					<value></value>
 				</Data>
 				<Data name='Distance (miles)'>
-					<value>11.285</value>
+					<value>11.29</value>
 				</Data>
 				<Data name='Azimuth'>
-					<value>113.9222</value>
+					<value>113.92</value>
 				</Data>
 				<Data name='Telemetry Diagram'>
 					<value>https://drive.google.com/open?id=0B4RrY7XEz449c2dnRmVRMjdTeGM</value>
@@ -2119,10 +2119,10 @@
 					<value></value>
 				</Data>
 				<Data name='Distance (miles)'>
-					<value>11.7387</value>
+					<value>11.74</value>
 				</Data>
 				<Data name='Azimuth'>
-					<value>-63.4309</value>
+					<value>-63.43</value>
 				</Data>
 				<Data name='Telemetry Diagram'>
 					<value>https://drive.google.com/open?id=0B4RrY7XEz449c2dnRmVRMjdTeGM</value>
@@ -2145,10 +2145,10 @@
 					<value></value>
 				</Data>
 				<Data name='Distance (miles)'>
-					<value>23.0051</value>
+					<value>23.01</value>
 				</Data>
 				<Data name='Azimuth'>
-					<value>39.4858</value>
+					<value>39.49</value>
 				</Data>
 				<Data name='Telemetry Diagram'>
 					<value>https://drive.google.com/open?id=0B4RrY7XEz449c2dnRmVRMjdTeGM</value>
@@ -2161,7 +2161,7 @@
 		</Placemark>
 
 		<Placemark>
-			<name>WECS to WEAK_Rep</name>
+			<name>WECS to WEAK_ar</name>
 			<styleUrl>#line-A52714-3</styleUrl>
 			<ExtendedData>
 				<Data name='Frequency (MHz)'>
@@ -2171,10 +2171,10 @@
 					<value></value>
 				</Data>
 				<Data name='Distance (miles)'>
-					<value>47.8096</value>
+					<value>47.81</value>
 				</Data>
 				<Data name='Azimuth'>
-					<value>-128.0444</value>
+					<value>-128.04</value>
 				</Data>
 				<Data name='Telemetry Diagram'>
 					<value>https://drive.google.com/open?id=0B4RrY7XEz449QWJJdDBGcUZ0eDQ</value>
@@ -2187,7 +2187,7 @@
 		</Placemark>
 
 		<Placemark>
-			<name>WESE to WEAK_Rep</name>
+			<name>WESE to WEAK_ar</name>
 			<styleUrl>#line-A52714-3</styleUrl>
 			<ExtendedData>
 				<Data name='Frequency (MHz)'>
@@ -2197,10 +2197,10 @@
 					<value></value>
 				</Data>
 				<Data name='Distance (miles)'>
-					<value>52.087</value>
+					<value>52.09</value>
 				</Data>
 				<Data name='Azimuth'>
-					<value>-119.1391</value>
+					<value>-119.14</value>
 				</Data>
 				<Data name='Telemetry Diagram'>
 					<value>https://drive.google.com/open?id=0B4RrY7XEz449QWJJdDBGcUZ0eDQ</value>
@@ -2223,10 +2223,10 @@
 					<value></value>
 				</Data>
 				<Data name='Distance (miles)'>
-					<value>20.2179</value>
+					<value>20.22</value>
 				</Data>
 				<Data name='Azimuth'>
-					<value>22.3323</value>
+					<value>22.33</value>
 				</Data>
 				<Data name='Telemetry Diagram'>
 					<value>https://drive.google.com/open?id=0B4RrY7XEz449c2dnRmVRMjdTeGM</value>
@@ -2239,7 +2239,7 @@
 		</Placemark>
 
 		<Placemark>
-			<name>WESP to WEAK_Rep</name>
+			<name>WESP to WEAK_ar</name>
 			<styleUrl>#line-A52714-3</styleUrl>
 			<ExtendedData>
 				<Data name='Frequency (MHz)'>
@@ -2249,10 +2249,10 @@
 					<value></value>
 				</Data>
 				<Data name='Distance (miles)'>
-					<value>48.1191</value>
+					<value>48.12</value>
 				</Data>
 				<Data name='Azimuth'>
-					<value>-123.9149</value>
+					<value>-123.91</value>
 				</Data>
 				<Data name='Telemetry Diagram'>
 					<value>https://drive.google.com/open?id=0B4RrY7XEz449QWJJdDBGcUZ0eDQ</value>
@@ -2265,7 +2265,7 @@
 		</Placemark>
 
 		<Placemark>
-			<name>WTUG to BLDW_Rep</name>
+			<name>WTUG to BLDW_ar</name>
 			<styleUrl>#line-A52714-3</styleUrl>
 			<ExtendedData>
 				<Data name='Frequency (MHz)'>
@@ -2275,10 +2275,10 @@
 					<value></value>
 				</Data>
 				<Data name='Distance (miles)'>
-					<value>67.6847</value>
+					<value>67.68</value>
 				</Data>
 				<Data name='Azimuth'>
-					<value>68.7558</value>
+					<value>68.76</value>
 				</Data>
 				<Data name='Telemetry Diagram'>
 					<value>https://drive.google.com/open?id=0B4RrY7XEz449QWJJdDBGcUZ0eDQ</value>
@@ -2291,7 +2291,7 @@
 		</Placemark>
 
 		<Placemark>
-			<name>AHB to AKT_Rx</name>
+			<name>AHB to AKT_rx</name>
 			<styleUrl>#line-A52714-3</styleUrl>
 			<ExtendedData>
 				<Data name='Frequency (MHz)'>
@@ -2301,7 +2301,7 @@
 					<value></value>
 				</Data>
 				<Data name='Distance (miles)'>
-					<value>2.1942</value>
+					<value>2.19</value>
 				</Data>
 				<Data name='Azimuth'>
 					<value>51.64</value>
@@ -2317,7 +2317,7 @@
 		</Placemark>
 
 		<Placemark>
-			<name>AKS to AKT_Rx</name>
+			<name>AKS to AKT_rx</name>
 			<styleUrl>#line-A52714-3</styleUrl>
 			<ExtendedData>
 				<Data name='Frequency (MHz)'>
@@ -2327,10 +2327,10 @@
 					<value></value>
 				</Data>
 				<Data name='Distance (miles)'>
-					<value>3.5336</value>
+					<value>3.53</value>
 				</Data>
 				<Data name='Azimuth'>
-					<value>-61.2158</value>
+					<value>-61.22</value>
 				</Data>
 				<Data name='Telemetry Diagram'>
 					<value>https://drive.google.com/open?id=0B4RrY7XEz449QWJJdDBGcUZ0eDQ</value>
@@ -2343,7 +2343,7 @@
 		</Placemark>
 
 		<Placemark>
-			<name>AKV to AKT_Rx</name>
+			<name>AKV to AKT_rx</name>
 			<styleUrl>#line-A52714-3</styleUrl>
 			<ExtendedData>
 				<Data name='Frequency (MHz)'>
@@ -2353,10 +2353,10 @@
 					<value></value>
 				</Data>
 				<Data name='Distance (miles)'>
-					<value>7.6965</value>
+					<value>7.7</value>
 				</Data>
 				<Data name='Azimuth'>
-					<value>85.3919</value>
+					<value>85.39</value>
 				</Data>
 				<Data name='Telemetry Diagram'>
 					<value>https://drive.google.com/open?id=0B4RrY7XEz449QWJJdDBGcUZ0eDQ</value>
@@ -2379,10 +2379,10 @@
 					<value></value>
 				</Data>
 				<Data name='Distance (miles)'>
-					<value>6.3025</value>
+					<value>6.3</value>
 				</Data>
 				<Data name='Azimuth'>
-					<value>141.5788</value>
+					<value>141.58</value>
 				</Data>
 				<Data name='Telemetry Diagram'>
 					<value>https://drive.google.com/open?id=0B4RrY7XEz449QWJJdDBGcUZ0eDQ</value>
@@ -2405,10 +2405,10 @@
 					<value></value>
 				</Data>
 				<Data name='Distance (miles)'>
-					<value>5.2261</value>
+					<value>5.23</value>
 				</Data>
 				<Data name='Azimuth'>
-					<value>69.9251</value>
+					<value>69.93</value>
 				</Data>
 				<Data name='Telemetry Diagram'>
 					<value>https://drive.google.com/open?id=0B4RrY7XEz449QWJJdDBGcUZ0eDQ</value>
@@ -2431,10 +2431,10 @@
 					<value></value>
 				</Data>
 				<Data name='Distance (miles)'>
-					<value>6.7763</value>
+					<value>6.78</value>
 				</Data>
 				<Data name='Azimuth'>
-					<value>75.9494</value>
+					<value>75.95</value>
 				</Data>
 				<Data name='Telemetry Diagram'>
 					<value>https://drive.google.com/open?id=0B4RrY7XEz449QWJJdDBGcUZ0eDQ</value>
@@ -2447,7 +2447,7 @@
 		</Placemark>
 
 		<Placemark>
-			<name>MCIR to DUT_Rx</name>
+			<name>MCIR to DUT_rx</name>
 			<styleUrl>#line-A52714-3</styleUrl>
 			<ExtendedData>
 				<Data name='Frequency (MHz)'>
@@ -2457,10 +2457,10 @@
 					<value></value>
 				</Data>
 				<Data name='Distance (miles)'>
-					<value>14.3371</value>
+					<value>14.34</value>
 				</Data>
 				<Data name='Azimuth'>
-					<value>102.6131</value>
+					<value>102.61</value>
 				</Data>
 				<Data name='Telemetry Diagram'>
 					<value>https://drive.google.com/open?id=0B4RrY7XEz449QWJJdDBGcUZ0eDQ</value>
@@ -2473,7 +2473,7 @@
 		</Placemark>
 
 		<Placemark>
-			<name>MGOD to DUT_Rx</name>
+			<name>MGOD to DUT_rx</name>
 			<styleUrl>#line-A52714-3</styleUrl>
 			<ExtendedData>
 				<Data name='Frequency (MHz)'>
@@ -2483,10 +2483,10 @@
 					<value></value>
 				</Data>
 				<Data name='Distance (miles)'>
-					<value>15.3924</value>
+					<value>15.39</value>
 				</Data>
 				<Data name='Azimuth'>
-					<value>60.0108</value>
+					<value>60.01</value>
 				</Data>
 				<Data name='Telemetry Diagram'>
 					<value>https://drive.google.com/open?id=0B4RrY7XEz449QWJJdDBGcUZ0eDQ</value>
@@ -2509,10 +2509,10 @@
 					<value></value>
 				</Data>
 				<Data name='Distance (miles)'>
-					<value>5.6604</value>
+					<value>5.66</value>
 				</Data>
 				<Data name='Azimuth'>
-					<value>-153.4555</value>
+					<value>-153.46</value>
 				</Data>
 				<Data name='Telemetry Diagram'>
 					<value>https://drive.google.com/open?id=0B4RrY7XEz449QWJJdDBGcUZ0eDQ</value>
@@ -2535,10 +2535,10 @@
 					<value></value>
 				</Data>
 				<Data name='Distance (miles)'>
-					<value>5.4322</value>
+					<value>5.43</value>
 				</Data>
 				<Data name='Azimuth'>
-					<value>-101.5415</value>
+					<value>-101.54</value>
 				</Data>
 				<Data name='Telemetry Diagram'>
 					<value>https://drive.google.com/open?id=0B4RrY7XEz449QWJJdDBGcUZ0eDQ</value>
@@ -2551,7 +2551,7 @@
 		</Placemark>
 
 		<Placemark>
-			<name>MTBL to DUT_Rx</name>
+			<name>MTBL to DUT_rx</name>
 			<styleUrl>#line-A52714-3</styleUrl>
 			<ExtendedData>
 				<Data name='Frequency (MHz)'>
@@ -2561,10 +2561,10 @@
 					<value></value>
 				</Data>
 				<Data name='Distance (miles)'>
-					<value>6.8876</value>
+					<value>6.89</value>
 				</Data>
 				<Data name='Azimuth'>
-					<value>129.3701</value>
+					<value>129.37</value>
 				</Data>
 				<Data name='Telemetry Diagram'>
 					<value>https://drive.google.com/open?id=0B4RrY7XEz449QWJJdDBGcUZ0eDQ</value>
@@ -2587,10 +2587,10 @@
 					<value></value>
 				</Data>
 				<Data name='Distance (miles)'>
-					<value>6.3828</value>
+					<value>6.38</value>
 				</Data>
 				<Data name='Azimuth'>
-					<value>49.6091</value>
+					<value>49.61</value>
 				</Data>
 				<Data name='Telemetry Diagram'>
 					<value>https://drive.google.com/open?id=0B4RrY7XEz449QTk3N2xoNmNFU0U</value>
@@ -2613,10 +2613,10 @@
 					<value></value>
 				</Data>
 				<Data name='Distance (miles)'>
-					<value>5.4139</value>
+					<value>5.41</value>
 				</Data>
 				<Data name='Azimuth'>
-					<value>41.334</value>
+					<value>41.33</value>
 				</Data>
 				<Data name='Telemetry Diagram'>
 					<value>https://drive.google.com/open?id=0B4RrY7XEz449QTk3N2xoNmNFU0U</value>
@@ -2639,10 +2639,10 @@
 					<value></value>
 				</Data>
 				<Data name='Distance (miles)'>
-					<value>58.8073</value>
+					<value>58.81</value>
 				</Data>
 				<Data name='Azimuth'>
-					<value>64.7497</value>
+					<value>64.75</value>
 				</Data>
 				<Data name='Telemetry Diagram'>
 					<value>https://drive.google.com/open?id=0B4RrY7XEz449QTk3N2xoNmNFU0U</value>
@@ -2665,10 +2665,10 @@
 					<value></value>
 				</Data>
 				<Data name='Distance (miles)'>
-					<value>49.5295</value>
+					<value>49.53</value>
 				</Data>
 				<Data name='Azimuth'>
-					<value>61.8702</value>
+					<value>61.87</value>
 				</Data>
 				<Data name='Telemetry Diagram'>
 					<value>https://drive.google.com/open?id=0B4RrY7XEz449QTk3N2xoNmNFU0U</value>
@@ -2691,10 +2691,10 @@
 					<value></value>
 				</Data>
 				<Data name='Distance (miles)'>
-					<value>61.4427</value>
+					<value>61.44</value>
 				</Data>
 				<Data name='Azimuth'>
-					<value>70.3687</value>
+					<value>70.37</value>
 				</Data>
 				<Data name='Telemetry Diagram'>
 					<value>https://drive.google.com/open?id=0B4RrY7XEz449QTk3N2xoNmNFU0U</value>
@@ -2717,10 +2717,10 @@
 					<value></value>
 				</Data>
 				<Data name='Distance (miles)'>
-					<value>74.2445</value>
+					<value>74.24</value>
 				</Data>
 				<Data name='Azimuth'>
-					<value>58.0951</value>
+					<value>58.1</value>
 				</Data>
 				<Data name='Telemetry Diagram'>
 					<value>https://drive.google.com/open?id=0B4RrY7XEz449QTk3N2xoNmNFU0U</value>
@@ -2743,10 +2743,10 @@
 					<value></value>
 				</Data>
 				<Data name='Distance (miles)'>
-					<value>60.7571</value>
+					<value>60.76</value>
 				</Data>
 				<Data name='Azimuth'>
-					<value>60.4499</value>
+					<value>60.45</value>
 				</Data>
 				<Data name='Telemetry Diagram'>
 					<value>https://drive.google.com/open?id=0B4RrY7XEz449QTk3N2xoNmNFU0U</value>
@@ -2769,10 +2769,10 @@
 					<value></value>
 				</Data>
 				<Data name='Distance (miles)'>
-					<value>4.5529</value>
+					<value>4.55</value>
 				</Data>
 				<Data name='Azimuth'>
-					<value>43.0836</value>
+					<value>43.08</value>
 				</Data>
 				<Data name='Telemetry Diagram'>
 					<value>https://drive.google.com/open?id=0B4RrY7XEz449QTk3N2xoNmNFU0U</value>
@@ -2795,10 +2795,10 @@
 					<value></value>
 				</Data>
 				<Data name='Distance (miles)'>
-					<value>65.2276</value>
+					<value>65.23</value>
 				</Data>
 				<Data name='Azimuth'>
-					<value>65.9482</value>
+					<value>65.95</value>
 				</Data>
 				<Data name='Telemetry Diagram'>
 					<value>https://drive.google.com/open?id=0B4RrY7XEz449QTk3N2xoNmNFU0U</value>
@@ -2811,7 +2811,7 @@
 		</Placemark>
 
 		<Placemark>
-			<name>KOFP to AKB_Rx</name>
+			<name>KOFP to AKB_rx</name>
 			<styleUrl>#line-A52714-3</styleUrl>
 			<ExtendedData>
 				<Data name='Frequency (MHz)'>
@@ -2821,10 +2821,10 @@
 					<value></value>
 				</Data>
 				<Data name='Distance (miles)'>
-					<value>6.3459</value>
+					<value>6.35</value>
 				</Data>
 				<Data name='Azimuth'>
-					<value>-132.333</value>
+					<value>-132.33</value>
 				</Data>
 				<Data name='Telemetry Diagram'>
 					<value>https://drive.google.com/open?id=0B4RrY7XEz449QTk3N2xoNmNFU0U</value>
@@ -2837,7 +2837,7 @@
 		</Placemark>
 
 		<Placemark>
-			<name>KOKL to AKB_Rx</name>
+			<name>KOKL to AKB_rx</name>
 			<styleUrl>#line-A52714-3</styleUrl>
 			<ExtendedData>
 				<Data name='Frequency (MHz)'>
@@ -2847,10 +2847,10 @@
 					<value></value>
 				</Data>
 				<Data name='Distance (miles)'>
-					<value>7.6079</value>
+					<value>7.61</value>
 				</Data>
 				<Data name='Azimuth'>
-					<value>-177.5121</value>
+					<value>-177.51</value>
 				</Data>
 				<Data name='Telemetry Diagram'>
 					<value>https://drive.google.com/open?id=0B4RrY7XEz449QTk3N2xoNmNFU0U</value>
@@ -2873,10 +2873,10 @@
 					<value></value>
 				</Data>
 				<Data name='Distance (miles)'>
-					<value>3.0229</value>
+					<value>3.02</value>
 				</Data>
 				<Data name='Azimuth'>
-					<value>-150.8169</value>
+					<value>-150.82</value>
 				</Data>
 				<Data name='Telemetry Diagram'>
 					<value>https://drive.google.com/open?id=0B4RrY7XEz449QTk3N2xoNmNFU0U</value>
@@ -2899,10 +2899,10 @@
 					<value></value>
 				</Data>
 				<Data name='Distance (miles)'>
-					<value>4.4532</value>
+					<value>4.45</value>
 				</Data>
 				<Data name='Azimuth'>
-					<value>137.8466</value>
+					<value>137.85</value>
 				</Data>
 				<Data name='Telemetry Diagram'>
 					<value>https://drive.google.com/open?id=0B4RrY7XEz449QTk3N2xoNmNFU0U</value>
@@ -2925,10 +2925,10 @@
 					<value></value>
 				</Data>
 				<Data name='Distance (miles)'>
-					<value>2.7211</value>
+					<value>2.72</value>
 				</Data>
 				<Data name='Azimuth'>
-					<value>-141.4391</value>
+					<value>-141.44</value>
 				</Data>
 				<Data name='Telemetry Diagram'>
 					<value>https://drive.google.com/open?id=0B4RrY7XEz449QTk3N2xoNmNFU0U</value>
@@ -2951,10 +2951,10 @@
 					<value></value>
 				</Data>
 				<Data name='Distance (miles)'>
-					<value>5.3008</value>
+					<value>5.3</value>
 				</Data>
 				<Data name='Azimuth'>
-					<value>-157.1425</value>
+					<value>-157.14</value>
 				</Data>
 				<Data name='Telemetry Diagram'>
 					<value>https://drive.google.com/open?id=0B4RrY7XEz449QTk3N2xoNmNFU0U</value>
@@ -2967,7 +2967,7 @@
 		</Placemark>
 
 		<Placemark>
-			<name>KOWE to AKB_Rx</name>
+			<name>KOWE to AKB_rx</name>
 			<styleUrl>#line-A52714-3</styleUrl>
 			<ExtendedData>
 				<Data name='Frequency (MHz)'>
@@ -2977,10 +2977,10 @@
 					<value></value>
 				</Data>
 				<Data name='Distance (miles)'>
-					<value>10.6908</value>
+					<value>10.69</value>
 				</Data>
 				<Data name='Azimuth'>
-					<value>170.2642</value>
+					<value>170.26</value>
 				</Data>
 				<Data name='Telemetry Diagram'>
 					<value>https://drive.google.com/open?id=0B4RrY7XEz449QTk3N2xoNmNFU0U</value>
@@ -2993,7 +2993,7 @@
 		</Placemark>
 
 		<Placemark>
-			<name>GSCK to WHIT_Rep</name>
+			<name>GSCK to WHIT_ar</name>
 			<styleUrl>#line-A52714-3</styleUrl>
 			<ExtendedData>
 				<Data name='Frequency (MHz)'>
@@ -3003,10 +3003,10 @@
 					<value></value>
 				</Data>
 				<Data name='Distance (miles)'>
-					<value>25.7957</value>
+					<value>25.8</value>
 				</Data>
 				<Data name='Azimuth'>
-					<value>-114.5002</value>
+					<value>-114.5</value>
 				</Data>
 				<Data name='Telemetry Diagram'>
 					<value>https://drive.google.com/open?id=0B4RrY7XEz449d2JzMXZFOFlDdnM</value>
@@ -3019,7 +3019,7 @@
 		</Placemark>
 
 		<Placemark>
-			<name>GSIG to WHIT_Rep</name>
+			<name>GSIG to WHIT_ar</name>
 			<styleUrl>#line-A52714-3</styleUrl>
 			<ExtendedData>
 				<Data name='Frequency (MHz)'>
@@ -3029,10 +3029,10 @@
 					<value></value>
 				</Data>
 				<Data name='Distance (miles)'>
-					<value>34.732</value>
+					<value>34.73</value>
 				</Data>
 				<Data name='Azimuth'>
-					<value>-104.7495</value>
+					<value>-104.75</value>
 				</Data>
 				<Data name='Telemetry Diagram'>
 					<value>https://drive.google.com/open?id=0B4RrY7XEz449d2JzMXZFOFlDdnM</value>
@@ -3055,10 +3055,10 @@
 					<value></value>
 				</Data>
 				<Data name='Distance (miles)'>
-					<value>6.8252</value>
+					<value>6.83</value>
 				</Data>
 				<Data name='Azimuth'>
-					<value>125.0505</value>
+					<value>125.05</value>
 				</Data>
 				<Data name='Telemetry Diagram'>
 					<value>https://drive.google.com/open?id=0B4RrY7XEz449d2JzMXZFOFlDdnM</value>
@@ -3071,7 +3071,7 @@
 		</Placemark>
 
 		<Placemark>
-			<name>GSSP to WHIT_Rep</name>
+			<name>GSSP to WHIT_ar</name>
 			<styleUrl>#line-A52714-3</styleUrl>
 			<ExtendedData>
 				<Data name='Frequency (MHz)'>
@@ -3081,10 +3081,10 @@
 					<value></value>
 				</Data>
 				<Data name='Distance (miles)'>
-					<value>28.0945</value>
+					<value>28.09</value>
 				</Data>
 				<Data name='Azimuth'>
-					<value>-125.4428</value>
+					<value>-125.44</value>
 				</Data>
 				<Data name='Telemetry Diagram'>
 					<value>https://drive.google.com/open?id=0B4RrY7XEz449d2JzMXZFOFlDdnM</value>
@@ -3097,7 +3097,7 @@
 		</Placemark>
 
 		<Placemark>
-			<name>GSTD to WHIT_Rep</name>
+			<name>GSTD to WHIT_ar</name>
 			<styleUrl>#line-A52714-3</styleUrl>
 			<ExtendedData>
 				<Data name='Frequency (MHz)'>
@@ -3107,10 +3107,10 @@
 					<value></value>
 				</Data>
 				<Data name='Distance (miles)'>
-					<value>27.8308</value>
+					<value>27.83</value>
 				</Data>
 				<Data name='Azimuth'>
-					<value>-119.565</value>
+					<value>-119.57</value>
 				</Data>
 				<Data name='Telemetry Diagram'>
 					<value>https://drive.google.com/open?id=0B4RrY7XEz449d2JzMXZFOFlDdnM</value>
@@ -3133,10 +3133,10 @@
 					<value></value>
 				</Data>
 				<Data name='Distance (miles)'>
-					<value>9.3847</value>
+					<value>9.38</value>
 				</Data>
 				<Data name='Azimuth'>
-					<value>142.5498</value>
+					<value>142.55</value>
 				</Data>
 				<Data name='Telemetry Diagram'>
 					<value>https://drive.google.com/open?id=0B4RrY7XEz449d2JzMXZFOFlDdnM</value>
@@ -3159,10 +3159,10 @@
 					<value></value>
 				</Data>
 				<Data name='Distance (miles)'>
-					<value>10.9998</value>
+					<value>11</value>
 				</Data>
 				<Data name='Azimuth'>
-					<value>-171.143</value>
+					<value>-171.14</value>
 				</Data>
 				<Data name='Telemetry Diagram'>
 					<value>https://drive.google.com/open?id=0B4RrY7XEz449d2JzMXZFOFlDdnM</value>
@@ -3185,10 +3185,10 @@
 					<value></value>
 				</Data>
 				<Data name='Distance (miles)'>
-					<value>8.554</value>
+					<value>8.55</value>
 				</Data>
 				<Data name='Azimuth'>
-					<value>-161.1868</value>
+					<value>-161.19</value>
 				</Data>
 				<Data name='Telemetry Diagram'>
 					<value>https://drive.google.com/open?id=0B4RrY7XEz449d2JzMXZFOFlDdnM</value>
@@ -3201,7 +3201,7 @@
 		</Placemark>
 
 		<Placemark>
-			<name>KIMD to WHIT_Rep</name>
+			<name>KIMD to WHIT_ar</name>
 			<styleUrl>#line-A52714-3</styleUrl>
 			<ExtendedData>
 				<Data name='Frequency (MHz)'>
@@ -3211,10 +3211,10 @@
 					<value></value>
 				</Data>
 				<Data name='Distance (miles)'>
-					<value>23.2689</value>
+					<value>23.27</value>
 				</Data>
 				<Data name='Azimuth'>
-					<value>73.5506</value>
+					<value>73.55</value>
 				</Data>
 				<Data name='Telemetry Diagram'>
 					<value>https://drive.google.com/open?id=0B4RrY7XEz449d2JzMXZFOFlDdnM</value>
@@ -3227,7 +3227,7 @@
 		</Placemark>
 
 		<Placemark>
-			<name>KINC to ADAG_Rep</name>
+			<name>KINC to ADAG</name>
 			<styleUrl>#line-A52714-3</styleUrl>
 			<ExtendedData>
 				<Data name='Frequency (MHz)'>
@@ -3237,10 +3237,10 @@
 					<value></value>
 				</Data>
 				<Data name='Distance (miles)'>
-					<value>22.6333</value>
+					<value>22.65</value>
 				</Data>
 				<Data name='Azimuth'>
-					<value>81.2252</value>
+					<value>81.23</value>
 				</Data>
 				<Data name='Telemetry Diagram'>
 					<value>https://drive.google.com/open?id=0B4RrY7XEz449d2JzMXZFOFlDdnM</value>
@@ -3248,12 +3248,12 @@
 			</ExtendedData>
 			<LineString>
 				<tessellate>1</tessellate>
-				<coordinates>-177.1296,51.9303,0.0 -176.604,51.9791,0.0</coordinates>
+				<coordinates>-177.1296,51.9303,0.0 -176.6037,51.9791,0.0</coordinates>
 			</LineString>
 		</Placemark>
 
 		<Placemark>
-			<name>KIRH to WHIT_Rep</name>
+			<name>KIRH to WHIT_ar</name>
 			<styleUrl>#line-A52714-3</styleUrl>
 			<ExtendedData>
 				<Data name='Frequency (MHz)'>
@@ -3263,10 +3263,10 @@
 					<value></value>
 				</Data>
 				<Data name='Distance (miles)'>
-					<value>16.553</value>
+					<value>16.55</value>
 				</Data>
 				<Data name='Azimuth'>
-					<value>100.3849</value>
+					<value>100.38</value>
 				</Data>
 				<Data name='Telemetry Diagram'>
 					<value>https://drive.google.com/open?id=0B4RrY7XEz449d2JzMXZFOFlDdnM</value>
@@ -3279,7 +3279,7 @@
 		</Placemark>
 
 		<Placemark>
-			<name>KIWB to WHIT_Rep</name>
+			<name>KIWB to WHIT_ar</name>
 			<styleUrl>#line-A52714-3</styleUrl>
 			<ExtendedData>
 				<Data name='Frequency (MHz)'>
@@ -3289,10 +3289,10 @@
 					<value></value>
 				</Data>
 				<Data name='Distance (miles)'>
-					<value>18.7289</value>
+					<value>18.73</value>
 				</Data>
 				<Data name='Azimuth'>
-					<value>89.2567</value>
+					<value>89.26</value>
 				</Data>
 				<Data name='Telemetry Diagram'>
 					<value>https://drive.google.com/open?id=0B4RrY7XEz449d2JzMXZFOFlDdnM</value>
@@ -3315,10 +3315,10 @@
 					<value></value>
 				</Data>
 				<Data name='Distance (miles)'>
-					<value>26.5271</value>
+					<value>26.53</value>
 				</Data>
 				<Data name='Azimuth'>
-					<value>-101.8193</value>
+					<value>-101.82</value>
 				</Data>
 				<Data name='Telemetry Diagram'>
 					<value>https://drive.google.com/open?id=0B4RrY7XEz449d2JzMXZFOFlDdnM</value>
@@ -3331,7 +3331,7 @@
 		</Placemark>
 
 		<Placemark>
-			<name>TAFL to WHIT_Rep</name>
+			<name>TAFL to WHIT_ar</name>
 			<styleUrl>#line-A52714-3</styleUrl>
 			<ExtendedData>
 				<Data name='Frequency (MHz)'>
@@ -3341,10 +3341,10 @@
 					<value></value>
 				</Data>
 				<Data name='Distance (miles)'>
-					<value>51.1251</value>
+					<value>51.13</value>
 				</Data>
 				<Data name='Azimuth'>
-					<value>81.8294</value>
+					<value>81.83</value>
 				</Data>
 				<Data name='Telemetry Diagram'>
 					<value>https://drive.google.com/open?id=0B4RrY7XEz449d2JzMXZFOFlDdnM</value>
@@ -3357,7 +3357,7 @@
 		</Placemark>
 
 		<Placemark>
-			<name>TAFP to ADAG_Rep</name>
+			<name>TAFP to ADAG_ar</name>
 			<styleUrl>#line-A52714-3</styleUrl>
 			<ExtendedData>
 				<Data name='Frequency (MHz)'>
@@ -3367,10 +3367,10 @@
 					<value></value>
 				</Data>
 				<Data name='Distance (miles)'>
-					<value>59.099</value>
+					<value>59.1</value>
 				</Data>
 				<Data name='Azimuth'>
-					<value>84.0828</value>
+					<value>84.08</value>
 				</Data>
 				<Data name='Telemetry Diagram'>
 					<value>https://drive.google.com/open?id=0B4RrY7XEz449d2JzMXZFOFlDdnM</value>
@@ -3383,7 +3383,7 @@
 		</Placemark>
 
 		<Placemark>
-			<name>TANO to ADAG_Rep</name>
+			<name>TANO to ADAG_ar</name>
 			<styleUrl>#line-A52714-3</styleUrl>
 			<ExtendedData>
 				<Data name='Frequency (MHz)'>
@@ -3393,10 +3393,10 @@
 					<value></value>
 				</Data>
 				<Data name='Distance (miles)'>
-					<value>64.8384</value>
+					<value>64.84</value>
 				</Data>
 				<Data name='Azimuth'>
-					<value>85.4609</value>
+					<value>85.46</value>
 				</Data>
 				<Data name='Telemetry Diagram'>
 					<value>https://drive.google.com/open?id=0B4RrY7XEz449d2JzMXZFOFlDdnM</value>
@@ -3409,7 +3409,7 @@
 		</Placemark>
 
 		<Placemark>
-			<name>TAPA to WHIT_Rep</name>
+			<name>TAPA to WHIT_ar</name>
 			<styleUrl>#line-A52714-3</styleUrl>
 			<ExtendedData>
 				<Data name='Frequency (MHz)'>
@@ -3419,10 +3419,10 @@
 					<value></value>
 				</Data>
 				<Data name='Distance (miles)'>
-					<value>47.0837</value>
+					<value>47.08</value>
 				</Data>
 				<Data name='Azimuth'>
-					<value>86.1768</value>
+					<value>86.18</value>
 				</Data>
 				<Data name='Telemetry Diagram'>
 					<value>https://drive.google.com/open?id=0B4RrY7XEz449d2JzMXZFOFlDdnM</value>
@@ -3435,7 +3435,7 @@
 		</Placemark>
 
 		<Placemark>
-			<name>TASE to WHIT_Rep</name>
+			<name>TASE to WHIT_ar</name>
 			<styleUrl>#line-A52714-3</styleUrl>
 			<ExtendedData>
 				<Data name='Frequency (MHz)'>
@@ -3445,10 +3445,10 @@
 					<value></value>
 				</Data>
 				<Data name='Distance (miles)'>
-					<value>56.5798</value>
+					<value>56.58</value>
 				</Data>
 				<Data name='Azimuth'>
-					<value>88.0236</value>
+					<value>88.02</value>
 				</Data>
 				<Data name='Telemetry Diagram'>
 					<value>https://drive.google.com/open?id=0B4RrY7XEz449d2JzMXZFOFlDdnM</value>
@@ -3471,10 +3471,10 @@
 					<value></value>
 				</Data>
 				<Data name='Distance (miles)'>
-					<value>30.5368</value>
+					<value>30.54</value>
 				</Data>
 				<Data name='Azimuth'>
-					<value>82.9639</value>
+					<value>82.96</value>
 				</Data>
 				<Data name='Telemetry Diagram'>
 					<value>https://drive.google.com/open?id=0B4RrY7XEz449d2JzMXZFOFlDdnM</value>
@@ -3497,10 +3497,10 @@
 					<value></value>
 				</Data>
 				<Data name='Distance (miles)'>
-					<value>41.6035</value>
+					<value>41.6</value>
 				</Data>
 				<Data name='Azimuth'>
-					<value>70.0294</value>
+					<value>70.03</value>
 				</Data>
 				<Data name='Telemetry Diagram'>
 					<value>https://drive.google.com/open?id=0B4RrY7XEz449d2JzMXZFOFlDdnM</value>
@@ -3523,10 +3523,10 @@
 					<value></value>
 				</Data>
 				<Data name='Distance (miles)'>
-					<value>37.3698</value>
+					<value>37.37</value>
 				</Data>
 				<Data name='Azimuth'>
-					<value>90.1972</value>
+					<value>90.2</value>
 				</Data>
 				<Data name='Telemetry Diagram'>
 					<value>https://drive.google.com/open?id=0B4RrY7XEz449d2JzMXZFOFlDdnM</value>
@@ -3549,10 +3549,10 @@
 					<value></value>
 				</Data>
 				<Data name='Distance (miles)'>
-					<value>41.1736</value>
+					<value>41.17</value>
 				</Data>
 				<Data name='Azimuth'>
-					<value>89.9481</value>
+					<value>89.95</value>
 				</Data>
 				<Data name='Telemetry Diagram'>
 					<value>https://drive.google.com/open?id=0B4RrY7XEz449d2JzMXZFOFlDdnM</value>
@@ -3575,10 +3575,10 @@
 					<value></value>
 				</Data>
 				<Data name='Distance (miles)'>
-					<value>32.7621</value>
+					<value>32.76</value>
 				</Data>
 				<Data name='Azimuth'>
-					<value>87.922</value>
+					<value>87.92</value>
 				</Data>
 				<Data name='Telemetry Diagram'>
 					<value>https://drive.google.com/open?id=0B4RrY7XEz449d2JzMXZFOFlDdnM</value>
@@ -3601,10 +3601,10 @@
 					<value></value>
 				</Data>
 				<Data name='Distance (miles)'>
-					<value>44.5919</value>
+					<value>44.59</value>
 				</Data>
 				<Data name='Azimuth'>
-					<value>86.3396</value>
+					<value>86.34</value>
 				</Data>
 				<Data name='Telemetry Diagram'>
 					<value>https://drive.google.com/open?id=0B4RrY7XEz449d2JzMXZFOFlDdnM</value>
@@ -3627,10 +3627,10 @@
 					<value></value>
 				</Data>
 				<Data name='Distance (miles)'>
-					<value>4.353</value>
+					<value>4.35</value>
 				</Data>
 				<Data name='Azimuth'>
-					<value>-125.1512</value>
+					<value>-125.15</value>
 				</Data>
 				<Data name='Telemetry Diagram'>
 					<value>https://drive.google.com/open?id=0B4RrY7XEz449Z0hQMmRNSDZWclk</value>
@@ -3643,7 +3643,7 @@
 		</Placemark>
 
 		<Placemark>
-			<name>CEPE to AMK_Rx</name>
+			<name>CEPE to AMK_rx</name>
 			<styleUrl>#line-A52714-3</styleUrl>
 			<ExtendedData>
 				<Data name='Frequency (MHz)'>
@@ -3653,10 +3653,10 @@
 					<value></value>
 				</Data>
 				<Data name='Distance (miles)'>
-					<value>43.2348</value>
+					<value>43.23</value>
 				</Data>
 				<Data name='Azimuth'>
-					<value>-159.7106</value>
+					<value>-159.71</value>
 				</Data>
 				<Data name='Telemetry Diagram'>
 					<value>https://drive.google.com/open?id=0B4RrY7XEz449Z0hQMmRNSDZWclk</value>
@@ -3669,7 +3669,7 @@
 		</Placemark>
 
 		<Placemark>
-			<name>CERA to AMK_Rx</name>
+			<name>CERA to AMK_rx</name>
 			<styleUrl>#line-A52714-3</styleUrl>
 			<ExtendedData>
 				<Data name='Frequency (MHz)'>
@@ -3679,10 +3679,10 @@
 					<value></value>
 				</Data>
 				<Data name='Distance (miles)'>
-					<value>40.0473</value>
+					<value>40.05</value>
 				</Data>
 				<Data name='Azimuth'>
-					<value>-155.6389</value>
+					<value>-155.64</value>
 				</Data>
 				<Data name='Telemetry Diagram'>
 					<value>https://drive.google.com/open?id=0B4RrY7XEz449Z0hQMmRNSDZWclk</value>
@@ -3695,7 +3695,7 @@
 		</Placemark>
 
 		<Placemark>
-			<name>CERB to AMK_Rx</name>
+			<name>CERB to AMK_rx</name>
 			<styleUrl>#line-A52714-3</styleUrl>
 			<ExtendedData>
 				<Data name='Frequency (MHz)'>
@@ -3705,10 +3705,10 @@
 					<value></value>
 				</Data>
 				<Data name='Distance (miles)'>
-					<value>40.7173</value>
+					<value>40.72</value>
 				</Data>
 				<Data name='Azimuth'>
-					<value>-159.6627</value>
+					<value>-159.66</value>
 				</Data>
 				<Data name='Telemetry Diagram'>
 					<value>https://drive.google.com/open?id=0B4RrY7XEz449Z0hQMmRNSDZWclk</value>
@@ -3721,7 +3721,7 @@
 		</Placemark>
 
 		<Placemark>
-			<name>CESW to AMK_Rx</name>
+			<name>CESW to AMK_rx</name>
 			<styleUrl>#line-A52714-3</styleUrl>
 			<ExtendedData>
 				<Data name='Frequency (MHz)'>
@@ -3731,10 +3731,10 @@
 					<value></value>
 				</Data>
 				<Data name='Distance (miles)'>
-					<value>37.814</value>
+					<value>37.81</value>
 				</Data>
 				<Data name='Azimuth'>
-					<value>-162.6328</value>
+					<value>-162.63</value>
 				</Data>
 				<Data name='Telemetry Diagram'>
 					<value>https://drive.google.com/open?id=0B4RrY7XEz449Z0hQMmRNSDZWclk</value>
@@ -3747,7 +3747,7 @@
 		</Placemark>
 
 		<Placemark>
-			<name>CETU to AMK_Rx</name>
+			<name>CETU to AMK_rx</name>
 			<styleUrl>#line-A52714-3</styleUrl>
 			<ExtendedData>
 				<Data name='Frequency (MHz)'>
@@ -3757,10 +3757,10 @@
 					<value></value>
 				</Data>
 				<Data name='Distance (miles)'>
-					<value>41.4388</value>
+					<value>41.44</value>
 				</Data>
 				<Data name='Azimuth'>
-					<value>-168.4359</value>
+					<value>-168.44</value>
 				</Data>
 				<Data name='Telemetry Diagram'>
 					<value>https://drive.google.com/open?id=0B4RrY7XEz449Z0hQMmRNSDZWclk</value>
@@ -3783,10 +3783,10 @@
 					<value></value>
 				</Data>
 				<Data name='Distance (miles)'>
-					<value>1.4523</value>
+					<value>1.45</value>
 				</Data>
 				<Data name='Azimuth'>
-					<value>-173.9396</value>
+					<value>-173.94</value>
 				</Data>
 				<Data name='Telemetry Diagram'>
 					<value>https://drive.google.com/open?id=0B4RrY7XEz449Z0hQMmRNSDZWclk</value>
@@ -3799,7 +3799,7 @@
 		</Placemark>
 
 		<Placemark>
-			<name>LSPA to AMK_Rx</name>
+			<name>LSPA to AMK_rx</name>
 			<styleUrl>#line-A52714-3</styleUrl>
 			<ExtendedData>
 				<Data name='Frequency (MHz)'>
@@ -3809,10 +3809,10 @@
 					<value></value>
 				</Data>
 				<Data name='Distance (miles)'>
-					<value>50.7124</value>
+					<value>50.71</value>
 				</Data>
 				<Data name='Azimuth'>
-					<value>141.7333</value>
+					<value>141.73</value>
 				</Data>
 				<Data name='Telemetry Diagram'>
 					<value>https://drive.google.com/open?id=0B4RrY7XEz449Z0hQMmRNSDZWclk</value>
@@ -3825,7 +3825,7 @@
 		</Placemark>
 
 		<Placemark>
-			<name>LSSA to AMK_Rx</name>
+			<name>LSSA to AMK_rx</name>
 			<styleUrl>#line-A52714-3</styleUrl>
 			<ExtendedData>
 				<Data name='Frequency (MHz)'>
@@ -3835,10 +3835,10 @@
 					<value></value>
 				</Data>
 				<Data name='Distance (miles)'>
-					<value>51.9571</value>
+					<value>51.96</value>
 				</Data>
 				<Data name='Azimuth'>
-					<value>139.1216</value>
+					<value>139.12</value>
 				</Data>
 				<Data name='Telemetry Diagram'>
 					<value>https://drive.google.com/open?id=0B4RrY7XEz449Z0hQMmRNSDZWclk</value>
@@ -3851,7 +3851,7 @@
 		</Placemark>
 
 		<Placemark>
-			<name>LSSE to AMK_Rx</name>
+			<name>LSSE to AMK_rx</name>
 			<styleUrl>#line-A52714-3</styleUrl>
 			<ExtendedData>
 				<Data name='Frequency (MHz)'>
@@ -3861,10 +3861,10 @@
 					<value></value>
 				</Data>
 				<Data name='Distance (miles)'>
-					<value>49.5564</value>
+					<value>49.56</value>
 				</Data>
 				<Data name='Azimuth'>
-					<value>140.3871</value>
+					<value>140.39</value>
 				</Data>
 				<Data name='Telemetry Diagram'>
 					<value>https://drive.google.com/open?id=0B4RrY7XEz449Z0hQMmRNSDZWclk</value>
@@ -3877,7 +3877,7 @@
 		</Placemark>
 
 		<Placemark>
-			<name>ADAG to ADK_Rx</name>
+			<name>ADAG to ADK_rx</name>
 			<styleUrl>#line-A52714-3</styleUrl>
 			<ExtendedData>
 				<Data name='Frequency (MHz)'>
@@ -3887,10 +3887,10 @@
 					<value></value>
 				</Data>
 				<Data name='Distance (miles)'>
-					<value>8.3916</value>
+					<value>8.39</value>
 				</Data>
 				<Data name='Azimuth'>
-					<value>-167.3395</value>
+					<value>-167.34</value>
 				</Data>
 				<Data name='Telemetry Diagram'>
 					<value></value>
@@ -3903,7 +3903,7 @@
 		</Placemark>
 
 		<Placemark>
-			<name>BLDY to CDB_Rx</name>
+			<name>BLDY to CDB_rx</name>
 			<styleUrl>#line-A52714-3</styleUrl>
 			<ExtendedData>
 				<Data name='Frequency (MHz)'>
@@ -3913,10 +3913,10 @@
 					<value></value>
 				</Data>
 				<Data name='Distance (miles)'>
-					<value>2.6599</value>
+					<value>2.66</value>
 				</Data>
 				<Data name='Azimuth'>
-					<value>68.807</value>
+					<value>68.81</value>
 				</Data>
 				<Data name='Telemetry Diagram'>
 					<value></value>
@@ -3929,7 +3929,7 @@
 		</Placemark>
 
 		<Placemark>
-			<name>ETKA to ADK_Rx</name>
+			<name>ETKA to ADK_rx</name>
 			<styleUrl>#line-A52714-3</styleUrl>
 			<ExtendedData>
 				<Data name='Frequency (MHz)'>
@@ -3939,10 +3939,10 @@
 					<value></value>
 				</Data>
 				<Data name='Distance (miles)'>
-					<value>10.1946</value>
+					<value>10.19</value>
 				</Data>
 				<Data name='Azimuth'>
-					<value>-89.9837</value>
+					<value>-89.98</value>
 				</Data>
 				<Data name='Telemetry Diagram'>
 					<value></value>
@@ -3955,7 +3955,7 @@
 		</Placemark>
 
 		<Placemark>
-			<name>OPT to HOM_Rx</name>
+			<name>OPT to HOM_rx</name>
 			<styleUrl>#line-A52714-3</styleUrl>
 			<ExtendedData>
 				<Data name='Frequency (MHz)'>
@@ -3965,10 +3965,10 @@
 					<value></value>
 				</Data>
 				<Data name='Distance (miles)'>
-					<value>55.1726</value>
+					<value>55.17</value>
 				</Data>
 				<Data name='Azimuth'>
-					<value>88.9808</value>
+					<value>88.98</value>
 				</Data>
 				<Data name='Telemetry Diagram'>
 					<value></value>
@@ -3981,7 +3981,7 @@
 		</Placemark>
 
 		<Placemark>
-			<name>STLK to ANC_Rx</name>
+			<name>STLK to ANC_rx</name>
 			<styleUrl>#line-A52714-3</styleUrl>
 			<ExtendedData>
 				<Data name='Frequency (MHz)'>
@@ -3991,10 +3991,10 @@
 					<value></value>
 				</Data>
 				<Data name='Distance (miles)'>
-					<value>70.6684</value>
+					<value>70.67</value>
 				</Data>
 				<Data name='Azimuth'>
-					<value>106.7264</value>
+					<value>106.73</value>
 				</Data>
 				<Data name='Telemetry Diagram'>
 					<value>https://drive.google.com/open?id=0B4RrY7XEz449cG51ODFEcHhfYUk</value>

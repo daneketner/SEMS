@@ -15,12 +15,8 @@ for n = 1:numel(SiteCodes)
         switch lower(SiteCode(end-2:end))
             case{'_rx'}
                 SiteStruct = RX.(SiteCode);
-            case{'rep'}
-                if strcmp(SiteCode(end-3),'_')
-                    SiteStruct = REP.(SiteCode);
-                else
-                    SiteStruct = DIG.(SiteCode);
-                end
+            case{'_dr'}
+                SiteStruct = DRP.(SiteCode);
             otherwise
                 SiteStruct = DIG.(SiteCode);
         end
@@ -36,12 +32,8 @@ for n = 1:numel(SiteCodes)
                 switch lower(RxSiteCode(end-2:end))
                     case{'_rx'}
                         RxSiteStruct = RX.(RxSiteCode);
-                    case{'rep'}
-                        if strcmp(RxSiteCode(end-3),'_')
-                            RxSiteStruct = REP.(RxSiteCode);
-                        else
-                            RxSiteStruct = DIG.(RxSiteCode);
-                        end
+                    case{'_dr'}
+                        RxSiteStruct = DRP.(RxSiteCode);
                     otherwise
                         RxSiteStruct = DIG.(RxSiteCode);
                 end
