@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>AVO Volcanic Lightning Monitor</title>
+<meta charset="utf-8">
+        <style>
+            table {
+                border-collapse: collapse;
+                border: 2px black solid;
+                font: 12px sans-serif;
+            }
+
+            td {
+                border: 1px black solid;
+                padding: 5px;
+            }
+        </style>
+<!-- <script src="https://d3js.org/d3.v4.js"></script> -->
+</head>
+
+<body>
+<div id="pageHeader">
+<h1>AVO Volcanic Lightning Monitor</h1>
+</div>
+
+
+<img id="lightningMap" src="Plots/Bogoslof-Day.png">
+<div>
+</div>
+<button onclick="document.getElementById('lightningMap').src='Plots/Bogoslof-Day.png'">Day</button>
+<button onclick="document.getElementById('lightningMap').src='Plots/Bogoslof-Week.png'">Week</button>
+<button onclick="document.getElementById('lightningMap').src='Plots/Bogoslof-Month.png'">Month</button>
+<button onclick="document.getElementById('lightningMap').src='Plots/Bogoslof-Year.png'">Year</button>
+<button onclick="document.getElementById('lightningMap').src='Plots/Bogoslof-All.png'">All</button>
+
+<script src="http://d3js.org/d3.v3.min.js"></script> 
+        <!-- <script src="d3.min.js?v=4.4.0"></script> -->
+
+<h3>Lightning Detection Data:</h3>		
+		
+<script type="text/javascript"charset="utf-8">
+	d3.text("CSV/Bogoslof-All.csv", function(data) {
+		var parsedCSV = d3.csv.parseRows(data);
+
+		var container = d3.select("body")
+			.append("table")
+
+			.selectAll("tr")
+				.data(parsedCSV).enter()
+				.append("tr")
+
+			.selectAll("td")
+				.data(function(d) { return d; }).enter()
+				.append("td")
+				.text(function(d) { return d; });
+	});
+</script>
+		
+<div>
+</div>
+
+</body>
+</html>

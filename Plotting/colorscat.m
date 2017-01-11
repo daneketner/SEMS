@@ -1,46 +1,52 @@
-function colorscat(X,Y,S,R,varargin)
+function colorscat(X,Y,S,C,varargin)
 
 %COLORSCAT: Plots a scatter plot with marker color proportional to the full
-%           range of the input array 'R'. The highst and lowest value in
-%           'R' define the two extremes of the colorscale used.
+%           range of the input array 'C'. The highst and lowest value in
+%           'C' define the two extremes of the colorscale used.
 %
-%USAGE: colorscat(X,Y,S,R)
-%       colorscat(X,Y,S,R,prop_name_1, prop_val_1, ...)
+%USAGE: colorscat(X,Y,S,C)
+%       colorscat(X,Y,S,C,prop_name_1, prop_val_1, ...)
 %
 %MANDATORY INPUTS: X - horizontal axis data
 %                  Y - vertical axis data
 %                  S - marker scale data
-%                  R - marker color range data
+%                  C - marker color range data
 %
 %VALID PROP_NAME/PROP_VAL PAIRS:
-%  'nColorBins'   --> (1x1)-[numeric]-[default: 100]
-%  'dataRange'    --> (1x2)
-%  'cBar'         --> (1x1)-[logical]-[default: true]
-%  'cBarDir'      --> (1x2)-[char]   -[default: 'reverse']
-%  'cBarLab'      --> (1x2)-[char]   -[default: '']
-%  'timeTickType' --> (1x1)-[char]-[default: '']
+%  'nColorBins'      --> (1x1)-[numeric]-[default: 100]
+%  'dataRange'       --> (1x2)-[numeric]-[default: min & max of C]
+%  'cBar'            --> (1x1)-[logical]-[default: true]
+%  'cBarDir'         --> (1x2)-[char]   -[default: 'reverse']
+%  'cBarLab'         --> (1x2)-[char]   -[default: '']
+%  'cBarDateTicks'   --> (1x1)-[logical]-[default: 0]
+%  'markerEdgeColor' -->
+%  'markerLayerOrder'--> +x, -x, +y, -y, +c, -c
 %
 %OUTPUTS: none 
 
 %%
-cut = find(isnan(R));
-R(cut) = []; X(cut) = []; Y(cut) = []; S(cut) = [];
+gca;
+cut = find(isnan(C));
+C(cut) = []; X(cut) = []; Y(cut) = []; S(cut) = [];
+if isempty(X)||isempty(Y)
+    return
+end
 
 %%
 nColorBins = 100;
-dataRange = [min(R) max(R)];
+dataRange = [min(C) max(C)];
 cBar = 1;
 cBarDir = 'normal';
 cBarTicks = linspace(dataRange(1),dataRange(2),11);
 cBarLab = '';
-timeTickType = '';
+cBarDateTicks = 0;
 
 %%
 if (nargin > 4)
    v = varargin;
    nv = nargin-4;
    if ~rem(nv,2) == 0
-       error(['colorscat: Arguments after X,Y,S,R must appear in ',...
+       error(['colorscat: Arguments after X,Y,S,C must appear in ',...
            'property name/val pairs'])
    end
    for n = 1:2:nv-1
@@ -58,8 +64,8 @@ if (nargin > 4)
                        temp = dataRange(2);
                        dataRange(2) = dataRange(1);
                        dataRange(1) = temp;
-                       R(R>dataRange(2)) = [];
-                       R(R<dataRange(1)) = [];
+                       C(C>dataRange(2)) = [];
+                       C(C<dataRange(1)) = [];
                    end
                end
            case 'cbar'
@@ -73,9 +79,11 @@ if (nargin > 4)
            case 'cbarlab'
                cBar = 1;
                cBarLab = val;               
-           case 'timeticktype'
+           case 'cbardateticks'
                cBar = 1;
                [cBarTicks, cBarLab] = timeTicks(val,dataRange);
+           case 'markeredgecolor'
+           case 'markerlayerorder'
          otherwise
             error('colorscat: Property name not recognized')
       end
@@ -83,21 +91,36 @@ if (nargin > 4)
 end
 
 %%
-R = R - dataRange(1);
-R = R/(dataRange(2)-dataRange(1));
-R = R*nColorBins;
-R = round(R);
-R(R==0)=1;
+C = C - dataRange(1);
+C = C/(dataRange(2)-dataRange(1));
+C = C*nColorBins;
+C = round(C);
+C(C==0)=1;
 cBarTicks = cBarTicks- dataRange(1);
 cBarTicks = cBarTicks/(dataRange(2)-dataRange(1));
 extraBins = round(nColorBins*1.1);
-C = jet(extraBins);
-C = C(1:nColorBins,:);
+Cdat = jet(extraBins);
+Cdat = Cdat(1:nColorBins,:);
+
+switch markerLayerOrder
+    case '+x'
+    case '-x'
+    case '+y'
+    case '-y'
+    case '+c'
+    case '-c'
+    othewise
+end
+
 for k = 1:nColorBins;
-    ref = find(R==k);
-    cdata = C(k,:);
+    ref = find(C==k);
+    cdata = Cdat(k,:);
+    if numel(S)==1
+    scatter(X(ref),Y(ref),S,'markerFaceColor',cdata,'markerEdgeColor',[0 0 0])
+    else
     scatter(X(ref),Y(ref),S(ref),'markerFaceColor',cdata,'markerEdgeColor',[0 0 0])
-    colormap(C)
+    end
+    colormap(Cdat)
 end
 
 
@@ -106,86 +129,14 @@ if cBar
 end
 end
 
-function [Ticks, Lab] = timeTicks(type,dR)
+function [Ticks, Lab] = timeTicks(dR)
 
-switch(lower(type))
-    case{'auto'}
-        span = dR(2)-dR(1);
-        if span<=1/144     % 10 Minutes or less
-            type = 'min'; 
-        elseif span<=1/24  % 1 Hour to 10 Minutes
-            type = '5min';
-        elseif span<=1/8  % 3 Hours to 1 Hour
-            type = '15min';    
-        elseif span<=1/4  % 6 Hours to 3 Hours
-            type = '30min';  
-        elseif span<=1/2  % 12 Hours to 6 Hours
-            type = 'hr';  
-        elseif span<=1    % 1 Day to 12 Hours
-            type = '2hr';  
-        elseif span<=3    % 3 Days to 1 Day
-            type = '6hr';      
-        elseif span<=6    % 6 Days to 3 Days
-            type = '12hr'; 
-        elseif span<=12   % 12 Days to 6 Days
-            type = 'day';   
-        elseif span<=42   % 6 Weeks to 12 Days 
-            type = 'week'; 
-        elseif span<=84   % 3 Months to 6 Weeks 
-            type = '2week';   
-        elseif span<=365  % 1 Year to 3 Months 
-            type = 'month';    
-        elseif span<=1095  % 3 Years to 1 Year 
-            type = '3month'; 
-        else             % Greater than 3 Years
-            type = 'year';
-        end
-    otherwise
-end
-
-dv1 = datevec(dR(1)); 
-Y1 = dv1(1); M1 = dv1(2); D1 = dv1(3); H1 = dv1(4); m1 = dv1(5); s1 = dv1(6);
-dv2 = datevec(dR(2)); 
-Y2 = dv2(1); M2 = dv2(2); D2 = dv2(3); H2 = dv2(4); m2 = dv2(5); s2 = dv2(6);
-MM = M2-M1+12*(Y2-Y1); 
-
-switch(lower(type))
-    case {'min','minute', 'minutes'}
-        tickSpace = 1/1440;
-    case {'5min','5minute', '5minutes'}
-        tickSpace = 1/288;
-    case {'15min','15minute', '15minutes'} 
-        tickSpace = 1/96;
-    case {'30min','30minute', '30minutes','halfhour'} 
-        tickSpace = 1/48;
-    case {'hr', 'hour', 'hours', 'hourly'} 
-        tickSpace = 1/24;
-    case {'2hr', '2hour', '2hours'}
-        tickSpace = 1/12;
-    case {'6hr', '6hour', 'quarterday'}    
-        tickSpace = 1/4;
-    case {'12hr', '12hour', 'halfday'}   
-        tickSpace = 1/2;
-    case {'day', 'days', 'daily'} 
-        tickSpace = 1;
-    case {'week', 'weekly', 'weeks'} 
-        tickSpace = 7;
-    case {'2week', 'biweekly', '2weeks'}  
-        tickSpace = 14; 
-    case {'month', 'monthly', 'months'}
-        Ticks = datenum(Y1, M1:MM, 1);
-        Lab = datestr(Ticks,'mmm-YYYY');
-    case {'3month', '3months', 'quarters', 'quarterly'} 
-        Ticks = datenum(Y1, M1:3:MM, 1);
-        Lab = datestr(Ticks,'mmm-YYYY');
-    case {'6month', '6months', 'biannual', 'biannually'}
-        Ticks = datenum(Y1, M1:6:MM, 1);
-        Lab = datestr(Ticks,'mmm-YYYY');
-    case {'year', 'years', 'yearly', 'annual'}     
-        Ticks = datenum(Y1:Y2, 1, 1);
-        Lab = datestr(Ticks,'YYYY');
-    otherwise
-end
+h = figure('visible','off'); 
+scatter(dR,dR);
+dynamicDateTicks;
+Ticks = get(gca,'xTick');
+Lab = get(gca,'xTickLabel');
+close(h)
 Ticks = flip(Ticks);
 Lab = flip(Lab);
 end

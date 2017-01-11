@@ -1,50 +1,76 @@
-function plotLightning(R,V,Range)
+function plotLightning(R,V,Range,dr,L)
 
 %%
-dir =  'C:\AVO\Github\SEMS\WWLLN';
-cd(dir)
-load 'master.mat'
-load 'COAST.mat'
-R = 'Aleutian_Is';
-V = 'Bogoslof';
-figure
-hold on
+load([dr, '\COAST.mat'])
+figure, hold on
 set(gcf,'Color',[1 1 1])
-STK = L.(R).(V).Strikes;
-switch(lower(Range))
-    case 'all' % Plot everything
-        colorscat(STK.Longitude, STK.Latitude, ones(size(STK.Latitude))*75,... 
-            STK.Time, 'timeTickType', 'auto')
-    case 'year'
-        ind =  STK.Time > now-365;
-        colorscat(STK.Longitude(ind), STK.Latitude(ind),...
-        ones(size(STK.Latitude(ind)))*75, STK.Time(ind), 'timeTickType', 'auto')
-    case 'month'
-        ind =  STK.Time > now-30;
-        colorscat(STK.Longitude(ind), STK.Latitude(ind),...
-        ones(size(STK.Latitude(ind)))*75, STK.Time(ind), 'timeTickType', 'auto')
-    case 'week'
-        ind =  STK.Time > now-7;
-        colorscat(STK.Longitude(ind), STK.Latitude(ind),...
-        ones(size(STK.Latitude(ind)))*75, STK.Time(ind), 'timeTickType', 'auto')
-    case 'day'
-        ind =  STK.Time > now-1;
-        colorscat(STK.Longitude(ind), STK.Latitude(ind),...
-        ones(size(STK.Latitude(ind)))*75, STK.Time(ind), 'timeTickType', 'auto')
+Time = L.(R).(V).Strikes(:,1);
+Latitude = L.(R).(V).Strikes(:,2);
+Longitude = L.(R).(V).Strikes(:,3);
+Azimuth = L.(R).(V).Strikes(:,4);
+Distance = L.(R).(V).Strikes(:,5);
+utcNow = local2UTC(now);
+
+switch(Range)
+    case 'All', ind = Time > 0;
+    case 'Year', ind =  Time > utcNow-365;
+    case 'Month', ind =  Time > utcNow-30;
+    case 'Week', ind =  Time > utcNow-7;
+    case 'Day', ind = Time > utcNow-1;
     otherwise
 end
+emptyPlot = isempty(Time(ind));  
+STK = L.(R).(V).Strikes(ind,:);
+
+if strcmp(Range,'Day')
+    i1 = (Time >= utcNow-1)&(Time < utcNow-1/4);
+    i2 = (Time >= utcNow-1/4)&(Time < utcNow-1/24);
+    i3 = (Time >= utcNow-1/24);
+    scatter(Longitude(i1), Latitude(i1), 75,'markerFaceColor','y','markerEdgeColor','k'),hold on
+    scatter(Longitude(i2), Latitude(i2), 75,'markerFaceColor',[1 .68 .2],'markerEdgeColor','k')
+    scatter(Longitude(i3), Latitude(i3), 75,'markerFaceColor','r','markerEdgeColor','k')
+else
+    colorscat(Longitude(ind), Latitude(ind),75, Time(ind), 'timeTickType', 'auto')
+end
+
+%% MAKE CSV FILE
+lightningStrikes2CSV(STK,[dr,'\CSV\',V,'-',Range,'.csv']);
+
+%% PLOT COAST LINES
 for n=1:numel(COAST)
     plot(COAST(n).lon,COAST(n).lat,'k')
 end
+
+%% ADJUST AXES (200km by 200km)
 grid on
+lon = L.(R).(V).Longitude;
+lon(lon>0) = lon(lon>0)-360; % in case west of dateline
+lat = L.(R).(V).Latitude;
+lat_deg = 100/110.54;
+lon_deg = 100/(111.320*cosd(lat));
+ylim([lat-lat_deg, lat+lat_deg])
+xlim([lon-lon_deg, lon+lon_deg])
 
-x = L.(R).(V).Longitude;
-y = L.(R).(V).Latitude;
-[y, x] = llboxkm(y, x, 100);
-x(x>0) = x(x>0)-360;
-title([V,': Last strike at ', datestr(max(STK.Time)-8/24),' AKDT'])
-xlim(x)
-ylim(y)
+%% MAKE TITLE
+line1 = [V,' Volcano: Last Check at ', datestr(utcNow), ' UTC'];
+if emptyPlot
+    line2 = ['No Lighting Strikes Detected in the Last ',Range];
+else
+    az_num = [0 45 90 135 180 225 270 315 360];
+    az_str = {'N', 'NE', 'E', 'SE', 'S', 'SW', 'W', 'NW', 'N'};
+    [v i] = min(abs(az_num-Azimuth(1)));
+    line2 = ['Last Lightning Strike at ',datestr(Time(1)),' UTC , ',...
+        num2str(Distance(1),'%0.1f'),' km ',az_str{i},' of Volcano'];
+end
+title({line1;line2})
 
-
+%% FINISH
+switch(lower(Range))
+    case 'day'
+        set(gcf,'Position',[1 1 711 700])
+    otherwise
+        set(gcf,'Position',[1 1 800 700])
+end
+if emptyPlot, set(gcf,'Position',[1 1 711 700]), end
+export_fig([dr,'\Plots\',V,'-',Range],'-png')
 

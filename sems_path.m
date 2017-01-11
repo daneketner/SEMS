@@ -17,7 +17,8 @@ addpath(genpath('C:\Github\Matlab codes'));
 javaaddpath({
     'C:\Github\Winston1.2.12\lib\colt.jar', ...
     'C:\Github\Winston1.2.12\lib\mysql.jar', ...
-    'C:\Github\Winston1.2.12\lib\winston-bin.jar'});
+    'C:\Github\Winston1.2.12\lib\winston-bin.jar', ...
+    'C:\Github\IRIS-WS-2.0.15.jar'});
 
 format compact
 
